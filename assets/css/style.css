@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+  background-color: #d3d3d3;
+  display: flex;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+}
+
+
+.logo {
+    width: 50%;
+    height: 50%;
+}

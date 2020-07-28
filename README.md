@@ -1,39 +1,380 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# SerenAppy - A Meditation Web App 
 
-Welcome USER_NAME,
+A live demo can be found [here](https://gmanprodev.github.io/Mr-Digbee/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+![Desktop Demo](assets/images/mrdigbee_responsive_image.jpg)
 
-## Gitpod Reminders
+## Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Mr Digbee is a gardening and property maintenance services website.
 
-`python3 -m http.server`
+It presents examples of previous work completed bt the Tradesman, testimonials and the services available to attract new customers. The services include:
+* Painting & Decorating
+* Grass & Hedge Cutting
+* Landscaping
+* Property Repairs 
+* Flower & Border planting
+* Window, Facias & Guttering cleaning
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+Each service offering consists of one link to a subpage which shows photographs of relevant work completed and more detail about that particular service.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The main purpose of the web page is to convert potential customers to paying customers at the highest conversion rate possible. With this in mind the website will be built in a way that any potential customers can easily find the Contact button/form wherever they are on the website.
 
-A blue button should appear to click: *Make Public*,
+The website can be viewed on Desktop, Tablet and Mobile devices.
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Table of Content
 
-## Updates Since The Instructional Video
+1. [UX](#ux)
+    * [Goals](#goals)
+        * [Mr Digbee goal](#Mr-Digbee-goal)
+        * [Business goals](#business-goals)
+        * [Customer goals](#customer-goals)
+    * [User Stories](#user-stories)
+        * [The Tradesman](#the-tradesman)
+        * [The potential customer](#the-potential-customer)
+         * [The UX designer](#the-ux-designer)
+    * [Minimum Viable Product](#minimum-viable-product)
+    * [Design](#design)
+        * [Colors](#colors)
+        * [Font](#font)
+    * [Wireframes](#wireframes)
+2. [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Elements seen on every page](#elements-seen-on-every-page)
+        * [Other elements](#other-elements)
+    * [Features left to implement](#features-left-to-implement)
+    * [Bugs and Fixes for Future Releases After Testing](#bugs-and-fixes-for-future-releases-after-testing)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+    * [Hosting on GitHub Pages](#hosting-on-github-pages)
+    * [How to run this project locally](#how-to-run-this-project-locally)
+6. [Credits](#credits)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+        * [Examples and Tutorials and Samples](#examples-and-tutorials-and-samples)
+        * [Pages used for information](#pages-used-for-information)
+        * [I received advice and encouragement from](#i-received-advice-and-encouragement-from)
+7. [Disclaimer](#disclaimer)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## UX
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Goals
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Mr Digbee goal
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The goal of this web page is to show the services available and previous completed work of the Tradesman and in turn attract new paying customers.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Target audience is:**
 
---------
+* Anyone with a garden or outdoor space.
+* Any businesses who wish to outsource their maintenance work.
+* Anyone who owns their own property.
+* Any Estate Agents or Managing Agents who wish to outsource their maintenance work.
+* Any age group.
+ 
 
-Happy coding!
+#### Business goals
+
+* Connect with new, potential customers.
+* Aim for the highest conversion rate possible.
+* Fully functional website.
+* Intuitive design.
+
+
+#### Customer goals
+
+* Find a Tradesman who has experience in the services required.
+* Find examples of previous completed work by the Tradesman.
+* Find contact information for the Tradesman.
+
+Both business and customer goals are addressed through user stories.
+
+
+### User Stories
+
+#### The Tradesman
+
+* As a Tradesman, I want to show examples of my previous completed work so that people hire me.
+* As a Tradesman, I want my website to respond and load quickly so that the user/potential customer is engaged and doesn’t lose interest.
+* As a Tradesman, I want the users/potential customers to be able to easily find my contact details so that they can request a quote, arrange a meeting or arrange for a piece of work to be carried out.
+* As a Tradesman, I want to show positive testimonials/reviews so that I convince people to book my services.
+* As a Tradesman, I want users/potential customers to know my location so that I can avoid booking work in for locations that are too far away for me to attend.
+* As a Tradesman, I want that the users/potential customers to remember my brand and website so that they become repeat customers.
+
+#### The potential customer
+
+* As a customer, I want to know the prices of the services so that I can decide if I want to pay the price.
+* As a customer, I want to see examples of previous completed work so that I can decide if the quality of work meets my requirements and standards.
+* As a customer, I want to be able to see the services that are available so I don’t waste my time requesting a quote for a service the Tradesman doesn’t offer.
+* As a customer, I want to know the location of the Tradesman and which regions are covered so I can confirm whether or not it’s worth requesting a quote.
+* As a customer, I want to be able to easily see Testimonials and Reviews from other customers to give me faith that I am engaging with a reputable reliable company.
+* As a customer, I want to know how I contact the Tradesman to ask questions.
+* As a customer, I want to know how I request a quote so I can compare prices with competitors.
+* As a customer, I want to know how the payment for services is taken, do I pay once the job is completed or do I pay a percentage up front etc.
+* As a customer, I want to know if the Tradesman can also provide materials for the work, such as paint or plants.
+
+#### The UX designer
+
+* As a UX designer, I want to track the user behaviour so that I can improve the user experience.
+  * As a UX designer, I want to track the user behaviour so that I can identify any possible user confusion over navigating the website.
+  * As a UX designer, I want to find which parts of the website are least visited by the user so that I can improve the website’s structure.
+
+
+
+### Minimum Viable Product
+
+All the User Stories have been assessed against value and complexity on the chart below. Due to the relatively short time for the implementation of the website, only the MVPs will be implemented in the first release of the web page.
+
+[User Stories evaluation](documentation/mvp/user_stories.md)
+
+
+**Explanation of the chart**
+
+* The top right area of the chart has been given the higher priority of implementation because it represents the most important features including:
+  * Contact & Quote Form
+  * Reviews & Testimonials
+  * Services Available
+  * Gallery of Previous Completed Work
+  * Layout, Branding & Design
+  * Responsive Website
+* The top left area of the chart represents the features which have a low complexity and a high value. These can be addressed in secondary phase as most of them can be easily resolved through creation of a About or Contact Page.
+* The features with low complexity and low value will be addressed lastly as they didn't represent a must have feature for the first release and are very easy to implement.
+* The features with high complexity and medium value have been postponed for future updates/releases.
+
+![chart](documentation/mvp/value_chart.jpg)
+
+
+### Design
+
+#### Colors
+
+Following colors have been used:
+* ![#ffaa00](https://placehold.it/15/ffaa00/000000?text=+) #ffaa00 (Orange) 
+* ![#000000](https://placehold.it/15/000000/000000?text=+) #000000 (Black) 
+* ![#589500](https://placehold.it/15/589500/000000?text=+) #589500 (Medium Dark Green) 
+* ![#008500](https://placehold.it/15/008500/000000?text=+) #008500 (Dark Green) 
+* ![#d836c4](https://placehold.it/15/d836c4/000000?text=+) #d836c4 (Cerise Pink) 
+* ![#decb1f](https://placehold.it/15/decb1f/000000?text=+) #decb1f (Yellow Gold) 
+* ![#bcf46e](https://placehold.it/15/bcf46e/000000?text=+) #bcf46e (Light Green - different opacities used)  
+
+
+
+
+The stand out colour for this web page is Green (different shades) which according to [Color Psychology](https://www.colorpsychology.org/green/) is associated with growth and renewal. This concept is very relevant for a company and a website associated with gardens, change and nature.
+
+Other than the different shades of green, I used orange for the header dividers, all icons when hover is active and a visual guide to which page the user is currently looking at, black for all text and pink to show active buttons. All these colours can be seen on every page to keep consistency for the user, other than pink which was only used to show when a button has been clicked on.
+
+#### Font
+
+The Fonts I used for this project are **Josefin Sans** and **Montserrat** with the font weights: 
+* 400 - for most of the subtext.
+* 700/bold - for headers and titles.
+
+The [Montserrat](https://fonts.google.com/specimen/Montserrat) font was chosen for its easy readability and common use.
+
+The [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) font was chosen for its playful look and matched the gamification style of the website.
+
+### Wireframes
+
+I decided that it would be more helpful to have mockups than simple wireframes. The mockups were done in [figma](https://www.figma.com/). 
+
+Link to the mockups can be found [here](https://www.figma.com/file/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=0%3A1). The mockups were designed for the mobile first approach. The tablet and desktop versions only have minor differences in comparison with the mobile version.
+I also created a prototype of how the mockup pages would interact with each other, you can access the prototype [here](https://www.figma.com/proto/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=18%3A45&scaling=min-zoom). 
+
+If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Mr-Digbee/tree/master/documentation/wireframes).
+
+## Features
+
+### Existing Features
+
+#### Elements seen on every page
+
+* **Layout and Style**
+    * Through research I noticed that most Gardening Sevices websites were very plain, very wordy and extremely difficult to navigate. With this in mind I set out with the intention to build the complete opposite, you will find the site simple, easy to navigate, more visual, less wordy and a style that can be described as gamification.
+
+* **Navigation bar**
+    * Has a `fixed` position to ensure that the user can access it at any time.
+    * Mr Digbee logo and brand name in the left corner which also serves as a link to go back to the landing page. The logo disappears and the brand name remains in place if the screen width is below 768px.
+    * Links that can be accessed are placed on the right side. They collapse if the screen width is below 1200px.
+    * Navigation links `bounce` on `hover` and are highlighted by an orange background when in use.
+
+* **Footer**
+    * Copyright information.
+    * Website built by information (linked to Marc Gulliver Linkedin profile).
+    * Website address (linked to website landing page).
+    * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
+    * Phone Number (linked to click-to-call function).
+    * Email Address (linked to mailto function).
+
+* **Hero Image**
+    * Each page has the same hero image, which on screen widths greater than 767px the image stays `fixed` and on screen widths below 767px the image scrolls with the rest of the content. Most pages have a text over the hero image which identifies which page the user is currently on.
+
+* **Call to Action**
+    * Most pages have Call to Action text with a 'quote' button. This is mainly displayed at the top of the page set over the hero image. The button displays in Orange and changes to Pink when on `hover` and clicked on. Every 'quote' button takes the user to the same contact page with a form to fill out.
+
+* **Images**
+    * All images (other than the Reviews section) have a Orange border which changes to a subtle Yellow Gold colour on `hover`.
+
+#### Other elements
+
+* **Landing page**
+    * Has a Services section which is separate from the main menu and has six different services. These services are represented by icons and text, the icons are Dark Green and change to Orange and `bounce` when `hover` and clicked on. All icons link to individual pages explaining that service. This Services section can also be found on all services pages. At the bottom of the page there is a Reviews section which includes a Bootstrap carousel, the carousel has a rounded image of the reviewer, text including name and location and review, arrow indicators and slider indicators. The arrow indicators disappear on screen width below 992px.
+
+* **About Us page**
+    * Has text and an image showing work that has been completed.
+
+* **Location page**
+    * Has company address and interactive google map to show the company location.
+
+* **Completed Projects page**
+    * Has a gallery containing 15 images, by clicking on an image the image will show on a full screen. Images were re-sized to 728x485 to enhance the visual appearence and flow to the page.
+
+* **Contact Us page**
+    * Has a form which asks for contact information and a message. The form boxes have Orange borders rather than a background colour to identify the text areas.
+
+* **Service pages**
+    * Has two columns of text, listing the services avaialble and a Bootstrap carousel with images of completed work relevant to that service page. At the bottom of the page is the Services menu where you can navigate to another service page.
+
+### Features left to implement
+
+* **Prices page** - To enable potential customers to estimate what a project or piece of work may cost.
+* **Payment Procedure page** - To enable customers to understand what the costs involved before, during and on completion of the project or work.
+* **Tracking User Behaviour** - Use an analytics tool such as [Hotjar](https://www.hotjar.com/) to view user behaviour.
+* **Most and Least Visited Pages on the Site** - Use an analytics tool such as [Hotjar](https://www.hotjar.com/) to understand where the traffic is going on the site.
+
+
+### Bugs and Fixes for Future Releases After Testing
+
+* **Bootstrap Carousel** - After some research I found there to be a bug on ios13 (apple products) that makes each carousel slide move in twice. I believe this can be fixed with writing additional JavaScript for future releases.
+* **Favicon** - The DevTool Console showed an error as I didn't have time to install a Favicon for the first release. This will be part of the next release. 
+* **Colour Contrasts** - The Lighthouse Audit Chrome extension highlighted that the colours used on the site are too similar and could cause an issue for accessability. These issues will be addressed in the next release.
+* **Website Address in Footer** - The website address for mrdigbee does not currently exist and does not link to another page. This will be addressed in the next release.
+* **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
+* **Mobile Lanscape View** - On some pages, when viewing on a mobile in landscape orientation, the call to action section at the top of the page can be cut off by the Navigation bar and the footer content is pushed on top of each other. This will be fixed on the next release.
+
+## Technologies Used
+
+### Languages
+
+* HTML - Base language for this project.
+* CSS - used for styling the HTML code.
+* JavaScript - used in conjunction with Bootstrap.
+
+### Libraries
+
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system, navigation and carousel.
+* [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in conjunction with the Bootstrap library.
+* [FontAwseome](https://fontawesome.com/) - used for all icons on the site.
+* [Google Fonts](https://fonts.google.com/) - used for the Josefin Sans and Montserrat fonts.
+* [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the naviagtion links, services icons and social media icons.
+
+### Tools
+
+* [Gitpod](https://www.gitpod.io) - used as IDE for this project.
+* [Git](https://git-scm.com/) - used for version control.
+* [Github](https://github.com/) - used to host repository and live website.
+* [Figma](https://www.figma.com/) - used for creation of mockups.
+* [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as creating the image to display the web pages on different devices.
+* [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+* [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed of the site.
+* [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse) - used to test whether the site meets the standards expected.
+* [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
+* [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
+* [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
+* [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
+
+
+## Testing
+
+Testing information can be found [here](documentation/testing/testing.md).
+
+## Deployment
+
+This web page was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages. 
+
+**Used commands during deployment:**
+* `git add .` - to add the files to the staging area.
+* `git commit -m "text message here"` - to commit the files.
+* `git push` - to push to origin master branch on to GitHub.
+* `git status` - to see the current status of the files.
+
+### Hosting on GitHub Pages
+
+* Log into GitHub.
+* From the list of repositories choose [Mr Digbee](https://github.com/Gmanprodev/Mr-Digbee).
+* Go to settings.
+* Scroll down to GitHub Pages section.
+* Select as a source **master branch**.
+* The page is now automatically refreshed and the project is deployed.
+* To access the project scroll down again to GitHub Pages section and click on the provided link.
+
+For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/).
+
+### How to run this project locally
+
+**Clone this project from GitHub:**
+
+* Go to [Mr Digbee](https://github.com/Gmanprodev/Mr-Digbee) GitHub repository.
+* Click on "Clone or download" green button.
+* Copy the URL to the repository.
+* Open the terminal in your IDE.
+* Choose the working directory where you would like to have the cloned repository.
+* Type git clone, and add the URL you copied from Github: `git clone https://github.com/Gmanprodev/Mr-Digbee.git`
+* Press Enter and your local clone will be created.
+
+For more information regarding cloning of a repository click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+
+## Credits
+
+### Content
+
+All content on the web page was written by me with the exception of the text on the About Us page which I adapted from [dellerandsons](http://www.dellerandsons.co.uk) and [charleshoare](http://www.charleshoare.co.uk).
+
+### Media
+
+**All Images**
+   * All of the images shown on the site were found on Google Images. 
+   * No authorisation has been granted to use these images as this site is for educational purposes only.
+   * If this site were to be used by the company, Mr Digbee, then the images would be replaced along with the correct authorisation before the release.
+
+
+
+### Acknowledgements
+
+#### Examples and Tutorials and Samples
+
+* [Code Institute](https://github.com/Gmanprodev/Bootstrap) - used the 'Whiskey Drop' page as the initial code structure for my project. The only element of this code that still remains in it's original state is the hero image section.
+* [alexnexton](https://alexnexton.github.io/MS1-OneArena/) - used to view and understand the code for the location interactive map.
+* [inesnago](https://inesnago.github.io/my-cv-final/) - used to view and understand the code for a contact form.
+* [zahra Sadiq](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/index.html) - used to compare my navigation bar and fix navigation link margins.
+* [Figma Tutorial](https://www.youtube.com/watch?v=3q3FV65ZrUs) - used this tutorial to learn how to use Figma.
+* Inspiration resources for writing this README file:
+    * [Itamichan](https://github.com/Itamichan/CG_photography)
+    * [SuzanneNL](https://github.com/SuzanneNL/SKtraining)
+   
+
+#### Pages used for information
+
+* [W3schools](https://www.w3schools.com/)
+* [W3C](https://www.w3.org/)
+* [Stack overflow](https://stackoverflow.com/)
+* [CSS-Tricks](https://css-tricks.com/)
+* [MDN web docs](https://developer.mozilla.org/)
+* [Codepen](https://codepen.io/)
+
+#### I received advice and encouragement from
+   * Seun Owonikoko (my mentor)
+   * Eventyret_mentor (via slack channels)
+   * Tutor Support (CI online webchat)
+   * Anukje-byllsa (fellow student)
+   * Carlos (fellow student)
+   * SuzanneNL (fellow student)
+   * Anthony (fellow student)
+   * Malia (fellow student)
+
+## Disclaimer
+
+**This web page was created for educational purpose only.** 
