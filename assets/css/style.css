@@ -24,3 +24,9 @@
     width: 50%;
     height: 50%;
 }
+
+.container-wrapper {
+  background-color: #696969;
+  padding-top: 25%;
+  padding-bottom: 100%;
+}
