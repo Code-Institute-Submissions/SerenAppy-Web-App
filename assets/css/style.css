@@ -30,3 +30,8 @@
   padding-top: 25%;
   padding-bottom: 100%;
 }
+
+.jumbotron-header {
+    font-family: Pacifico, sans-serif;
+    color: #fafafa;
+}
