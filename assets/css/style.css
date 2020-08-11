@@ -174,7 +174,6 @@ a[href^="tel"] {
 
 
 
-.time-select,
 .sound-picker {
   height: 80%;
   display: flex;
@@ -183,7 +182,6 @@ a[href^="tel"] {
   flex-direction: column;
   flex: 1;
 }
-.time-select button,
 .sound-picker button {
   color: white;
   width: 30%;
@@ -213,12 +211,8 @@ a[href^="tel"] {
   height: 100%;
 }
 
-.time-select button:hover {
-  background: white;
-  color: black;
-}
 
-video {
+.vid-container {
     position: fixed;
     top: 0%;
     left: 0%;
