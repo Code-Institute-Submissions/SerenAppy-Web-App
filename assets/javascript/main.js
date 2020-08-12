@@ -1,4 +1,4 @@
-const audio = document.querySelector(".audio");
+/*const audio = document.querySelector(".audio");
 const play = document.querySelector(".play");
 const replay = document.querySelector(".replay");
 const outline = document.querySelector(".moving-outline circle");
@@ -8,43 +8,42 @@ const timeDisplay = document.querySelector(".time-display");
 const outlineLength = outline.getTotalLength();
 const timeSelect = $("button.time-select");
 const seasonSelect = $("button.season-select");
-let fakeDuration = 600;
+let fakeDuration = 600;*/
+
+let time = 0;
+let season = "none";
 
 
+function setTime(t) {
+    time = t;
+    console.log(time);
+    };
 
 
+function setSeason(s) {
+    season = s;
+    console.log(season);
+    };
 
 
-
-
-$(document).ready(function() {
-    console.log("ready");
-
-    timeSelect.forEach(option => {
-        option.addEventListener("click", function() {
-            fakeDuration = this.getAttribute("data-time");
-            timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
-                fakeDuration % 60
-            )}`;
-         });
-    });
-
-    seasonSelect.forEach(option => {
-        option.addEventListener("click", function() {
-            fakeDuration = this.getAttribute("data-sound");
-            timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
-                fakeDuration % 60
-            )}`;
-         });
-    });
-
-    $(function() {
-        $("button").on("click", function() {
-            $(this).css('background-color', 'black');
+function startMeditation() {
+    if (time !=0 && season !="none") {    
+        time = 0;
+        season = "none";
+    }
+    else {
+        Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please Pick A Time Selection And A Button Selection To Create Calm',
         });
-    });
+    };
+};
 
-});
+
+
+
+
 
 
 
