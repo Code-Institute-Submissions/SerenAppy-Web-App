@@ -35,7 +35,7 @@ function startMeditation() {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Please Pick A Time Selection And A Button Selection To Create Calm',
+        text: 'Please Pick A Time Selection And A Season Selection To Create Calm',
         });
     };
 };
