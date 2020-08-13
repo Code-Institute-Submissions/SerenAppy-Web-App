@@ -12,18 +12,31 @@ let fakeDuration = 600;*/
 
 let time = 0;
 let season = "none";
+let timeButtons = document.getElementsByClassName("time-select");
+let seasonButtons = document.getElementsByClassName("season-select");
 
-
-function setTime(t) {
+function setTime(t, elem) {
+    var arrayLength = timeButtons.length;
+    for (var i = 0; i < arrayLength; i++) {
+    console.log(timeButtons[i]);
+    timeButtons[i].style.backgroundColor="#CD853F";
+    };
     time = t;
+    elem.style.backgroundColor="black";
     console.log(time);
+};
+
+
+function setSeason(s, elem) {
+    var arrayLength = seasonButtons.length;
+    for (var i = 0; i < arrayLength; i++) {
+    console.log(seasonButtons[i]);
+    seasonButtons[i].style.backgroundColor="#CD853F";
     };
-
-
-function setSeason(s) {
     season = s;
+    elem.style.backgroundColor="black";
     console.log(season);
-    };
+};
 
 
 function startMeditation() {
@@ -35,10 +48,11 @@ function startMeditation() {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
-        text: 'Please Pick A Time Selection And A Season Selection To Create Calm',
+        text: 'Please Choose a Time and a Season to Enter SerenAppy',
         });
     };
 };
+
 
 
 
