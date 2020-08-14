@@ -14,6 +14,7 @@ let time = 0;
 let season = "none";
 let timeButtons = document.getElementsByClassName("time-select");
 let seasonButtons = document.getElementsByClassName("season-select");
+let hide = document.getElementsByClassName("is-visible");
 
 function setTime(t, elem) {
     var arrayLength = timeButtons.length;
@@ -54,14 +55,10 @@ function startMeditation() {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
+function newScreen() {
+    var hide = function (elem) {
+    if (time !=0 && season !="none") { 
+    elem.classList.remove("is-visible"); 
+    };  
+    };
+};
