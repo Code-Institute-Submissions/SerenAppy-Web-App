@@ -22,7 +22,7 @@ function setTime(t, elem) {
     timeButtons[i].style.backgroundColor="#CD853F";
     };
     time = t;
-    elem.style.backgroundColor="black";
+    elem.style.backgroundColor="#D2B48C";
     console.log(time);
 };
 
@@ -34,7 +34,7 @@ function setSeason(s, elem) {
     seasonButtons[i].style.backgroundColor="#CD853F";
     };
     season = s;
-    elem.style.backgroundColor="black";
+    elem.style.backgroundColor="#D2B48C";
     console.log(season);
 };
 
