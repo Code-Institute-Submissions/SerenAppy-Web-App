@@ -220,3 +220,8 @@ a[href^="tel"] {
     width: 100%;
     z-index: -10;
 }
+
+
+.hideMe {
+    display: none;
+}

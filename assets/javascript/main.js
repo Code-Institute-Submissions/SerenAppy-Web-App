@@ -14,7 +14,7 @@ let time = 0;
 let season = "none";
 let timeButtons = document.getElementsByClassName("time-select");
 let seasonButtons = document.getElementsByClassName("season-select");
-let hide = document.getElementsByClassName("is-visible");
+
 
 function setTime(t, elem) {
     var arrayLength = timeButtons.length;
@@ -44,8 +44,15 @@ function startMeditation() {
     if (time !=0 && season !="none") {    
         time = 0;
         season = "none";
-    }
-    else {
+
+    var element = document.getElementById("test1");
+    element.classList.add("hideMe");
+
+    var element = document.getElementById("test2");
+    element.classList.remove("hideMe");
+
+
+} else {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -55,10 +62,3 @@ function startMeditation() {
 };
 
 
-function newScreen() {
-    var hide = function (elem) {
-    if (time !=0 && season !="none") { 
-    elem.classList.remove("is-visible"); 
-    };  
-    };
-};
