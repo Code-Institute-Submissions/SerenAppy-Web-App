@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 </head>
-<body>
-   <header>
-            <nav class="navbar navalert-container navbar-expand-xl">
-                <div>
-                    <a class="navbar-brand text-nowrap d-md-block brand-padding"
-                        href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
-                </div>
-            </nav>
-   </header>
+<body onload="hideFunction()">
+    <div id="hideMe">
+    <header>
+        <nav class="navbar navalert-container navbar-expand-xl">
+            <div>
+                <a class="navbar-brand text-nowrap d-md-block brand-padding"
+                    href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
+            </div>
+        </nav>
+    </header>
 
    
-    <div id="test1">
+    
         <div class="container-wrapper background-container">
             <div class="container container-fluid content-container middle-info">
                 <section class="services">
@@ -80,9 +81,96 @@
             </div>
         </div>
     </div>
-    <div id="test2" class="hideMe"> 
-    <p>Hello, I'm hiding</p>
-    </div>
+
+
+        <div id="springPage" class="app"> 
+            <div class="vid-container">
+                <video loop>
+                <source src="assets/video/spring.mp4" type="video">
+                </video>
+            </div>
+            <div class="player-container">
+                <audio class="song">
+                <source src="assets/sounds/spring.mp3">
+                </audio>
+                <img src="assets/images/play.svg" alt="play" class="play">
+                <svg class="track-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+                </svg>
+                <svg class="moving-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+                </svg>
+                <h3 class="time-display">0:00</h3>
+            </div>
+        </div> 
+
+
+        <div id="summerPage" class="app"> 
+            <div class="vid-container">
+                <video loop>
+                <source src="assets/video/summer.mp4" type="video">
+                </video>
+            </div>
+            <div class="player-container">
+                <audio class="song">
+                <source src="assets/sounds/summer.mp3">
+                </audio>
+                <img src="assets/images/play.svg" alt="play" class="play">
+                <svg class="track-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+                </svg>
+                <svg class="moving-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+                </svg>
+                <h3 class="time-display">0:00</h3>
+            </div>
+        </div>  
+       
+       
+        <div id="autumnPage" class="app"> 
+            <div class="vid-container">
+                <video loop>
+                <source src="assets/video/autumn.mp4" type="video">
+                </video>
+            </div>
+            <div class="player-container">
+                <audio class="song">
+                <source src="assets/sounds/autumn.mp3">
+                </audio>
+                <img src="assets/images/play.svg" alt="play" class="play">
+                <svg class="track-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+                </svg>
+                <svg class="moving-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+                </svg>
+                <h3 class="time-display">0:00</h3>
+            </div>
+        </div>  
+       
+       
+       
+        <div id="winterPage" class="app"> 
+            <div class="vid-container">
+                <video loop>
+                <source src="assets/video/winter.mp4" type="video">
+                </video>
+            </div>
+            <div class="player-container">
+                <audio class="song">
+                <source src="assets/sounds/winter.mp3">
+                </audio>
+                <img src="assets/images/play.svg" alt="play" class="play">
+                <svg class="track-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+                </svg>
+                <svg class="moving-outline" width="453" height="453" viewbox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+                </svg>
+                <h3 class="time-display">0:00</h3>
+            </div>
+        </div>  
+   
 
     <footer>
         <div class="footer">
@@ -120,8 +208,9 @@
             </div>
         </div>
     </footer>
+    
 
-       
+    
             
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"><script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

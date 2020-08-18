@@ -10,10 +10,20 @@ const timeSelect = $("button.time-select");
 const seasonSelect = $("button.season-select");
 let fakeDuration = 600;*/
 
+
+function hideFunction() {
+    document.getElementById("springPage").style.display="none";
+    document.getElementById("summerPage").style.display="none";
+    document.getElementById("autumnPage").style.display="none";
+    document.getElementById("winterPage").style.display="none";
+}
+
+
 let time = 0;
 let season = "none";
 let timeButtons = document.getElementsByClassName("time-select");
 let seasonButtons = document.getElementsByClassName("season-select");
+let video = document.getElementsByClassName(".vid-container video");
 
 
 function setTime(t, elem) {
@@ -41,15 +51,32 @@ function setSeason(s, elem) {
 
 
 function startMeditation() {
+    console.log(time + season);
     if (time !=0 && season !="none") {    
         time = 0;
         season = "none";
 
-    var element = document.getElementById("test1");
-    element.classList.add("hideMe");
+    if (season="spring") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("springPage").style.display="block";
+    } 
 
-    var element = document.getElementById("test2");
-    element.classList.remove("hideMe");
+    if (season="summer") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("summerPage").style.display="block";
+    }
+
+    if (season="autumn") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("autumnPage").style.display="block";
+    }
+
+    if (season="winter") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("winterPage").style.display="block";
+    }
+
+    
 
 
 } else {
