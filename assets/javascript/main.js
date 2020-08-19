@@ -23,7 +23,8 @@ let time = 0;
 let season = "none";
 let timeButtons = document.getElementsByClassName("time-select");
 let seasonButtons = document.getElementsByClassName("season-select");
-let video = document.getElementsByClassName(".vid-container video");
+let myvideo = document.getElementsByClassName("myVideo");
+let myaudio = document.getElementsByClassName("myAudio");
 
 
 function setTime(t, elem) {
@@ -76,8 +77,7 @@ function startMeditation() {
         document.getElementById("hideMe").style.display="none";
         document.getElementById("hideFooter").style.display="none";
         document.getElementById("winterPage").style.display="block";
-    }
-
+    };
     
     } else {
         Swal.fire({
@@ -88,5 +88,13 @@ function startMeditation() {
     };
 };
 
+
+myvideo.onplay = function() {
+    myaudio.play();
+};
+
+myvideo.onpause = function() {
+    myaudio.pause();
+};
 
 
