@@ -55,31 +55,31 @@ function startMeditation() {
     if (time !=0 && season !="none") {    
         time = 0;
         season = "none";
+   
 
     if (season="spring") {
-        document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideMe", "hideFooter").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
         document.getElementById("springPage").style.display="block";
-    } 
-
-    if (season="summer") {
+    } else if
+        (season="summer") {
         document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
         document.getElementById("summerPage").style.display="block";
-    }
-
-    if (season="autumn") {
+    } else if 
+        (season="autumn") {
         document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
         document.getElementById("autumnPage").style.display="block";
-    }
-
-    if (season="winter") {
+    } else if 
+        (season="winter") {
         document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
         document.getElementById("winterPage").style.display="block";
     }
 
     
-
-
-} else {
+    } else {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -87,5 +87,6 @@ function startMeditation() {
         });
     };
 };
+
 
 
