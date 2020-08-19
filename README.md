@@ -1,27 +1,35 @@
 # SerenAppy - A Meditation Web App 
 
-A live demo can be found [here](https://gmanprodev.github.io/Mr-Digbee/)
+A live demo can be found [here](https://gmanprodev.github.io/SerenAppy-Web-App/)
 
-![Desktop Demo](assets/images/mrdigbee_responsive_image.jpg)
+![Desktop Demo]()
 
 ## Introduction
 
-Mr Digbee is a gardening and property maintenance services website.
+SerenAppy is a meditation web app which has been built for a local community Health & Wellbeing centre. It will be used during meditation seesions in conjuction with yoga classes.
 
-It presents examples of previous work completed bt the Tradesman, testimonials and the services available to attract new customers. The services include:
-* Painting & Decorating
-* Grass & Hedge Cutting
-* Landscaping
-* Property Repairs 
-* Flower & Border planting
-* Window, Facias & Guttering cleaning
+It presents a landing page with options for how long the user wishes to mediatate for (time) and what visual and audio experience the user prefers (season). The user can select from the following options:
+### Time
+* 2 minutes
+* 5 minutes
+* 10 minutes
+* 20 minutes 
+* 30 minutes
+* 60 minutes
 
+### season
+* Spring
+* Summer
+* Autumn
+* Winter
 
-Each service offering consists of one link to a subpage which shows photographs of relevant work completed and more detail about that particular service.
+The time selection sets how long the video and audio will last before it stops and the season selection will set the video and audio that a user would associate with the season chosen.
 
-The main purpose of the web page is to convert potential customers to paying customers at the highest conversion rate possible. With this in mind the website will be built in a way that any potential customers can easily find the Contact button/form wherever they are on the website.
+If only on selection is made the user will see a alert box prompting them to make choose a time and season option.
 
-The website can be viewed on Desktop, Tablet and Mobile devices.
+The main purpose of the web app is to allow public funded health & well being initiatives and bodies to access an easy to use mediataion tool for people from all walks of life.
+
+The web app can be viewed on Desktop, Tablet and Mobile devices.
 
 
 ## Table of Content
@@ -63,9 +71,9 @@ The website can be viewed on Desktop, Tablet and Mobile devices.
 
 ### Goals
 
-#### Mr Digbee goal
+#### SerenAppy goal
 
-The goal of this web page is to show the services available and previous completed work of the Tradesman and in turn attract new paying customers.
+The goal of this web app is to allow public funded health & well being initiatives and bodies to access an easy to use mediataion tool for people from all walks of life.
 
 **Target audience is:**
 
