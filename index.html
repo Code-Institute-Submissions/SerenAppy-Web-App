@@ -59,15 +59,15 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <button onclick="setSeason('spring', this)" class="select-buttons season-select" data-sound="assets/sounds/spring.mp3">Spring</button>
+                                <button onclick="setSeason('spring', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/spring.mp3" data-video="assets/video/spring.mp4">Spring</button>
                                 <br>
-                                <button onclick="setSeason('autumn', this)" class="select-buttons season-select" data-sound="assets/sounds/autumn.mp3">Autumn</button>
+                                <button onclick="setSeason('autumn', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/autumn.mp3" data-video="assets/video/autumn.mp4">Autumn</button>
                                 <br>
                             </div>
                             <div class="col">
-                                <button onclick="setSeason('summer', this)" class="select-buttons season-select" data-sound="assets/sounds/summer.mp3">Summer</button>
+                                <button onclick="setSeason('summer', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/summer.mp3" data-video="assets/video/summer.mp4">Summer</button>
                                 <br>
-                                <button onclick="setSeason('winter', this)" class="select-buttons season-select" data-sound="assets/sounds/winter.mp3">Winter</button>
+                                <button onclick="setSeason('winter', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/winter.mp3" data-video="assets/video/winter.mp4">Winter</button>
                                 <br>
                             </div>
                         </div>
@@ -82,66 +82,59 @@
         </div>
     </div>
 
+    <div id="springPage" class="app">
+        <div class="base-timer">
+		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			    <g class="base-timer__circle">
+				<circle class="base-timer__path-elapsed" cx="50" cy="50" r="45" />
+				<path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"></path> 
+			    </g>
+		    </svg>
+		    <span id="base-timer-label" class="base-timer__label"></span>
+	    </div>
+    </div>
 
-        <div id="springPage" class="app"> 
-            <div>
-                <video class="myVideo" controls loop>
-                    <source src="assets/video/spring.mp4" type="video/mp4">
-                </video>
-                <audio class="myAudio" loop>
-                    <source src="assets/sounds/spring.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            <div>
-               <h3 class="time-display">0:00</h3>
-            </div>
-        </div> 
+    <div id="summerPage">
+        <div class="app">
+            <div class="base-timer">
+		        <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			        <g class="base-timer__circle">
+				    <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45" />
+				    <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"></path> 
+			        </g>
+		        </svg>
+		        <span id="base-timer-label" class="base-timer__label"></span>
+	        </div>
+        </div>
+    </div>
 
+    <div id="autumnPage" class="app">
+        <div class="base-timer">
+		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			    <g class="base-timer__circle">
+				<circle class="base-timer__path-elapsed" cx="50" cy="50" r="45" />
+				<path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"></path> 
+			    </g>
+		    </svg>
+		    <span id="base-timer-label" class="base-timer__label"></span>
+	    </div>
+    </div>
 
-        <div id="summerPage" class="app"> 
-            <div>
-                <video class="myVideo" controls loop>
-                    <source src="assets/video/summer.mp4" type="video/mp4">
-                </video>
-                <audio class="myAudio" loop>
-                    <source src="assets/sounds/summer.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            <div>
-               <h3 class="time-display">0:00</h3>
-            </div>
-        </div> 
+    <div id="winterPage" class="app">
+        <div class="base-timer">
+		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+			    <g class="base-timer__circle">
+				<circle class="base-timer__path-elapsed" cx="50" cy="50" r="45" />
+				<path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"></path> 
+			    </g>
+		    </svg>
+		    <span id="base-timer-label" class="base-timer__label"></span>
+	    </div>
+    </div>
 
-
-        <div id="autumnPage" class="app"> 
-            <div>
-                <video class="myVideo" controls loop>
-                    <source src="assets/video/autumn.mp4" type="video/mp4">
-                </video>
-                <audio class="myAudio" loop>
-                    <source src="assets/sounds/autumn.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            <div>
-               <h3 class="time-display">0:00</h3>
-            </div>
-        </div> 
-
-
-        <div id="winterPage" class="app"> 
-            <div>
-                <video class="myVideo" controls loop>
-                    <source src="assets/video/winter.mp4" type="video/mp4">
-                </video>
-                <audio class="myAudio" loop>
-                    <source src="assets/sounds/winter.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            <div>
-               <h3 class="time-display">0:00</h3>
-            </div>
-        </div> 
-
+   
+       
+       
 
         
    

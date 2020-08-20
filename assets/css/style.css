@@ -10,6 +10,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 .navalert-container {
   position: absolute;
   top: 0;
@@ -123,11 +127,10 @@ a[href^="tel"] {
 
 
 
-/*Spring html*/
+/*Mediataion Page*/
 
 
-
-.app {
+/* .app {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -137,6 +140,26 @@ a[href^="tel"] {
 }
 
 
+.player-container {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.player-container svg {
+  position: absolute;
+  height: 50%;
+  top: 40%;
+  pointer-events: none;
+}
+
+.player-container svg circle {
+  transition: all 0.2s ease-in-out;
+}
 
 .time-display {
     position: absolute;
@@ -146,15 +169,78 @@ a[href^="tel"] {
 }
 
 
-.vid-container {
+video {
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
     z-index: -10;
-} 
+}  */
 
 
 .hideMe {
     display: none;
+}
+
+.app {
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+
+.base-timer {
+	position: relative;
+	height: 300px;
+	width: 300px;
+    margin: auto;
+}
+
+
+.base-timer__circle {
+	fill: none;
+	stroke: none;
+}
+
+
+.base-timer__path-elapsed {
+	stroke-width: 7px;
+	stroke: grey;
+}
+
+.base-timer__label {
+  align-items: center;
+  display: flex;
+  font-size: 48px;
+  height: 300px;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 300px;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: green;
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
 }
