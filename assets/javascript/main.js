@@ -40,33 +40,41 @@ function setSeason(s, elem) {
 
 function startMeditation() {
     console.log(time + season);
-    if (time !=0 && season !="none") {    
+    if (time ==0 && season =="none") {    
         time = 0;
         season = "none";
+    }
    
-
+    console.log(season);
     if (season="spring") {
-        document.getElementById("hideMe", "hideFooter").style.display="none";
+        document.getElementById("hideMe").style.display="none";
         document.getElementById("hideFooter").style.display="none";
         document.getElementById("springPage").style.display="block";
+        document.getElementById("springPage").style.visibility="visible";
     } else if
         (season="summer") {
         document.getElementById("hideMe").style.display="none";
         document.getElementById("hideFooter").style.display="none";
         document.getElementById("summerPage").style.display="block";
-    } else if 
+        document.getElementById("summerPage").style.visibility="visible";
+        console.log("summer one");
+    } else if
         (season="autumn") {
         document.getElementById("hideMe").style.display="none";
         document.getElementById("hideFooter").style.display="none";
         document.getElementById("autumnPage").style.display="block";
-    } else if 
+        document.getElementById("autumnPage").style.visibility="visible";
+        console.log("autumn one");
+    } else if
         (season="winter") {
         document.getElementById("hideMe").style.display="none";
         document.getElementById("hideFooter").style.display="none";
         document.getElementById("winterPage").style.display="block";
-    };
+        document.getElementById("winterPage").style.visibility="visible";
+        console.log("winter one");
+    }
     
-    } else {
+    else {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -107,11 +115,13 @@ function onTimesUp() {
   clearInterval(timerInterval);
 }
 
+
+
 function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    document.getElementById("base-timer-label").innerHTML = formatTime(
+    document.getElementsByClassName("base-timer-label").innerHTML = formatTime(
       timeLeft
     );
     setCircleDasharray();
@@ -139,21 +149,21 @@ function setRemainingPathColor(timeLeft) {
 	
   if (timeLeft <= alert.threshold) {
     document
-      .getElementById("base-timer-path-remaining")
+      .getElementsByClassName("base-timer-path-remaining")
       .classList.remove(warning.color);
     document
-      .getElementById("base-timer-path-remaining")
+      .getElementsByClassName("base-timer-path-remaining")
       .classList.add(alert.color);
   } else if (timeLeft <= warning.threshold) {
     document
-      .getElementById("base-timer-path-remaining")
+      .getElementsByClassName("base-timer-path-remaining")
       .classList.remove(info.color);
     document
-      .getElementById("base-timer-path-remaining")
+      .getElementsByClassName("base-timer-path-remaining")
       .classList.add(warning.color);
   } else {
 		document
-			.getElementById("base-timer-path-remaining")
+			.getElementsByClassName("base-timer-path-remaining")
 			.classList.add(info.color);
 	}
 }
@@ -167,15 +177,13 @@ function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
-  document
-    .getElementById("base-timer-path-remaining")
-    .setAttribute("stroke-dasharray", circleDasharray);
+  document.getElementsByClassName("base-timer-path-remaining")
+  .setAttribute("stroke-dasharray", circleDasharray);
 }
 
 
-
 let video = document.getElementById("myVideo");
-let btn = document.getElementById("myBtn");
+let btn = document.getElementsByClassName("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
@@ -184,4 +192,4 @@ function myFunction() {
     video.pause();
     btn.innerHTML = "Play";
   }
-}
+};
