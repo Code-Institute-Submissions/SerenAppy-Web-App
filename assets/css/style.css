@@ -214,15 +214,15 @@ video {
 }
 
 .base-timer__label {
-  align-items: center;
-  display: flex;
-  font-size: 48px;
-  height: 300px;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  width: 300px;
-  margin-top: 25vh;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 48px;
+    margin-top: 25vh;
 }
 
 .base-timer__path-remaining {
@@ -249,8 +249,8 @@ video {
 .base-timer__svg {
   transform: scaleX(-1);
   margin-top: 25vh;
+  
 }
-
 
 video {
   position: fixed;
@@ -260,7 +260,7 @@ video {
   min-height: 100%;
 }
 
-.myBtn {
+#myBtn {
   width: 200px;
   font-size: 18px;
   padding: 10px;
@@ -270,7 +270,6 @@ video {
   cursor: pointer;
   position: relative;
   margin: auto;
-}
 }
 
 #myBtn:hover {

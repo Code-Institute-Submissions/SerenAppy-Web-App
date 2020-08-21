@@ -1,8 +1,5 @@
 function hideFunction() {
     document.getElementById("springPage").style.display="none";
-    document.getElementById("summerPage").style.display="none";
-    document.getElementById("autumnPage").style.display="none";
-    document.getElementById("winterPage").style.display="none";
 }
 
 
@@ -51,30 +48,7 @@ function startMeditation() {
         document.getElementById("hideFooter").style.display="none";
         document.getElementById("springPage").style.display="block";
         document.getElementById("springPage").style.visibility="visible";
-    } else if
-        (season="summer") {
-        document.getElementById("hideMe").style.display="none";
-        document.getElementById("hideFooter").style.display="none";
-        document.getElementById("summerPage").style.display="block";
-        document.getElementById("summerPage").style.visibility="visible";
-        console.log("summer one");
-    } else if
-        (season="autumn") {
-        document.getElementById("hideMe").style.display="none";
-        document.getElementById("hideFooter").style.display="none";
-        document.getElementById("autumnPage").style.display="block";
-        document.getElementById("autumnPage").style.visibility="visible";
-        console.log("autumn one");
-    } else if
-        (season="winter") {
-        document.getElementById("hideMe").style.display="none";
-        document.getElementById("hideFooter").style.display="none";
-        document.getElementById("winterPage").style.display="block";
-        document.getElementById("winterPage").style.visibility="visible";
-        console.log("winter one");
-    }
-    
-    else {
+    } else {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
@@ -121,7 +95,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
     timeLeft = TIME_LIMIT - timePassed;
-    document.getElementsByClassName("base-timer-label").innerHTML = formatTime(
+    document.getElementById("base-timer-label").innerHTML = formatTime(
       timeLeft
     );
     setCircleDasharray();
@@ -149,21 +123,21 @@ function setRemainingPathColor(timeLeft) {
 	
   if (timeLeft <= alert.threshold) {
     document
-      .getElementsByClassName("base-timer-path-remaining")
+      .getElementById("base-timer-path-remaining")
       .classList.remove(warning.color);
     document
-      .getElementsByClassName("base-timer-path-remaining")
+      .getElementById("base-timer-path-remaining")
       .classList.add(alert.color);
   } else if (timeLeft <= warning.threshold) {
     document
-      .getElementsByClassName("base-timer-path-remaining")
+      .getElementById("base-timer-path-remaining")
       .classList.remove(info.color);
     document
-      .getElementsByClassName("base-timer-path-remaining")
+      .getElementById("base-timer-path-remaining")
       .classList.add(warning.color);
   } else {
 		document
-			.getElementsByClassName("base-timer-path-remaining")
+			.getElementById("base-timer-path-remaining")
 			.classList.add(info.color);
 	}
 }
@@ -177,13 +151,13 @@ function setCircleDasharray() {
   const circleDasharray = `${(
     calculateTimeFraction() * FULL_DASH_ARRAY
   ).toFixed(0)} 283`;
-  document.getElementsByClassName("base-timer-path-remaining")
+  document.getElementById("base-timer-path-remaining")
   .setAttribute("stroke-dasharray", circleDasharray);
 }
 
 
 let video = document.getElementById("myVideo");
-let btn = document.getElementsByClassName("myBtn");
+let btn = document.getElementById("myBtn");
 function myFunction() {
   if (video.paused) {
     video.play();
