@@ -1,5 +1,5 @@
 function hideFunction() {
-    document.getElementById("springPage").style.display="none";
+    document.getElementById("meditatePage").style.display="none";
 }
 
 
@@ -7,7 +7,6 @@ let time = 0;
 let season = "none";
 let timeButtons = document.getElementsByClassName("time-select");
 let seasonButtons = document.getElementsByClassName("season-select");
-
 
 
 
@@ -40,22 +39,48 @@ function startMeditation() {
     if (time ==0 && season =="none") {    
         time = 0;
         season = "none";
-    }
-   
-    console.log(season);
-    if (season="spring") {
+        Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please Choose a Time and a Season to Enter SerenAppy',
+        });
+
+    } else if (season=="spring") {
         document.getElementById("hideMe").style.display="none";
         document.getElementById("hideFooter").style.display="none";
-        document.getElementById("springPage").style.display="block";
-        document.getElementById("springPage").style.visibility="visible";
+        document.getElementById("meditatePage").style.display="block";
+        document.getElementById("meditatePage").style.visibility="visible";
+        document.getElementById("changeVideo").setAttribute("src", "assets/video/spring.mp4");
+
+    } else if (season=="summer") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
+        document.getElementById("meditatePage").style.display="block";
+        document.getElementById("meditatePage").style.visibility="visible";
+        document.getElementById("changeVideo").setAttribute("src", "assets/video/summer.mp4");
+    
+    } else if (season=="autumn") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
+        document.getElementById("meditatePage").style.display="block";
+        document.getElementById("meditatePage").style.visibility="visible";
+        document.getElementById("changeVideo").setAttribute("src", "assets/video/autumn.mp4");
+    
+    } else if (season=="winter") {
+        document.getElementById("hideMe").style.display="none";
+        document.getElementById("hideFooter").style.display="none";
+        document.getElementById("meditatePage").style.display="block";
+        document.getElementById("meditatePage").style.visibility="visible";
+        document.getElementById("changeVideo").setAttribute("src", "assets/video/winter.mp4");
+
     } else {
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
         text: 'Please Choose a Time and a Season to Enter SerenAppy',
         });
-    };
-};
+    }
+}
 
 
 
@@ -84,7 +109,6 @@ let timerInterval = null;
 let remainingPathColor = COLOR_CODES.info.color;
 
 startTimer();
-
 function onTimesUp() {
   clearInterval(timerInterval);
 }
@@ -158,6 +182,8 @@ function setCircleDasharray() {
 
 let video = document.getElementById("myVideo");
 let btn = document.getElementById("myBtn");
+
+
 function myFunction() {
   if (video.paused) {
     video.play();
@@ -166,4 +192,5 @@ function myFunction() {
     video.pause();
     btn.innerHTML = "Play";
   }
-};
+}
+
