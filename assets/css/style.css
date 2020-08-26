@@ -205,26 +205,14 @@ a[href^="tel"] {
 }
 
 video {
+  object-fit: cover;
   position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
-@media (min-aspect-ratio: 16/9) {
-    video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    video {
-        width: 100%;
-        height: auto;
-    }
-}
 
 
 
