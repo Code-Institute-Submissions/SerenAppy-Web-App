@@ -83,9 +83,12 @@
     </div>
 
     <div class="app hide" id="meditatePage">
-        <video autoplay muted loop>
+        <video id="myVideo" autoplay muted loop playsinline disablepictureinpicture preload="auto">
             <source id="changeVideo" src="assets/video/spring.mp4" type="video/mp4">
         </video>
+        <audio id="myAudio" loop>
+        <source id="changeAudio" src="assets/sounds/spring.mp3" type="audio/mp3">
+        </audio>
         <button id="myBtn" onclick="myFunction()">Pause</button>
         <div class="base-timer">
 		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">

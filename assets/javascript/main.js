@@ -51,6 +51,11 @@ function startMeditation() {
         document.getElementById("meditatePage").style.display="block";
         document.getElementById("meditatePage").style.visibility="visible";
         document.getElementById("changeVideo").setAttribute("src", "assets/video/spring.mp4");
+        document.getElementById("myVideo").load();
+        document.getElementById("myVideo").play();
+        document.getElementById("changeAudio").setAttribute("src", "assets/sounds/spring.mp3");
+        document.getElementById("myAudio").load();
+        document.getElementById("myAudio").play();
 
     } else if (season=="summer") {
         document.getElementById("hideMe").style.display="none";
@@ -58,6 +63,11 @@ function startMeditation() {
         document.getElementById("meditatePage").style.display="block";
         document.getElementById("meditatePage").style.visibility="visible";
         document.getElementById("changeVideo").setAttribute("src", "assets/video/summer.mp4");
+        document.getElementById("myVideo").load();
+        document.getElementById("myVideo").play();
+        document.getElementById("changeAudio").setAttribute("src", "assets/sounds/summer.mp3");
+        document.getElementById("myAudio").load();
+        document.getElementById("myAudio").play();
     
     } else if (season=="autumn") {
         document.getElementById("hideMe").style.display="none";
@@ -65,6 +75,11 @@ function startMeditation() {
         document.getElementById("meditatePage").style.display="block";
         document.getElementById("meditatePage").style.visibility="visible";
         document.getElementById("changeVideo").setAttribute("src", "assets/video/autumn.mp4");
+        document.getElementById("myVideo").load();
+        document.getElementById("myVideo").play();
+        document.getElementById("changeAudio").setAttribute("src", "assets/sounds/autumn.mp3");
+        document.getElementById("myAudio").load();
+        document.getElementById("myAudio").play();
     
     } else if (season=="winter") {
         document.getElementById("hideMe").style.display="none";
@@ -72,6 +87,11 @@ function startMeditation() {
         document.getElementById("meditatePage").style.display="block";
         document.getElementById("meditatePage").style.visibility="visible";
         document.getElementById("changeVideo").setAttribute("src", "assets/video/winter.mp4");
+        document.getElementById("myVideo").load();
+        document.getElementById("myVideo").play();
+        document.getElementById("changeAudio").setAttribute("src", "assets/sounds/winter.mp3");
+        document.getElementById("myAudio").load();
+        document.getElementById("myAudio").play();
 
     } else {
         Swal.fire({
