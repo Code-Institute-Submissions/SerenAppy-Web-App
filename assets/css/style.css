@@ -213,20 +213,16 @@ a[href^="tel"] {
   left: 0;
 } */
 
-video {
-position: fixed;
-right: 0;
-bottom: 0;
-width: auto;
-height: auto;
+.season-image-size {
+  object-fit: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
-@media (max-width: 767px) {
-    video {
-        width: auto;
-        height: 100%;
-    }
-}
+
 
 
 #myBtn {
