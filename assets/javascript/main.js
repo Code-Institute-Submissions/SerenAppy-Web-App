@@ -17,6 +17,7 @@ function setTime(t, elem) {
     timeButtons[i].style.backgroundColor="#CD853F";
     };
     time = t;
+    console.log(`Time: ${time}`)
     elem.style.backgroundColor="#D2B48C";
     console.log(time);
 };
@@ -97,28 +98,28 @@ function startMeditation() {
 
 
 const FULL_DASH_ARRAY = 283;
-const WARNING_THRESHOLD = 10;
-const ALERT_THRESHOLD = 5;
+// const WARNING_THRESHOLD = 10;
+// const ALERT_THRESHOLD = 5;
 
-const COLOR_CODES = {
-  info: {
-    color: "green"
-  },
-  warning: {
-    color: "orange",
-    threshold: WARNING_THRESHOLD
-  },
-  alert: {
-    color: "red",
-    threshold: ALERT_THRESHOLD
-  }
-};
+// const COLOR_CODES = {
+//   info: {
+//     color: "green"
+//   },
+//   warning: {
+//     color: "orange",
+//     threshold: WARNING_THRESHOLD
+//   },
+//   alert: {
+//     color: "red",
+//     threshold: ALERT_THRESHOLD
+//   }
+// };
 
-const TIME_LIMIT = 20;
+let time_limit = 0;
 let timePassed = 0;
-let timeLeft = TIME_LIMIT;
+// let timeLeft = TIME_LIMIT;
 let timerInterval = null;
-let remainingPathColor = COLOR_CODES.info.color;
+// let remainingPathColor = COLOR_CODES.info.color;
 
 startTimer();
 function onTimesUp() {
@@ -127,15 +128,16 @@ function onTimesUp() {
 
 
 
-function startTimer() {
-  timerInterval = setInterval(() => {
+function startTimer(){
+    timerInterval = setInterval(() => {
     timePassed = timePassed += 1;
-    timeLeft = TIME_LIMIT - timePassed;
+    timeLeft = time_limit - timePassed;
+    console.log(timeLeft);
     document.getElementById("base-timer-label").innerHTML = formatTime(
       timeLeft
     );
     setCircleDasharray();
-    setRemainingPathColor(timeLeft);
+    // setRemainingPathColor(timeLeft);
 
     if (timeLeft === 0) {
       onTimesUp();
@@ -154,33 +156,33 @@ function formatTime(time) {
   return `${minutes}:${seconds}`;
 }
 
-function setRemainingPathColor(timeLeft) {
-  const { alert, warning, info } = COLOR_CODES;
+// function setRemainingPathColor(timeLeft) {
+//   const {info} = COLOR_CODES;
 	
-  if (timeLeft <= alert.threshold) {
-    document
-      .getElementById("base-timer-path-remaining")
-      .classList.remove(warning.color);
-    document
-      .getElementById("base-timer-path-remaining")
-      .classList.add(alert.color);
-  } else if (timeLeft <= warning.threshold) {
-    document
-      .getElementById("base-timer-path-remaining")
-      .classList.remove(info.color);
-    document
-      .getElementById("base-timer-path-remaining")
-      .classList.add(warning.color);
-  } else {
-		document
-			.getElementById("base-timer-path-remaining")
-			.classList.add(info.color);
-	}
-}
+//   if (timeLeft <= alert.threshold) {
+//     document
+//       .getElementById("base-timer-path-remaining")
+//       .classList.remove(warning.color);
+//     document
+//       .getElementById("base-timer-path-remaining")
+//       .classList.add(alert.color);
+//   } else if (timeLeft <= warning.threshold) {
+//     document
+//       .getElementById("base-timer-path-remaining")
+//       .classList.remove(info.color);
+//     document
+//       .getElementById("base-timer-path-remaining")
+//       .classList.add(warning.color);
+//   } else {
+// 		document
+// 			.getElementById("base-timer-path-remaining")
+// 			.classList.add(info.color);
+// 	}
+// }
 
 function calculateTimeFraction() {
-  const rawTimeFraction = timeLeft / TIME_LIMIT;
-  return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
+  const rawTimeFraction = timeLeft / time_limit;
+  return rawTimeFraction - (1 / time_limit) * (1 - rawTimeFraction);
 }
 
 function setCircleDasharray() {
@@ -192,17 +194,17 @@ function setCircleDasharray() {
 }
 
 
-let video = document.getElementById("myVideo");
-let btn = document.getElementById("myBtn");
+// let video = document.getElementById("myVideo");
+// let btn = document.getElementById("myBtn");
 
 
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+// function myFunction() {
+//   if (video.paused) {
+//     video.play();
+//     btn.innerHTML = "Pause";
+//   } else {
+//     video.pause();
+//     btn.innerHTML = "Play";
+//   }
+// }
 

@@ -34,19 +34,19 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <button onclick="setTime(2, this)" class="select-buttons time-select" data-time="120">2 minutes</button>
+                                <button onclick="setTime(2, this)" class="select-buttons time-select">2 minutes</button>
                                 <br>
-                                <button onclick="setTime(10, this)" class="select-buttons time-select" data-time="600">10 minutes</button>
+                                <button onclick="setTime(10, this)" class="select-buttons time-select">10 minutes</button>
                                 <br>
-                                <button onclick="setTime(30, this)" class="select-buttons time-select" data-time="1800">30 minutes</button> 
+                                <button onclick="setTime(30, this)" class="select-buttons time-select">30 minutes</button> 
                                 <br>
                             </div>
                             <div class="col">
-                                <button onclick="setTime(5, this)" class="select-buttons time-select" data-time="300">5 minutes</button>
+                                <button onclick="setTime(5, this)" class="select-buttons time-select">5 minutes</button>
                                 <br>
-                                <button onclick="setTime(20, this)" class="select-buttons time-select" data-time="1200">20 minutes</button>
+                                <button onclick="setTime(20, this)" class="select-buttons time-select">20 minutes</button>
                                 <br>
-                                <button onclick="setTime(60, this)" class="select-buttons time-select" data-time="3600">60 minutes</button> 
+                                <button onclick="setTime(60, this)" class="select-buttons time-select">60 minutes</button> 
                                 <br>
                             </div>
                         </div>
@@ -59,15 +59,15 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <button onclick="setSeason('spring', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/spring.mp3" data-video="assets/video/spring.mp4">Spring</button>
+                                <button onclick="setSeason('spring', this)" class="select-buttons season-select">Spring</button>
                                 <br>
-                                <button onclick="setSeason('autumn', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/autumn.mp3" data-video="assets/video/autumn.mp4">Autumn</button>
+                                <button onclick="setSeason('autumn', this)" class="select-buttons season-select">Autumn</button>
                                 <br>
                             </div>
                             <div class="col">
-                                <button onclick="setSeason('summer', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/summer.mp3" data-video="assets/video/summer.mp4">Summer</button>
+                                <button onclick="setSeason('summer', this)" class="select-buttons season-select">Summer</button>
                                 <br>
-                                <button onclick="setSeason('winter', this)" class="select-buttons season-select sound-picker" data-sound="assets/sounds/winter.mp3" data-video="assets/video/winter.mp4">Winter</button>
+                                <button onclick="setSeason('winter', this)" class="select-buttons season-select">Winter</button>
                                 <br>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
         <audio id="myAudio" loop>
         <source id="changeAudio" src="assets/sounds/spring.mp3" type="audio/mp3">
         </audio>
-        <button id="myBtn" onclick="myFunction()">Pause</button>
+        <button id="myBtn" onclick="startTimer()">Start</button>
         <div class="base-timer">
 		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 			    <g class="base-timer__circle">
