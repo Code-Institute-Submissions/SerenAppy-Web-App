@@ -87,17 +87,17 @@
         <audio id="myAudio" loop>
         <source id="changeAudio" src="assets/sounds/spring.mp3" type="audio/mp3">
         </audio>
-        <button id="myBtn" onclick="startTimer()">Start</button>
         <div class="base-timer">
-		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-			    <g class="base-timer__circle">
-				<circle class="base-timer__path-elapsed" cx="50" cy="50" r="45" />
-				<path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining" d=" M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0" ></path> 
-			    </g>
-		    </svg>
+		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>
 		    <span id="base-timer-label" class="base-timer__label"></span>
 	    </div>
+        <div class="list-inline text-center fixed-bottom">
+        <button class="myBtn" onclick="startTimer()">Start</button>
+        <button class="myBtn" onclick="startTimer()">Reset</button>
+        <button class="myBtn" onclick="startTimer()">Main Menu</button>
+        </div>
     </div>
+    
 
 
     <div id="hideFooter">
