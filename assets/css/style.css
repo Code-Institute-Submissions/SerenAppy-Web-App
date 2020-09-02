@@ -78,7 +78,7 @@ body {
 .footer h2 {
   font-weight: 700;
   font-family: "Pacifico", sans-serif;
-  font-size: 30px;
+  font-size: 100%;
   margin-bottom: 10px;
   margin-top: 15px;
   color: #fafafa;
