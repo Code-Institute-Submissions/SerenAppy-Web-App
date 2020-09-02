@@ -46,7 +46,7 @@ body {
 .jumbotron-header {
     font-family: "Pacifico", sans-serif;
     color: #fafafa;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 5%;
 }
 
@@ -155,7 +155,7 @@ a[href^="tel"] {
 
 
 .base-timer__label {
-	position: fixed;
+	position: absolute;
 	width: 300px;
 	height: 300px;
 	top: 0;
@@ -202,6 +202,7 @@ a[href^="tel"] {
   position: relative;
   margin: 5%;
 }
+
 
 .myBtn:hover {
   background: #ddd;
