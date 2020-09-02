@@ -11,6 +11,8 @@ let time_limit = 20;
 let timePassed = 0;
 let timeLeft = time_limit;
 let timerInterval = null;
+let playButton = document.getElementById("play");
+let btn = document.getElementsByClassName("myBtn");
 
 
 
@@ -58,7 +60,7 @@ function startMeditation() {
         document.getElementById("change-image").setAttribute("src", "assets/images/season_images/spring.jpg");
         document.getElementById("changeAudio").setAttribute("src", "assets/sounds/spring.mp3");
         document.getElementById("myAudio").load();
-        document.getElementById("myAudio").play();
+        document.getElementById("myAudio").pause();
 
     } else if (season=="summer") {
         document.getElementById("hideMe").style.display="none";
@@ -68,7 +70,7 @@ function startMeditation() {
         document.getElementById("change-image").setAttribute("src", "assets/images/season_images/summer.jpg");
         document.getElementById("changeAudio").setAttribute("src", "assets/sounds/summer.mp3");
         document.getElementById("myAudio").load();
-        document.getElementById("myAudio").play();
+        document.getElementById("myAudio").pause();
     
     } else if (season=="autumn") {
         document.getElementById("hideMe").style.display="none";
@@ -78,7 +80,7 @@ function startMeditation() {
         document.getElementById("change-image").setAttribute("src", "assets/images/season_images/autumn.jpg");
         document.getElementById("changeAudio").setAttribute("src", "assets/sounds/autumn.mp3");
         document.getElementById("myAudio").load();
-        document.getElementById("myAudio").play();
+        document.getElementById("myAudio").pause();
     
     } else if (season=="winter") {
         document.getElementById("hideMe").style.display="none";
@@ -88,7 +90,7 @@ function startMeditation() {
         document.getElementById("change-image").setAttribute("src", "assets/images/season_images/winter.jpg");
         document.getElementById("changeAudio").setAttribute("src", "assets/sounds/winter.mp3");
         document.getElementById("myAudio").load();
-        document.getElementById("myAudio").play();
+        document.getElementById("myAudio").pause();
 
     } else {
         Swal.fire({
@@ -97,6 +99,18 @@ function startMeditation() {
         text: 'Please Choose a Time and a Season to Enter SerenAppy',
         });
     }
+}
+
+
+playButton.addEventListener("click", play);
+function play() {
+    if (myAudio.paused) {
+    myAudio.play();
+    playButton.innerHTML = "Pause";
+  } else {
+    myAudio.pause();
+    playButton.innerHTML = "Play";
+  }
 }
 
 
