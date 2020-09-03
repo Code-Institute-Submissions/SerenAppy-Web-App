@@ -210,6 +210,7 @@ a[href^="tel"] {
 
 
 .myBtn:hover {
-  background: #ddd;
-  color: black;
+  color: #000000;
+  text-decoration: none;
 }
+
