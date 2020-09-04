@@ -43,7 +43,7 @@ function setSeason(s, elem) {
 
 function startMeditation() {
 
-    document.getElementById('base-timer-label').innerHTML = formatTime(time)
+    document.getElementById('base-timer-label').innerHTML = formatTime(60 * time)
 
     console.log(time + season);
     if (time ==0 || season =="none") {    
@@ -64,57 +64,7 @@ function startMeditation() {
         document.getElementById("myAudio").load();
         document.getElementById("myAudio").pause();
     }
-
     document.getElementById("hideMe")
-
-    // REFACTORED THIS CODE TO THE ABOVE
-    // else if (season=="spring") {
-    //     document.getElementById("hideMe").style.display="none";
-    //     document.getElementById("hideFooter").style.display="none";
-    //     document.getElementById("meditatePage").style.display="block";
-    //     document.getElementById("meditatePage").style.visibility="visible";
-    //     document.getElementById("change-image").setAttribute("src", "assets/images/season_images/spring.jpg");
-    //     document.getElementById("changeAudio").setAttribute("src", "assets/sounds/spring.mp3");
-    //     document.getElementById("myAudio").load();
-    //     document.getElementById("myAudio").pause();
-
-    // } else if (season=="summer") {
-    //     document.getElementById("hideMe").style.display="none";
-    //     document.getElementById("hideFooter").style.display="none";
-    //     document.getElementById("meditatePage").style.display="block";
-    //     document.getElementById("meditatePage").style.visibility="visible";
-    //     document.getElementById("change-image").setAttribute("src", "assets/images/season_images/summer.jpg");
-    //     document.getElementById("changeAudio").setAttribute("src", "assets/sounds/summer.mp3");
-    //     document.getElementById("myAudio").load();
-    //     document.getElementById("myAudio").pause();
-    
-    // } else if (season=="autumn") {
-    //     document.getElementById("hideMe").style.display="none";
-    //     document.getElementById("hideFooter").style.display="none";
-    //     document.getElementById("meditatePage").style.display="block";
-    //     document.getElementById("meditatePage").style.visibility="visible";
-    //     document.getElementById("change-image").setAttribute("src", "assets/images/season_images/autumn.jpg");
-    //     document.getElementById("changeAudio").setAttribute("src", "assets/sounds/autumn.mp3");
-    //     document.getElementById("myAudio").load();
-    //     document.getElementById("myAudio").pause();
-    
-    // } else if (season=="winter") {
-    //     document.getElementById("hideMe").style.display="none";
-    //     document.getElementById("hideFooter").style.display="none";
-    //     document.getElementById("meditatePage").style.display="block";
-    //     document.getElementById("meditatePage").style.visibility="visible";
-    //     document.getElementById("change-image").setAttribute("src", "assets/images/season_images/winter.jpg");
-    //     document.getElementById("changeAudio").setAttribute("src", "assets/sounds/winter.mp3");
-    //     document.getElementById("myAudio").load();
-    //     document.getElementById("myAudio").pause();
-
-    // } else {
-    //     Swal.fire({
-    //     icon: 'error',
-    //     title: 'Oops...',
-    //     text: 'Please Choose a Time and a Season to Enter SerenAppy',
-    //     });
-    // }
 }
 
 
@@ -122,50 +72,42 @@ playButton.addEventListener("click", play);
 function play() {
     if (myAudio.paused) {
     myAudio.play();
+    startTimer();
     playButton.innerHTML = "Pause";
   } else {
     myAudio.pause();
     playButton.innerHTML = "Play";
   }
+};
+
+
+
+function onTimesUp() {
+  clearInterval(timerInterval);
 }
-
-// STARTING THE TIMER WHEN CLICKING GO
-// startTimer();
-// function onTimesUp() {
-//   clearInterval(timerInterval);
-// }
-
-
 
 function startTimer(){
     timerInterval = setInterval(() => {
-    timePassed = timePassed += 1;
-    timeLeft = time_limit - timePassed;
-    console.log(timeLeft);
-    document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
-   
-    if (timeLeft === 0) {
-      onTimesUp();
-    }
-  }, 1000);
+        timePassed = timePassed += 1;
+        timeLeft = time * 60 - timePassed;
+        console.log(timeLeft);
+        document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
+    
+        if (timeLeft === 0) {
+        onTimesUp();
+        }
+    }, 1000);
 }
 
 
 function formatTime(time) {
-//   let seconds = time * 60 
-  let minutes = time
-
+  let minutes = Math.floor(time / 60);
+  let seconds = time % 60;
   if (minutes < 10) {
       minutes = `0${minutes}`
   }
-//   const minutes = Math.floor(time / 60);
-//   let seconds = time % 60;
-
-//   if (seconds < 10) {
-//     seconds = `0${seconds}`;
-//   }
-
-  return `${minutes}:00`;
-
-//   return `${minutes}:${seconds}`;
+  if (seconds < 10) {
+    seconds = `0${seconds}`;
+  }
+  return `${minutes}:${seconds}`;
 }
