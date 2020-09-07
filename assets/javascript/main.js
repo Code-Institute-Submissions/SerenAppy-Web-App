@@ -63,6 +63,7 @@ function startMeditation() {
         document.getElementById("changeAudio").setAttribute("src", "assets/sounds/" + season + ".mp3");
         document.getElementById("myAudio").load();
         document.getElementById("myAudio").pause();
+        document.getElementById("myBleep").load();
     }
     document.getElementById("hideMe")
 }
@@ -85,8 +86,6 @@ function play() {
 function onTimesUp() {
   clearInterval(timerInterval);
   myAudio.pause();
-  playButton.innerHTML = "Play";
-  document.getElementById("myBleep").load();
   myBleep.play();
 }
 
