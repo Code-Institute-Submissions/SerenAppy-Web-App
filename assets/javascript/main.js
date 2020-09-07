@@ -84,7 +84,12 @@ function play() {
 
 function onTimesUp() {
   clearInterval(timerInterval);
+  myAudio.pause();
+  playButton.innerHTML = "Play";
+  document.getElementById("myBleep").load();
+  myBleep.play();
 }
+
 
 function startTimer(){
     timerInterval = setInterval(() => {
