@@ -70,6 +70,18 @@ function startMeditation() {
 }
 
 
+function onTimesUp() {
+  clearInterval(timerInterval);
+  myAudio.pause();
+  myBleep.play();
+}
+
+function pauseTimer() {
+    clearInterval(timerInterval);
+}
+
+
+
 playButton.addEventListener("click", play);
 function play() {
     if (myAudio.paused) {
@@ -81,18 +93,6 @@ function play() {
     pauseTimer();
     playButton.innerHTML = "Play";
   }
-};
-
-
-
-function onTimesUp() {
-  clearInterval(timerInterval);
-  myAudio.pause();
-  myBleep.play();
-}
-
-function pauseTimer() {
-    clearInterval(timerInterval);
 }
 
 
