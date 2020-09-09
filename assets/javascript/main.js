@@ -127,6 +127,7 @@ resetButton.addEventListener("click", reset);
 function reset() {
     console.log("it works");
     myAudio.pause();
+    pauseTimer();
     playButton.innerHTML = "Play";
     timeLeft = time * 60;
     timePassed = 0;
