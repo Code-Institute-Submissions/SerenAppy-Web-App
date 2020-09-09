@@ -13,6 +13,7 @@ let timeLeft = time_limit;
 let timerInterval = null;
 let playButton = document.getElementById("play");
 let btn = document.getElementsByClassName("myBtn");
+let resetButton = document.getElementById("reset");
 
 
 
@@ -77,6 +78,7 @@ function play() {
     playButton.innerHTML = "Pause";
   } else {
     myAudio.pause();
+    pauseTimer();
     playButton.innerHTML = "Play";
   }
 };
@@ -87,6 +89,10 @@ function onTimesUp() {
   clearInterval(timerInterval);
   myAudio.pause();
   myBleep.play();
+}
+
+function pauseTimer() {
+    clearInterval(timerInterval);
 }
 
 
@@ -114,4 +120,15 @@ function formatTime(time) {
     seconds = `0${seconds}`;
   }
   return `${minutes}:${seconds}`;
+}
+
+
+resetButton.addEventListener("click", reset);
+function reset() {
+    console.log("it works");
+    myAudio.pause();
+    playButton.innerHTML = "Play";
+    timeLeft = time * 60;
+    timePassed = 0;
+    document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
 }
