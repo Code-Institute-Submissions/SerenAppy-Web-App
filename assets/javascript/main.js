@@ -48,8 +48,6 @@ function startMeditation() {
 
     console.log(time + season);
     if (time ==0 || season =="none") {    
-        time = 0;
-        season = "none";
         Swal.fire({
         icon: 'error',
         title: 'Oops...',
