@@ -37,14 +37,27 @@ body {
     height: 50%;
 }
 
-.modal-design {
+.modal-button {
     margin-top: 15%;
     display: flex;
+    background-color: #fafafa;;
+    color: #CD853F;
+    font-family: "Pacifico", sans-serif;
+    font-size: 80%;
+    border-radius: 10%;
+    border-color: #000000;
+}
+
+.modal-button:hover {
+    background-color: #CD853F;
+    color: #fafafa;
+    border-color: #000000;
+}
+
+.modal-design {
     background-color: #CD853F;
     color: #fafafa;
     font-family: "Pacifico", sans-serif;
-    border-radius: 10%;
-    border-color: #000000;
 }
 
 .container-wrapper {
@@ -75,6 +88,15 @@ body {
     color: #fafafa;
     font-family: "Pacifico", sans-serif;
     margin-top: 10%;
+}
+
+.select-buttons:hover {
+    background-color: #D2B48C;
+}
+
+
+.round-button:hover {
+    background-color: #D2B48C;
 }
 
 
