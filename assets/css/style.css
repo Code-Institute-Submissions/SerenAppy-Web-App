@@ -40,24 +40,34 @@ body {
 .modal-button {
     margin-top: 15%;
     display: flex;
-    background-color: #fafafa;;
-    color: #CD853F;
+    background-color: #CD853F;
+    color: #fafafa;
     font-family: "Pacifico", sans-serif;
     font-size: 80%;
     border-radius: 10%;
     border-color: #000000;
+    text-decoration: none;
 }
 
 .modal-button:hover {
-    background-color: #CD853F;
+    background-color: #D2B48C;
     color: #fafafa;
     border-color: #000000;
+    text-decoration: none;
 }
 
 .modal-design {
     background-color: #CD853F;
     color: #fafafa;
     font-family: "Pacifico", sans-serif;
+}
+
+.close-style {
+    background-color: #5f9ea0;
+}
+
+.modal-text {
+    font-family: sans-serif;
 }
 
 .container-wrapper {
