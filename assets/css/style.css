@@ -46,14 +46,16 @@ body {
     font-size: 80%;
     border-radius: 10%;
     border-color: #000000;
-    text-decoration: none;
 }
 
 .modal-button:hover {
     background-color: #D2B48C;
     color: #fafafa;
     border-color: #000000;
-    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 .modal-design {
@@ -68,6 +70,13 @@ body {
 
 .modal-text {
     font-family: sans-serif;
+}
+
+@media (min-width: 576px) {
+.modal-size {
+    max-width: 80%;
+    margin: 1.75rem auto;
+    }
 }
 
 .container-wrapper {
@@ -91,6 +100,10 @@ body {
     border-radius: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.select-buttons:focus {
+    box-shadow: none;
 }
 
 .round-button {
