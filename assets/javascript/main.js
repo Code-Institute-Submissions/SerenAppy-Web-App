@@ -15,8 +15,10 @@ let playButton = document.getElementById("play");
 let btn = document.getElementsByClassName("myBtn");
 let resetButton = document.getElementById("reset");
 let meditateButton = document.getElementById("meditate");
+let twoMinButton = document.getElementById("twoMins");
 
 
+timeButtons.addEventListener("click", function() {
 function setTime(t, elem) {
     var arrayLength = timeButtons.length;
     for (var i = 0; i < arrayLength; i++) {
@@ -27,7 +29,8 @@ function setTime(t, elem) {
     console.log(`Time: ${time}`)
     elem.style.backgroundColor="#D2B48C";
     console.log(time);
-};
+   }
+})
 
 
 function setSeason(s, elem) {
@@ -42,7 +45,7 @@ function setSeason(s, elem) {
 };
 
 
-meditateButton.addEventListener("click", function() {
+function startMeditation() {
 
     document.getElementById('base-timer-label').innerHTML = formatTime(60 * time)
 
@@ -65,7 +68,11 @@ meditateButton.addEventListener("click", function() {
         document.getElementById("myBleep").load();
     }
     document.getElementById("hideMe")
-});
+}
+
+
+
+meditateButton.addEventListener("click", startMeditation);
 
 
 function onTimesUp() {
