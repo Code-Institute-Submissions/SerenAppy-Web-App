@@ -15,7 +15,7 @@ body {
 }
 
 .navalert-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   padding-left: 0;

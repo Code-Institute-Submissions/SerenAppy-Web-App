@@ -14,7 +14,7 @@ let timerInterval = null;
 let playButton = document.getElementById("play");
 let btn = document.getElementsByClassName("myBtn");
 let resetButton = document.getElementById("reset");
-
+let meditateButton = document.getElementById("meditate");
 
 
 function setTime(t, elem) {
@@ -42,7 +42,7 @@ function setSeason(s, elem) {
 };
 
 
-function startMeditation() {
+meditateButton.addEventListener("click", function() {
 
     document.getElementById('base-timer-label').innerHTML = formatTime(60 * time)
 
@@ -65,7 +65,7 @@ function startMeditation() {
         document.getElementById("myBleep").load();
     }
     document.getElementById("hideMe")
-}
+});
 
 
 function onTimesUp() {
