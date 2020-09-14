@@ -15,7 +15,6 @@ let playButton = document.getElementById("play");
 let btn = document.getElementsByClassName("myBtn");
 let resetButton = document.getElementById("reset");
 let meditateButton = document.getElementById("meditate");
-let twoMinButton = document.getElementById("twoMins");
 
 
 timeButtons.addEventListener("click", function() {
@@ -69,10 +68,6 @@ function startMeditation() {
     }
     document.getElementById("hideMe")
 }
-
-
-
-meditateButton.addEventListener("click", startMeditation);
 
 
 function onTimesUp() {
