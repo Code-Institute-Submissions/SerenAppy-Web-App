@@ -115,7 +115,7 @@ function startMeditation() {
         document.getElementById("meditatePage").style.display="block";
         document.getElementById("meditatePage").style.visibility="visible";
         document.getElementById("change-image").setAttribute("src", "assets/images/season_images/" + season + ".jpg");
-        document.getElementById("changeAudio").setAttribute("src", "assets/sounds/" + season + ".mp3");
+        document.getElementById("changeAudio").setAttribute("src", "assets/audio/" + season + ".mp3");
         document.getElementById("myAudio").load();
         document.getElementById("myAudio").pause();
         document.getElementById("myBleep").load();
