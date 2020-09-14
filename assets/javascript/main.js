@@ -14,22 +14,72 @@ let timerInterval = null;
 let playButton = document.getElementById("play");
 let btn = document.getElementsByClassName("myBtn");
 let resetButton = document.getElementById("reset");
+let twoMins = document.getElementById("two");
+let fiveMins = document.getElementById("five");
+let tenMins = document.getElementById("ten");
+let twentyMins = document.getElementById("twenty");
+let thirtyMins = document.getElementById("thirty");
+let sixtyMins = document.getElementById("sixty");
+let springButton = document.getElementById("spring");
+let summerButton = document.getElementById("summer");
+let autumnButton = document.getElementById("autumn");
+let winterButton = document.getElementById("winter");
 let meditateButton = document.getElementById("meditate");
 
 
-timeButtons.addEventListener("click", function() {
+twoMins.addEventListener("click", function() {
+    setTime(2, this);
+})
+
+fiveMins.addEventListener("click", function() {
+    setTime(5, this);
+})
+
+tenMins.addEventListener("click", function() {
+    setTime(10, this);
+})
+
+twentyMins.addEventListener("click", function() {
+    setTime(20, this);
+})
+
+thirtyMins.addEventListener("click", function() {
+    setTime(30, this);
+})
+
+sixtyMins.addEventListener("click", function() {
+    setTime(60, this);
+})
+
+
+springButton.addEventListener("click", function() {
+    setSeason('spring', this);
+})
+
+summerButton.addEventListener("click", function() {
+    setSeason('summer', this);
+})
+
+autumnButton.addEventListener("click", function() {
+    setSeason('autumn', this);
+})
+
+winterButton.addEventListener("click", function() {
+    setSeason('winter', this);
+})
+
+
 function setTime(t, elem) {
     var arrayLength = timeButtons.length;
     for (var i = 0; i < arrayLength; i++) {
-        console.log(timeButtons[i]);
-        timeButtons[i].style.backgroundColor="#CD853F";
+    console.log(timeButtons[i]);
+    timeButtons[i].style.backgroundColor="#CD853F";
     };
     time = t;
     console.log(`Time: ${time}`)
     elem.style.backgroundColor="#D2B48C";
     console.log(time);
-   }
-})
+};
 
 
 function setSeason(s, elem) {
@@ -43,6 +93,10 @@ function setSeason(s, elem) {
     console.log(season);
 };
 
+
+meditateButton.addEventListener("click", function() {
+    startMeditation();
+})
 
 function startMeditation() {
 
