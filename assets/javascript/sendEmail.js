@@ -1,9 +1,9 @@
 /* Setup Emailjs for the contact form  */
 function sendMail(contactForm) {
     emailjs.send("gmail", "serenappymail", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "serenappy_user_message": contactForm.emailmessage.value
+        "from_name": contactForm.firstname.value + " " + contactForm.lastname.value,
+        "from_email": contactForm.email.value,
+        "serenappy_user_message": contactForm.message.value
     })
     .then(function(response) {
             console.log("SUCCESS", response);
