@@ -71,7 +71,7 @@ winterButton.addEventListener("click", function() {
 
 function setTime(t, elem) {
     var arrayLength = timeButtons.length;
-    for (var i = 0; i < arrayLength; i++) {
+    for (let i = 0; i < arrayLength; i++) {
     console.log(timeButtons[i]);
     timeButtons[i].style.backgroundColor="#CD853F";
     };
@@ -84,7 +84,7 @@ function setTime(t, elem) {
 
 function setSeason(s, elem) {
     var arrayLength = seasonButtons.length;
-    for (var i = 0; i < arrayLength; i++) {
+    for (let i = 0; i < arrayLength; i++) {
     console.log(seasonButtons[i]);
     seasonButtons[i].style.backgroundColor="#CD853F";
     };
