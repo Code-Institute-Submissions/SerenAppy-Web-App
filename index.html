@@ -26,13 +26,14 @@
         <div class="container-wrapper background-container">
             <div class="container container-fluid content-container middle-info">
                 <section class="services">
-                    <button type="button" class="btn modal-button" data-toggle="modal" data-target="#exampleModalCenter">How To Use SerenAppy</button>
+                    <button type="button" class="btn modal-button" data-toggle="modal" data-target="#howToUse">How To Use SerenAppy</button>
 
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        
+                        <div class="modal fade" id="howToUse" tabindex="-1" role="dialog" aria-labelledby="instructionModal" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-size" role="document">
                                 <div class="modal-content modal-design">
                                     <div class="modal-header">
-                                        <h5 class="modal-title modal-design" id="exampleModalLongTitle">How To Use SerenAppy</h5>
+                                        <h5 class="modal-title modal-design">How To Use SerenAppy</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -44,6 +45,40 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary close-style" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactForm" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-size" role="document">
+                                <div class="modal-content modal-design">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal-design">Contact Form</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body modal-text">
+                                        <form class="signup-form form-margin" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                                            <label for="fname">First Name</label>
+                                            <input class="text-input" id="fname"  name="firstname" type="text" required>
+                                            <br>
+                                            <label for="sname">Surname</label>
+                                            <input class="text-input" id="sname" name ="lastname" type="text" required>
+                                            <br>
+                                            <label for="email">Email Address</label>
+                                            <input class="text-input" id="email" name ="email" type="email" required>
+                                            <br>
+                                            <label for="message">Message</label>
+                                            <textarea class="message-input" name="message" id="message" cols="30" rows="5" required></textarea>
+                                            <br>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <input type="submit" class="btn btn-secondary close-style">
                                     </div>
                                 </div>
                             </div>
@@ -153,6 +188,10 @@
                             <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank"
                                 class="hvr-wobble-vertical"><i class="fab fa-youtube-square" aria-hidden="true"></i>
                                 <span class="sr-only">Youtube</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item"><a class="hvr-wobble-vertical"><i class="fas fa-at" aria-hidden="true" data-toggle="modal" data-target="#contactModal"></i>
+                                <span class="sr-only">Email</span>
                                 </a>
                             </li>
                         </ul>
