@@ -13,6 +13,7 @@ function sendMail(contactForm) {
             icon: 'success',
             title: 'Success...',
             text: 'Your email has been sent.',
+            
             })
         }, function(error) {
             console.log("FAILED", error);
