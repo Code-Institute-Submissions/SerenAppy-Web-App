@@ -1,4 +1,6 @@
 /* Setup Emailjs for the contact form  */
+let form = document.getElementById("contact");
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "serenappymail", {
         "from_name": contactForm.firstname.value + " " + contactForm.lastname.value,
@@ -7,11 +9,19 @@ function sendMail(contactForm) {
     })
     .then(function(response) {
             console.log("SUCCESS", response);
-            alert("Message Sent!");
+            Swal.fire({
+            icon: 'success',
+            title: 'Success...',
+            text: 'Your email has been sent.',
+            })
         }, function(error) {
             console.log("FAILED", error);
-            alert("Message Failed!");
-        }
-    );
-    return false;  // To block from loading a new page
+            Swal.fire({
+            icon: 'error',
+            title: 'Error...',
+            text: 'Your email has not been sent.',
+            })
+        });
+        form.reset();
+        return false;  // To block from loading a new page
 }
