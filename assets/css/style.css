@@ -21,7 +21,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   z-index: 1;
-  background-color: #d3d3d3;
+  background-color: #E6F4F1;
   display: flex;
 }
 
@@ -38,20 +38,24 @@ body {
 }
 
 .modal-button {
-    margin-top: 15%;
-    display: flex;
-    background-color: #CD853F;
-    color: #fafafa;
+    background-color: #CC5922;
+    color: #E6F4F1;
     font-family: "Pacifico", sans-serif;
-    font-size: 80%;
-    border-radius: 10%;
-    border-color: #000000;
+    width: 100%;
+    border-radius: 0.25rem;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    padding: 7px 7px;
+    letter-spacing: 2px;
 }
 
 .modal-button:hover {
     background-color: #D2B48C;
-    color: #fafafa;
-    border-color: #000000;
+    letter-spacing: 2px;
+}
+
+.btn {
+    border: none;
 }
 
 .btn:focus {
@@ -59,13 +63,21 @@ body {
 }
 
 .modal-design {
-    background-color: #CD853F;
+    background-color: #A73A00;
     color: #fafafa;
     font-family: "Pacifico", sans-serif;
+    letter-spacing: 2px;
 }
 
 .close-style {
     background-color: #5f9ea0;
+}
+
+.submit-style {
+    background-color: #5f9ea0;
+    font-family: "Pacifico", sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
 }
 
 .modal-text {
@@ -87,57 +99,67 @@ body {
 
 .jumbotron-header {
     font-family: "Pacifico", sans-serif;
-    color: #fafafa;
+    color: #5D0000;
     margin-top: 10%;
     margin-bottom: 5%;
+    letter-spacing: 2px;
 }
 
 
 .select-buttons {
-    background-color: #CD853F;
-    color: #fafafa;
+    background-color: #A73A00;
+    color: #E6F4F1;
     font-family: "Pacifico", sans-serif;
     width: 100%;
-    border-radius: 10%;
+    border-radius: 0.25rem;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding: 7px 7px;
+    letter-spacing: 2px;
 }
 
 .select-buttons:focus {
     box-shadow: none;
 }
 
-.round-button {
-    background-color: #CD853F;
-    color: #fafafa;
+.go-button {
+    background-color: #CC5922;
+    color: #E6F4F1;
     font-family: "Pacifico", sans-serif;
+    border-radius: 0.25rem;
+    padding: 15px 15px;
     margin-top: 10%;
+    width: 100%;
+    letter-spacing: 2px;
 }
 
 .select-buttons:hover {
     background-color: #D2B48C;
+    letter-spacing: 2px;
 }
 
 
-.round-button:hover {
+.go-button:hover {
     background-color: #D2B48C;
+    letter-spacing: 2px;
 }
 
 
 .footer {
-  background: #5f9ea0;
+  background: #E6F4F1;
   padding: 20px 0px;
-  color: #fafafa;
+  color: #5D0000;
   width: 100%;
+  letter-spacing: 2px;
 }
 
 .footer h2 {
-  font-weight: 700;
   font-family: "Pacifico", sans-serif;
   font-size: 100%;
   margin-bottom: 10px;
   margin-top: 15px;
-  color: #fafafa;
+  color: #5D0000;
+  letter-spacing: 2px;
 }
 
 .website-address {
@@ -151,24 +173,38 @@ body {
 
 .footer-sub-text {
   font-family: "Pacifico", sans-serif;
+  letter-spacing: 2px;
 }
 
 .decoration {
     text-decoration: none;
-    color: #fafafa;
+    color: #5D0000;
+    letter-spacing: 2px;
 }
+
+.decoration:hover {
+    text-decoration: none;
+    color: #D2B48C;
+}
+
 
 .site-decoration {
     text-decoration: none;
-    color: #fafafa;
+    color: #5D0000;
+    letter-spacing: 2px;
+}
+
+.site-decoration:hover {
+    text-decoration: none;
+    color: #D2B48C;
 }
 
 .social-links a:hover {
-  color: #ffaa00;
+  color: #D2B48C;
 }
 
 .social-links li a {
-  color: #cd853f;
+  color: #CC5922;
   font-size: 200%;
 }
 
