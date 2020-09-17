@@ -21,7 +21,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   z-index: 1;
-  background-color: #BEFCFD;
+  background-color: #E6F4F1;
   display: flex;
 }
 
@@ -123,14 +123,15 @@ body {
 }
 
 .go-button {
-    background-color: #CC5922;
+    background-color: #CD853F;
     color: #E6F4F1;
     font-family: "Pacifico", sans-serif;
-    border-radius: 0.25rem;
+    border-radius: 50%;
     padding: 15px 15px;
     margin-top: 10%;
-    width: 100%;
     letter-spacing: 2px;
+    height: 5rem;
+    width: 5rem;
 }
 
 .select-buttons:hover {
@@ -146,9 +147,9 @@ body {
 
 
 .footer {
-  background: #5f9ea0;
+  background: #E6F4F1;
   padding: 20px 0px;
-  color: #E6F4F1;
+  color: #C76302;
   width: 100%;
   letter-spacing: 2px;
 }
@@ -158,7 +159,7 @@ body {
   font-size: 100%;
   margin-bottom: 10px;
   margin-top: 15px;
-  color: #E6F4F1;
+  color: #C76302;
   letter-spacing: 2px;
 }
 
@@ -178,44 +179,35 @@ body {
 
 .decoration {
     text-decoration: none;
-    color: #E6F4F1;
+    color: #C76302;
     letter-spacing: 2px;
 }
 
 .decoration:hover {
     text-decoration: none;
-    color: #D2B48C;
+    color: #5f9ea0;
 }
 
 
 .site-decoration {
     text-decoration: none;
-    color: #E6F4F1;
+    color: #C76302;
     letter-spacing: 2px;
 }
 
 .site-decoration:hover {
     text-decoration: none;
-    color: #D2B48C;
+    color: #5f9ea0;
 }
 
 .social-links a:hover {
-  color: #D2B48C;
+  color: #5f9ea0;
 }
 
 .social-links li a {
-  color: #A73A00;
+  color: #C76302;
   font-size: 200%;
 }
-
-/* ------------------------------Phone Number Link Decoration--------------------------------- */
-a[href^="tel"] {
-  text-decoration: none;
-  color: #fafafa;
-}
-
-
-
 
 
 
