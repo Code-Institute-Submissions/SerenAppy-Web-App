@@ -73,7 +73,7 @@ function setTime(t, elem) {
     var arrayLength = timeButtons.length;
     for (let i = 0; i < arrayLength; i++) {
     console.log(timeButtons[i]);
-    timeButtons[i].style.backgroundColor="#A73A00";
+    timeButtons[i].style.backgroundColor="#CD853F";
     };
     time = t;
     console.log(`Time: ${time}`)
@@ -86,7 +86,7 @@ function setSeason(s, elem) {
     var arrayLength = seasonButtons.length;
     for (let i = 0; i < arrayLength; i++) {
     console.log(seasonButtons[i]);
-    seasonButtons[i].style.backgroundColor="#A73A00";
+    seasonButtons[i].style.backgroundColor="#CD853F";
     };
     season = s;
     elem.style.backgroundColor="#D2B48C";

@@ -21,7 +21,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   z-index: 1;
-  background-color: #E6F4F1;
+  background-color: #BEFCFD;
   display: flex;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .modal-button {
-    background-color: #CC5922;
+    background-color: #CD853F;
     color: #E6F4F1;
     font-family: "Pacifico", sans-serif;
     width: 100%;
