@@ -88,6 +88,13 @@ body {
     }
 }
 
+
+@media (min-width: 1000px) {
+.modal-button {
+    margin-top: 10%;
+    }
+}
+
 .container-wrapper {
   background-color: #5f9ea0;
   padding-top: 15%;
