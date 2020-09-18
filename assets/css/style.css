@@ -295,15 +295,16 @@ body {
 }
 
 
-.myBtn:hover {
+.myBtn:hover{
   color: #000000;
   background-color: #D2B48C;
   text-decoration: none;
 }
 
+
 @media (min-width: 976px) {
-.myBtn {
-    margin-bottom: 5%;
+    .myBtn {
+        margin-bottom: 5%;
     }
 }
 
@@ -313,6 +314,34 @@ body {
     }
 }
 
+@media (max-width: 580px) {
+    .small-screen-hide {
+        display: none;
+    }
+}
+
+@media (min-width: 580px) {
+    .small-screen-show {
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .myBtn {
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 400px) {
+    .myBtn {
+        margin-bottom: 20%;
+    }
+}
+
+
+.fixed-bottom {
+    bottom: 3rem;
+}
 
 .text-input {
   font-family: "sans-serif";
