@@ -2,7 +2,7 @@
 
 A live demo can be found [here](https://gmanprodev.github.io/SerenAppy-Web-App/)
 
-![Desktop Demo]()
+![Desktop Demo](assets/images/serenappy_responsive_image.jpg)
 
 ## Introduction
 
