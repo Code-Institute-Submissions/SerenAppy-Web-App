@@ -21,7 +21,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   z-index: 1;
-  background-color: #E6F4F1;
+  /* background-color: #E6F4F1; */
   display: flex;
 }
 
@@ -29,6 +29,8 @@ body {
   margin-bottom: 0;
   border: 0;
   width: 100%;
+  background: rgb(95,158,160);
+  background: linear-gradient(0deg, rgba(95,158,160,1) 0%, rgba(230,244,241,1) 35%);
 }
 
 
@@ -71,7 +73,7 @@ body {
 }
 
 .submit-style {
-    background-color: #5f9ea0;
+    background-color: C;
     font-family: "Pacifico", sans-serif;
     letter-spacing: 2px;
     width: 100%;
@@ -153,7 +155,8 @@ body {
 
 
 .footer {
-  background: #E6F4F1;
+  background: rgb(230,244,241);
+  background: linear-gradient(0deg, rgba(230,244,241,1) 80%, rgba(95,158,160,1) 100%);
   padding: 20px 0px;
   color: #C76302;
   width: 100%;
