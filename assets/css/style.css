@@ -39,6 +39,13 @@ body {
     height: 50%;
 }
 
+@media (max-width: 767px) {
+.logo {
+     width: 70%;
+     height: 70%;
+    }
+}
+
 .modal-button {
     background-color: #CD853F;
     color: #E6F4F1;
