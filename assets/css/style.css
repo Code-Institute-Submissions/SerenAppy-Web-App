@@ -153,10 +153,11 @@ body {
     letter-spacing: 2px;
 }
 
-
-.go-button:hover {
+.go-button:hover,
+.go-button:active {
     background-color: #D2B48C;
     letter-spacing: 2px;
+    color: #000000;
 }
 
 
