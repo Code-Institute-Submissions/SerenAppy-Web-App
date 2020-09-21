@@ -1,3 +1,0 @@
-describe("setTime", function() {
-
-})

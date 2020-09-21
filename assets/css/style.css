@@ -21,7 +21,6 @@ body {
   padding-left: 0;
   padding-right: 0;
   z-index: 1;
-  /* background-color: #E6F4F1; */
   display: flex;
 }
 
@@ -80,7 +79,7 @@ body {
 }
 
 .submit-style {
-    background-color: C;
+    background-color: #5f9ea0;
     font-family: "Pacifico", sans-serif;
     letter-spacing: 2px;
     width: 100%;
