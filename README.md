@@ -17,15 +17,15 @@ It presents a landing page with options for how long the user wishes to mediatat
 * 30 minutes
 * 60 minutes
 
-### season
+### Season
 * Spring
 * Summer
 * Autumn
 * Winter
 
-The time selection sets how long the video and audio will last before it stops and the season selection will set the video and audio that a user would associate with the season chosen.
+The time selection sets how long the video and audio will last before it stops and the season selection will set the video and audio that the user would associate with the season chosen.
 
-If only on selection is made the user will see a alert box prompting them to make choose a time and season option.
+If only one selection is made the user will see a alert box prompting them to choose a time and season option.
 
 The main purpose of the web app is to allow public funded health & well being initiatives and bodies to access an easy to use mediataion tool for people from all walks of life.
 
@@ -36,7 +36,7 @@ The web app can be viewed on Desktop, Tablet and Mobile devices.
 
 1. [UX](#ux)
     * [Goals](#goals)
-        * [Mr Digbee goal](#Mr-Digbee-goal)
+        * [SerenAppy goal](#serenapy-goal)
         * [Business goals](#business-goals)
         * [Customer goals](#customer-goals)
     * [User Stories](#user-stories)
