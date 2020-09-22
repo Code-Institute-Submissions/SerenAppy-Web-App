@@ -78,7 +78,6 @@ function setTime(t, elem) {
     time = t;
     console.log(`Time: ${time}`)
     elem.style.backgroundColor="#D2B48C";
-    elem.style.color="#000000";
     console.log(time);
 };
 
@@ -91,7 +90,6 @@ function setSeason(s, elem) {
     };
     season = s;
     elem.style.backgroundColor="#D2B48C";
-    elem.style.color="#000000";
     console.log(season);
 };
 
