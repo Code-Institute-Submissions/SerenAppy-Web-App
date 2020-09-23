@@ -6,7 +6,7 @@ A live demo can be found [here](https://gmanprodev.github.io/SerenAppy-Web-App/)
 
 ## Introduction
 
-SerenAppy is a meditation web app which has been built for a local community Health & Wellbeing centre. It will be used during meditation seesions in conjuction with yoga classes.
+SerenAppy is a meditation web app which has been built for a local community Health & Wellbeing centre. It will be used during meditation sessions in conjuction with yoga classes.
 
 It presents a landing page with options for how long the user wishes to mediatate for (time) and what visual and audio experience the user prefers (season). The user can select from the following options:
 ### Time
@@ -77,24 +77,25 @@ The goal of this web app is to allow public funded health & well being initiativ
 
 **Target audience is:**
 
-* Anyone with a garden or outdoor space.
-* Any businesses who wish to outsource their maintenance work.
-* Anyone who owns their own property.
-* Any Estate Agents or Managing Agents who wish to outsource their maintenance work.
+* People who are passionate about mental and physical wellbeing.
+* Publically funded organisations who promote mental and physical health.
+* People who are struggling with any kind of anxiety.
+* Participants of yoga and general mindfulness excerise classes. 
 * Any age group.
  
 
 #### Business goals
 
-* Connect with new, potential customers.
-* Aim for the highest conversion rate possible.
-* Fully functional website.
+* To be used by as many public funded organisations as possible.
+* Interactive web-app.
+* Fully functional web app.
 * Intuitive design.
+* Easy to navigate.
 
 
 #### Customer goals
 
-* Find a Tradesman who has experience in the services required.
+* Meditation
 * Find examples of previous completed work by the Tradesman.
 * Find contact information for the Tradesman.
 
