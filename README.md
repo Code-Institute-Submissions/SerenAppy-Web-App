@@ -170,21 +170,21 @@ All the User Stories have been assessed against value and complexity on the char
 
 #### Colors
 
-Following colors have been used:
-* ![#ffaa00](https://placehold.it/15/ffaa00/000000?text=+) #ffaa00 (Orange) 
-* ![#000000](https://placehold.it/15/000000/000000?text=+) #000000 (Black) 
-* ![#589500](https://placehold.it/15/589500/000000?text=+) #589500 (Medium Dark Green) 
-* ![#008500](https://placehold.it/15/008500/000000?text=+) #008500 (Dark Green) 
-* ![#d836c4](https://placehold.it/15/d836c4/000000?text=+) #d836c4 (Cerise Pink) 
-* ![#decb1f](https://placehold.it/15/decb1f/000000?text=+) #decb1f (Yellow Gold) 
-* ![#bcf46e](https://placehold.it/15/bcf46e/000000?text=+) #bcf46e (Light Green - different opacities used)  
+Following colours have been used:
+* ![#CD853F](https://placehold.it/15/CD853F/000000?text=+) #CD853F (Peru) 
+* ![#E6F4F1](https://placehold.it/15/E6F4F1/000000?text=+) #E6F4F1 (Clear Day) 
+* ![#C76302](https://placehold.it/15/C76302/000000?text=+) #C76302 (Tawny) 
+* ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) #D2B48C (Tan) 
+* ![#5f9ea0](https://placehold.it/15/5f9ea0/000000?text=+) #5f9ea0 (Cadet Blue) 
+* ![#8B4513](https://placehold.it/15/8B4513/000000?text=+) #8B4513 (Saddle Brown)  
+* ![#000000](https://placehold.it/15/000000/000000?text=+) #000000 (Black)  
 
 
 
 
-The stand out colour for this web page is Green (different shades) which according to [Color Psychology](https://www.colorpsychology.org/green/) is associated with growth and renewal. This concept is very relevant for a company and a website associated with gardens, change and nature.
+The stand out colour for this web page is Cadet Blue, which according to [Color Psychology](https://www.colorpsychology.org/teal/) is associated with the ocean and nature. This concept is very relevant for a web app associated with meditation and seeking to create a relaxed state of mind.
 
-Other than the different shades of green, I used orange for the header dividers, all icons when hover is active and a visual guide to which page the user is currently looking at, black for all text and pink to show active buttons. All these colours can be seen on every page to keep consistency for the user, other than pink which was only used to show when a button has been clicked on.
+Other than Cadet Blue, I used Peru for all of the buttons which have a Tawny border and when hovered on the button colour changes to Tan and the text changes to Black. For the header and footer text I have used Tawny. For the Time and Season titles, all of the button text and the form text boxes I have used the colour Clear Day. When you hover on the media icons and the text links in the footer they change to Cadet Blue. Both the header and footer have a colour gradient applied which blends the colours Cadet Blue and Clear Day. All modals have Peru as their background colour, Clear Day for all text and boxes and Cadet Blue for buttons. The countdown timer on each meditation page is represented with numbers using the colour Saddle Brown. I have two sweet alert pop ups to confirm the users actions, these pop ups have their own default colours. All these colours can be seen on every page to keep consistency for the user.
 
 #### Font
 
