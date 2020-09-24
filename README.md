@@ -86,7 +86,7 @@ The goal of this web app is to allow public funded health & well being initiativ
 
 #### Business goals
 
-* To be used by as many public funded organisations as possible.
+* To have as many of the attendees of the Health and Well-being centre, as possible, take up usage of the web app.
 * Interactive web-app.
 * Fully functional web app.
 * Intuitive design.
@@ -96,8 +96,8 @@ The goal of this web app is to allow public funded health & well being initiativ
 #### Customer goals
 
 * Meditation
-* Find examples of previous completed work by the Tradesman.
-* Find contact information for the Tradesman.
+* Reducing stress and anxiety.
+* Helpful tool during during exercise and mental health classes.
 
 Both business and customer goals are addressed through user stories.
 
@@ -146,23 +146,22 @@ Both business and customer goals are addressed through user stories.
 
 ### Minimum Viable Product
 
-All the User Stories have been assessed against value and complexity on the chart below. Due to the relatively short time for the implementation of the website, only the MVPs will be implemented in the first release of the web page.
+All the User Stories have been assessed against value and complexity on the chart below. Due to the relatively short time for the implementation of the web app, only the MVPs will be implemented in the first release of the web app.
 
 [User Stories evaluation](documentation/mvp/user_stories.md)
 
 
 **Explanation of the chart**
 
-* The top right area of the chart has been given the higher priority of implementation because it represents the most important features including:
-  * Contact & Quote Form
-  * Reviews & Testimonials
-  * Services Available
-  * Gallery of Previous Completed Work
-  * Layout, Branding & Design
-  * Responsive Website
-* The top left area of the chart represents the features which have a low complexity and a high value. These can be addressed in secondary phase as most of them can be easily resolved through creation of a About or Contact Page.
-* The features with low complexity and low value will be addressed lastly as they didn't represent a must have feature for the first release and are very easy to implement.
-* The features with high complexity and medium value have been postponed for future updates/releases.
+* The top area of the chart has been given the higher priority of implementation because it represents the most important features including:
+  * Colour scheme and design.
+  * Simple to follow instructions
+  * Intercative and showing real time feedback to the user.
+  * Easy to use audio and timer function controls.
+  * Allowing users to interact with the supplier.
+  * Responsive Web app.
+* I have addressed all of the high value and high/low complexity in the first release.
+* The features with high complexity and low value have been postponed for future updates/releases.
 
 ![chart](documentation/mvp/value_chart.jpg)
 
