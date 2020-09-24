@@ -51,14 +51,11 @@
     * O. As a UX designer, I want to find which Time and Season selection buttons are used the least by users so that the options can be updated if needed.
         * Complexity - 4
         * Value - 4
-* As a UX designer, I want to focus on the mobile design as most users will be using the web app on a mobile device.
+* P. As a UX designer, I want to focus on the mobile design as most users will be using the web app on a mobile device.
    * Complexity – 2
    * Value - 5
-* P. As a UX designer, I want the web app to be intercative and give real time feedback when a user executes an action.
+* Q. As a UX designer, I want the web app to be intercative and give real time feedback when a user executes an action.
    * Complexity – 4
-   * Value - 5
-* Q. As a UX designer, I want the web app to be easy to use and simple to navigate.
-   * Complexity – 2
    * Value - 5
 
 ### User Category: The potential customer

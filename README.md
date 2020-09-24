@@ -104,32 +104,43 @@ Both business and customer goals are addressed through user stories.
 
 ### User Stories
 
-#### The Tradesman
+#### Local Health and Well-being Centre
 
-* As a Tradesman, I want to show examples of my previous completed work so that people hire me.
-* As a Tradesman, I want my website to respond and load quickly so that the user/potential customer is engaged and doesn’t lose interest.
-* As a Tradesman, I want the users/potential customers to be able to easily find my contact details so that they can request a quote, arrange a meeting or arrange for a piece of work to be carried out.
-* As a Tradesman, I want to show positive testimonials/reviews so that I convince people to book my services.
-* As a Tradesman, I want users/potential customers to know my location so that I can avoid booking work in for locations that are too far away for me to attend.
-* As a Tradesman, I want that the users/potential customers to remember my brand and website so that they become repeat customers.
+* As a Well-being centre, I want my web app to display calm natural colours.
+* As a Well-being centre, I want my web app to display simple to follow instructions.
+* As a Well-being centre, I want my web app to be responsive on all devices.
+* As a Well-being centre, I want a strong focus on mobile usability as most users will be veiwing the web app on mobile devices.
+* As a Well-being centre, I want my web app to be interactive and offer real time feedback.
+* As a Well-being centre, I want to be able to receive feedback and messages from users.
+* As a Well-being centre, I want my web app to load quickly.
+* As a Well-being centre, I want my web app to use as little of the users data as possible.
+* As a Well-being centre, I want my web app to allow users to engage with us through different social media routes.
+* As a Well-being centre, I want my web app to display easy to use audio and timer function controls.
+* As a Well-being centre, I want my web app to display clear high resolution images.
+* As a Well-being centre, I want my web app to be usable for both left and right handed users.
+* As a Well-being centre, I want my web app to have a low risk of accidently clicking more than one button at once on smaller screens sizes.
+
 
 #### The potential customer
 
-* As a customer, I want to know the prices of the services so that I can decide if I want to pay the price.
-* As a customer, I want to see examples of previous completed work so that I can decide if the quality of work meets my requirements and standards.
-* As a customer, I want to be able to see the services that are available so I don’t waste my time requesting a quote for a service the Tradesman doesn’t offer.
-* As a customer, I want to know the location of the Tradesman and which regions are covered so I can confirm whether or not it’s worth requesting a quote.
-* As a customer, I want to be able to easily see Testimonials and Reviews from other customers to give me faith that I am engaging with a reputable reliable company.
-* As a customer, I want to know how I contact the Tradesman to ask questions.
-* As a customer, I want to know how I request a quote so I can compare prices with competitors.
-* As a customer, I want to know how the payment for services is taken, do I pay once the job is completed or do I pay a percentage up front etc.
-* As a customer, I want to know if the Tradesman can also provide materials for the work, such as paint or plants.
+* As a customer, I want to know how the web app works and easy to follow instructions.
+* As a customer, I want to know when I take the wrong action or something doesn't work.
+* As a customer, I want the web app to be interactive with real time feedback.
+* As a customer, I want the the web app to be easy to use and navigate, particularly on mobile devices.
+* As a customer, I want to be able to easily get back to the main page, pause or rest the audio and timer if I'm distracted.
+* As a customer, I want to be able to contact the well-being centre via email and social media platforms.
+* As a customer, I want to be able to listen to my own choice of audio.
+* As a customer, I want the web app to be available in different languages.
+* As a customer, I want the web app to have built in volume controls.
 
 #### The UX designer
 
 * As a UX designer, I want to track the user behaviour so that I can improve the user experience.
-  * As a UX designer, I want to track the user behaviour so that I can identify any possible user confusion over navigating the website.
-  * As a UX designer, I want to find which parts of the website are least visited by the user so that I can improve the website’s structure.
+    * As a UX designer, I want to track the user behaviour so that I can identify the possible user confusion over navigating the web app.
+    * As a UX designer, I want to find which Time and Season selection buttons are used the least by users so that the options can be updated if needed.
+* As a UX designer, I want to focus on the mobile design as most users will be using the web app on a mobile device.
+* As a UX designer, I want the web app to be intercative and give real time feedback when a user executes an action.
+  
 
 
 
