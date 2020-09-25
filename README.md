@@ -36,11 +36,11 @@ The web app can be viewed on Desktop, Tablet and Mobile devices.
 
 1. [UX](#ux)
     * [Goals](#goals)
-        * [SerenAppy goal](#serenapy-goal)
+        * [SerenAppy goals](#serenapy-goals)
         * [Business goals](#business-goals)
         * [Customer goals](#customer-goals)
     * [User Stories](#user-stories)
-        * [The Tradesman](#the-tradesman)
+        * [The Health and Well-being Centre](#the-health-and-well-being-centre)
         * [The potential customer](#the-potential-customer)
          * [The UX designer](#the-ux-designer)
     * [Minimum Viable Product](#minimum-viable-product)
@@ -120,7 +120,6 @@ Both business and customer goals are addressed through user stories.
 * As a Well-being centre, I want my web app to be usable for both left and right handed users.
 * As a Well-being centre, I want my web app to have a low risk of accidently clicking more than one button at once on smaller screens sizes.
 
-
 #### The potential customer
 
 * As a customer, I want to know how the web app works and easy to follow instructions.
@@ -184,17 +183,15 @@ Following colours have been used:
 
 The stand out colour for this web page is Cadet Blue, which according to [Color Psychology](https://www.colorpsychology.org/teal/) is associated with the ocean and nature. This concept is very relevant for a web app associated with meditation and seeking to create a relaxed state of mind.
 
-Other than Cadet Blue, I used Peru for all of the buttons which have a Tawny border and when hovered on the button colour changes to Tan and the text changes to Black. For the header and footer text I have used Tawny. For the Time and Season titles, all of the button text and the form text boxes I have used the colour Clear Day. When you hover on the media icons and the text links in the footer they change to Cadet Blue. Both the header and footer have a colour gradient applied which blends the colours Cadet Blue and Clear Day. All modals have Peru as their background colour, Clear Day for all text and boxes and Cadet Blue for buttons. The countdown timer on each meditation page is represented with numbers using the colour Saddle Brown. I have two sweet alert pop ups to confirm the users actions, these pop ups have their own default colours. All these colours can be seen on every page to keep consistency for the user.
+Other than Cadet Blue, I used Peru for all of the buttons which have a Tawny border and when hovered on the button colour changes to Tan and the text changes to Black. For the header and footer text I have used Tawny. For the Time and Season titles, all of the button text and the form text boxes I have used the colour Clear Day. When you hover on the media icons and the text links in the footer they change to Cadet Blue. Both the header and footer have a colour gradient applied which blends the colours Cadet Blue and Clear Day. All modals have Peru as their background colour, Clear Day for all text and boxes and Cadet Blue for buttons. The countdown timer on each meditation page is represented with numbers using the colour Saddle Brown. I have two sweet alert pop ups to confirm the users actions, these pop ups have their own default colours.
 
 #### Font
 
-The Fonts I used for this project are **Josefin Sans** and **Montserrat** with the font weights: 
-* 400 - for most of the subtext.
-* 700/bold - for headers and titles.
+The Fonts I used for this project are **Pacifico** and **Sans Serif** with the font weights: 
+* 400 - for all button text and subtext.
+* 500 - for headers and titles.
 
-The [Montserrat](https://fonts.google.com/specimen/Montserrat) font was chosen for its easy readability and common use.
-
-The [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) font was chosen for its playful look and matched the gamification style of the website.
+The [Pacifico](https://fonts.google.com/specimen/Pacifico) font was chosen for its soft calming design.
 
 ### Wireframes
 
