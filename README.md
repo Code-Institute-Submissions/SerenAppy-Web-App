@@ -220,16 +220,22 @@ If you are unable to access the mockup links above please see the mockup images 
     * Web app built by information (linked to Marc Gulliver Linkedin profile).
     * Web app address (linked to web app landing page).
     * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
-    * @ icon linked to a emailjs contact form modal.
+    * @ icon linked to an emailjs contact form modal.
 
 * **How To Use SerenAppy Button**
-    * 
+    * This button displays in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. This button opens a pop up modal which has written instructions on how to use the web app.
 
-* **Call to Action**
-    * Most pages have Call to Action text with a 'quote' button. This is mainly displayed at the top of the page set over the hero image. The button displays in Orange and changes to Pink when on `hover` and clicked on. Every 'quote' button takes the user to the same contact page with a form to fill out.
+* **Select Time Buttons**
+    * The buttons are presented in two columns beneath the heading "Select Time", the two columns reduce to one column on screen sizes less than 768px. The "Select Time" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. There are six "Select Time" buttons, each represents a set number of minutes (2, 5, 10, 20, 30, 60). The selected time is passed through to the meditation page using Javascript and displays as a countdown timer.
 
-* **Images**
-    * All images (other than the Reviews section) have a Orange border which changes to a subtle Yellow Gold colour on `hover`.
+* **Select Season Buttons**
+    * The buttons are presented in two columns beneath the heading "Select Season", the two columns reduce to one column on screen sizes less than 768px. The "Select Season" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. There are four "Select Season" buttons, each represents a season (spring, summer, autumn, winter). The selected season is passed through to the meditation page using Javascript and displays the associated image and audio.
+
+* **GO Button**
+    * This button is round and centred at the bottom of the page. The button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. The Go button combines the time and the season selected and uses Javascript to create and display the meditation page for the user.
+
+* **Hidden Pages**
+    * To increase the loading speed and reduce the users data usage the web app operates from a single html file (landing page). In the index.html file there is a `div` which holds all of the meditation page information and is hidden when the landing page loads. The information in this hidden `div` is replaced with the asscoiated image, audio and time based on the users selections, using Javascript. When the GO button is clicked the entire landing page is hidden and replaced with the meditation page using Javascript. 
 
 #### Elements seen on all meditation pages.
 
