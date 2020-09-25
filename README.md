@@ -237,10 +237,16 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Hidden Pages**
     * To increase the loading speed and reduce the users data usage the web app operates from a single html file (landing page). In the index.html file there is a `div` which holds all of the meditation page information and is hidden when the landing page loads. The information in this hidden `div` is replaced with the asscoiated image, audio and time based on the users selections, using Javascript. When the GO button is clicked the entire landing page is hidden and replaced with the meditation page using Javascript. 
 
+* **How To Use SerenAppy - Modal**
+    * The modal takes up 80% of the page and is displayed in the centre of the page. The modal has a background colour of Peru, all text is the colour Clear Day and the button is Cadet Blue which changes to a light grey colour when on `hover` and when clicked. The modal has two ways of closing, either click the close button in the bottom right corner or click the `x` in the top right corner. 
+
+* **Contact Form - Modal**
+    * The modal takes up 80% of the page and is displayed in the centre of the page. The modal has a background colour of Peru, all text is the colour Clear Day, the field boxes have a Cadet Blue border, the field box text is black and the submit button is Cadet Blue which changes to a light grey colour when on `hover` and when clicked. You can close the modal by clicking the `x` in the top right corner. You can submit the form by clicking the submit button, which is centred, at the bottom of the modal. All fields are validated so users can't submit the form with empty fields, also the email address is validated by using the `pattern` attribute within the html code which determines if the email format is correct or not. After clicking the submit button, with all fields correctly filled out, the user will see a Sweet Alert modal pop up informing the user of whether the email has been successfully sent or not. If all fields have been correctly filled out, when the submit button is clicked the fields are cleared and reset.
+
 #### Elements seen on all meditation pages.
 
 * **Landing page**
-    * Has a Services section which is separate from the main menu and has six different services. These services are represented by icons and text, the icons are Dark Green and change to Orange and `bounce` when `hover` and clicked on. All icons link to individual pages explaining that service. This Services section can also be found on all services pages. At the bottom of the page there is a Reviews section which includes a Bootstrap carousel, the carousel has a rounded image of the reviewer, text including name and location and review, arrow indicators and slider indicators. The arrow indicators disappear on screen width below 992px.
+    * 
 
 * **About Us page**
     * Has text and an image showing work that has been completed.
