@@ -199,7 +199,7 @@ I decided that it would be more helpful to have mockups than simple wireframes. 
 
 Link to the mockups can be found [here](https://www.figma.com/file/ld7rwps08gZCxYCipi7M3o/SerenAppy?node-id=0%3A1). The mockups were designed for the mobile first approach. I have produced a desktop and mobile mockup of the landing page. For the meditation pages I have only produced mobile mockups as the layout will remain the same on all screen sizes.
 
-If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Mr-Digbee/tree/master/documentation/wireframes).
+If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/SerenAppy-Web-App/tree/master/documentation/wireframes).
 
 ## Features
 
