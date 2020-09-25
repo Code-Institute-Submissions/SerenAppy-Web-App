@@ -205,16 +205,15 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ### Existing Features
 
-#### Elements seen on every page
+#### Elements seen on the landing page.
 
 * **Layout and Style**
-    * Through research I noticed that most Gardening Sevices websites were very plain, very wordy and extremely difficult to navigate. With this in mind I set out with the intention to build the complete opposite, you will find the site simple, easy to navigate, more visual, less wordy and a style that can be described as gamification.
+    * I wanted the web app to have an appearance that was associated with natural elements, such as water, wood and the sky. My aim was to provide users with an instant sense of calm as soon as the web app had loaded, with the colour scheme and fonts used I believe I have been able to achieve this. Given this site is a web app and is purely there to interact with the users senses, I wanted to keep the text elements as simple as possible by limiting the amount of text that is used. The layout is a basic use of columns and rows which keeps the buttons in a consistent grid format that changes from multiple columns on larger screens to one column on smaller screens.
 
 * **Navigation bar**
-    * Has a `fixed` position to ensure that the user can access it at any time.
-    * Mr Digbee logo and brand name in the left corner which also serves as a link to go back to the landing page. The logo disappears and the brand name remains in place if the screen width is below 768px.
-    * Links that can be accessed are placed on the right side. They collapse if the screen width is below 1200px.
-    * Navigation links `bounce` on `hover` and are highlighted by an orange background when in use.
+    * Has a `fixed` position on screen heights greater than 580px, to ensure that the logo can always be seen by the user, and a `absolute` postion on screen heights less than 580px to ensure there is enough content on the screen at any one time.
+    * A SerenAppy logo in the left corner which also serves as a link to resfresh the landing page. The logo remains the same on all screen sizes.
+    * The navbar background colour has ben built using a CSS gradient scheme to seamlessly move from one colour into another.
 
 * **Footer**
     * Copyright information.
@@ -233,7 +232,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Images**
     * All images (other than the Reviews section) have a Orange border which changes to a subtle Yellow Gold colour on `hover`.
 
-#### Other elements
+#### Elements seen on all meditation pages.
 
 * **Landing page**
     * Has a Services section which is separate from the main menu and has six different services. These services are represented by icons and text, the icons are Dark Green and change to Orange and `bounce` when `hover` and clicked on. All icons link to individual pages explaining that service. This Services section can also be found on all services pages. At the bottom of the page there is a Reviews section which includes a Bootstrap carousel, the carousel has a rounded image of the reviewer, text including name and location and review, arrow indicators and slider indicators. The arrow indicators disappear on screen width below 992px.

@@ -24,6 +24,12 @@ body {
   display: flex;
 }
 
+@media (max-height: 580px) {
+.navalert-container {
+    position: absolute;
+    }
+}
+
 .navbar {
   margin-bottom: 0;
   border: 0;
