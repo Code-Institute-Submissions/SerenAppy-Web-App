@@ -171,19 +171,19 @@ All the User Stories have been assessed against value and complexity on the char
 
 Following colours have been used:
 * ![#CD853F](https://placehold.it/15/CD853F/000000?text=+) #CD853F (Peru) 
-* ![#E6F4F1](https://placehold.it/15/E6F4F1/000000?text=+) #E6F4F1 (Clear Day) 
 * ![#C76302](https://placehold.it/15/C76302/000000?text=+) #C76302 (Tawny) 
 * ![#D2B48C](https://placehold.it/15/D2B48C/000000?text=+) #D2B48C (Tan) 
 * ![#5f9ea0](https://placehold.it/15/5f9ea0/000000?text=+) #5f9ea0 (Cadet Blue) 
-* ![#8B4513](https://placehold.it/15/8B4513/000000?text=+) #8B4513 (Saddle Brown)  
-* ![#000000](https://placehold.it/15/000000/000000?text=+) #000000 (Black)  
+* ![#8B4513](https://placehold.it/15/8B4513/000000?text=+) #8B4513 (Saddle Brown)    
+* ![#6c757d](https://placehold.it/15/6c757d/000000?text=+) #6c757d (Light Grey) 
+* ![#E6F4F1](https://placehold.it/15/E6F4F1/000000?text=+) #E6F4F1 (Clear Day) 
 
 
 
 
 The stand out colour for this web page is Cadet Blue, which according to [Color Psychology](https://www.colorpsychology.org/teal/) is associated with the ocean and nature. This concept is very relevant for a web app associated with meditation and seeking to create a relaxed state of mind.
 
-Other than Cadet Blue, I used Peru for all of the buttons which have a Tawny border and when hovered on the button colour changes to Tan and the text changes to Black. For the header and footer text I have used Tawny. For the Time and Season titles, all of the button text and the form text boxes I have used the colour Clear Day. When you hover on the media icons and the text links in the footer they change to Cadet Blue. Both the header and footer have a colour gradient applied which blends the colours Cadet Blue and Clear Day. All modals have Peru as their background colour, Clear Day for all text and boxes and Cadet Blue for buttons. The countdown timer on each meditation page is represented with numbers using the colour Saddle Brown. I have two sweet alert pop ups to confirm the users actions, these pop ups have their own default colours.
+Other than Cadet Blue, I used Peru for all of the buttons which have a Tawny border and when hovered on the button colour changes to Tan and the text changes to Saddle Brown. For the header and footer text I have used Tawny. For the Time and Season titles, all of the button text and the form text boxes I have used the colour Clear Day. When you hover on the media icons and the text links in the footer they change to Cadet Blue. Both the header and footer have a colour gradient applied which blends the colours Cadet Blue and Clear Day. All modals have Peru as their background colour, Clear Day for all text, boxes and Cadet Blue for buttons and the button `hover` and clicked changes the colour to Raven. The countdown timer on each meditation page is represented with numbers using the colour Saddle Brown. I have two sweet alert pop ups to confirm the users actions, these pop ups have their own default colours.
 
 #### Font
 
@@ -195,7 +195,7 @@ The [Pacifico](https://fonts.google.com/specimen/Pacifico) font was chosen for i
 
 ### Wireframes
 
-I decided that it would be more helpful to have mockups than simple wireframes. The mockups were done in [figma](https://www.figma.com/). 
+I decided that it would be more helpful to have mockups than simple wireframes. The mockups were built in [figma](https://www.figma.com/). 
 
 Link to the mockups can be found [here](https://www.figma.com/file/ld7rwps08gZCxYCipi7M3o/SerenAppy?node-id=0%3A1). The mockups were designed for the mobile first approach. I have produced a desktop and mobile mockup of the landing page. For the meditation pages I have only produced mobile mockups as the layout will remain the same on all screen sizes.
 
@@ -223,16 +223,16 @@ If you are unable to access the mockup links above please see the mockup images 
     * @ icon linked to an emailjs contact form modal.
 
 * **How To Use SerenAppy Button**
-    * This button displays in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. This button opens a pop up modal which has written instructions on how to use the web app.
+    * This button displays in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. This button opens a pop up modal which has written instructions on how to use the web app.
 
 * **Select Time Buttons**
-    * The buttons are presented in two columns beneath the heading "Select Time", the two columns reduce to one column on screen sizes less than 768px. The "Select Time" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. There are six "Select Time" buttons, each represents a set number of minutes (2, 5, 10, 20, 30, 60). The selected time is passed through to the meditation page using Javascript and displays as a countdown timer.
+    * The buttons are presented in two columns beneath the heading "Select Time", the two columns reduce to one column on screen sizes less than 768px. The "Select Time" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. There are six "Select Time" buttons, each represents a set number of minutes (2, 5, 10, 20, 30, 60). The selected time is passed through to the meditation page using Javascript and displays as a countdown timer. The user can only select one button at a time.
 
 * **Select Season Buttons**
-    * The buttons are presented in two columns beneath the heading "Select Season", the two columns reduce to one column on screen sizes less than 768px. The "Select Season" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. There are four "Select Season" buttons, each represents a season (spring, summer, autumn, winter). The selected season is passed through to the meditation page using Javascript and displays the associated image and audio.
+    * The buttons are presented in two columns beneath the heading "Select Season", the two columns reduce to one column on screen sizes less than 768px. The "Select Season" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. There are four "Select Season" buttons, each represents a season (spring, summer, autumn, winter). The selected season is passed through to the meditation page using Javascript and displays the associated image and audio. The user can only select one button at a time.
 
 * **GO Button**
-    * This button is round and centred at the bottom of the page. The button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to black when on `hover` and when clicked. The Go button combines the time and the season selected and uses Javascript to create and display the meditation page for the user.
+    * This button is round and centred at the bottom of the page. The button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. The Go button combines the time and the season selected and uses Javascript to create and display the meditation page for the user. If only one selection is made or no selections are made the user will see a Sweet Alert pop up modal which displays "Error" and explains what steps need to be taken.
 
 * **Hidden Pages**
     * To increase the loading speed and reduce the users data usage the web app operates from a single html file (landing page). In the index.html file there is a `div` which holds all of the meditation page information and is hidden when the landing page loads. The information in this hidden `div` is replaced with the asscoiated image, audio and time based on the users selections, using Javascript. When the GO button is clicked the entire landing page is hidden and replaced with the meditation page using Javascript. 
@@ -402,4 +402,4 @@ All content on the web page was written by me with the exception of the text on 
 
 ## Disclaimer
 
-**This web page was created for educational purpose only.** 
+**This web page was created for educational purposes only.** 

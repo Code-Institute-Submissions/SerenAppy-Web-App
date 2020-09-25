@@ -63,9 +63,10 @@ body {
     border: 7px solid #C76302;
 }
 
-.modal-button:hover {
+.modal-button:hover{
     background-color: #D2B48C;
     letter-spacing: 2px;
+    color: #8B4513;
 }
 
 
@@ -157,11 +158,14 @@ body {
 .select-buttons:hover {
     background-color: #D2B48C;
     letter-spacing: 2px;
+    color: #8B4513;
 }
+
 
 .go-button:hover {
     background-color: #D2B48C;
     letter-spacing: 2px;
+    color: #8B4513;
 }
 
 
@@ -317,7 +321,7 @@ body {
 
 
 .myBtn:hover{
-  color: #000000;
+  color: #8B4513;
   background-color: #D2B48C;
   text-decoration: none;
 }
