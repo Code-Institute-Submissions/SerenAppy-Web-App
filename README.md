@@ -2,7 +2,7 @@
 
 A live demo can be found [here](https://gmanprodev.github.io/SerenAppy-Web-App/)
 
-![Desktop Demo](assets/images/serenappy_responsive_image.jpg)
+![Desktop Demo](documentation/testing/test-images/serenappy_responsive_image.jpg)
 
 ## Introduction
 
@@ -97,7 +97,7 @@ The goal of this web app is to allow public funded health & well being initiativ
 
 * Meditation
 * Reducing stress and anxiety.
-* Helpful tool during during exercise and mental health classes.
+* Helpful tool during exercise and mental health classes.
 
 Both business and customer goals are addressed through user stories.
 
@@ -217,14 +217,13 @@ If you are unable to access the mockup links above please see the mockup images 
 
 * **Footer**
     * Copyright information.
-    * Website built by information (linked to Marc Gulliver Linkedin profile).
-    * Website address (linked to website landing page).
+    * Web app built by information (linked to Marc Gulliver Linkedin profile).
+    * Web app address (linked to web app landing page).
     * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
-    * Phone Number (linked to click-to-call function).
-    * Email Address (linked to mailto function).
+    * @ icon linked to a emailjs contact form modal.
 
-* **Hero Image**
-    * Each page has the same hero image, which on screen widths greater than 767px the image stays `fixed` and on screen widths below 767px the image scrolls with the rest of the content. Most pages have a text over the hero image which identifies which page the user is currently on.
+* **How To Use SerenAppy Button**
+    * 
 
 * **Call to Action**
     * Most pages have Call to Action text with a 'quote' button. This is mainly displayed at the top of the page set over the hero image. The button displays in Orange and changes to Pink when on `hover` and clicked on. Every 'quote' button takes the user to the same contact page with a form to fill out.
