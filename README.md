@@ -243,6 +243,9 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Contact Form - Modal**
     * The modal takes up 80% of the page and is displayed in the centre of the page. The modal has a background colour of Peru, all text is the colour Clear Day, the field boxes have a Cadet Blue border, the field box text is black and the submit button is Cadet Blue which changes to a light grey colour when on `hover` and when clicked. You can close the modal by clicking the `x` in the top right corner. You can submit the form by clicking the submit button, which is centred, at the bottom of the modal. All fields are validated so users can't submit the form with empty fields, also the email address is validated by using the `pattern` attribute within the html code which determines if the email format is correct or not. After clicking the submit button, with all fields correctly filled out, the user will see a Sweet Alert modal pop up informing the user of whether the email has been successfully sent or not. If all fields have been correctly filled out, when the submit button is clicked the fields are cleared and reset.
 
+* **Favicon**
+    * I installed Favicon scripts so that when the web app loads the user sees the S logo next to the SerenAppy name at the top of the browser tab.
+
 #### Elements seen on all meditation pages.
 
 * **Landing page**
