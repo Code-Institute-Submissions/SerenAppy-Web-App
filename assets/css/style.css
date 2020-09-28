@@ -396,3 +396,31 @@ label {
   display: block;
   width: 100%;
 }
+
+.body-color {
+    background-color: #CD853F;
+}
+
+.page-not-found-header {
+    font-family: "Pacifico", sans-serif;
+    color: #E6F4F1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+}
+
+.page-not-found-text {
+    font-family: "Sans-serif";
+    color: #E6F4F1;
+    margin: 5% 5% 5% 5%;
+    letter-spacing: 2px;
+}
+
+.page-not-found-button {
+    background-color: #5f9ea0;
+    font-family: "Pacifico", sans-serif;
+    letter-spacing: 2px;
+    width: 50%;
+    text-align: center;
+}
+
