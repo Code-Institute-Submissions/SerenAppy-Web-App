@@ -297,17 +297,26 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ### Languages
 
-* HTML - Base language for this project.
+* HTML - base language for this project.
 * CSS - used for styling the HTML code.
 * JavaScript - used to make the web app interactive.
 
 ### Libraries
 
-* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system, navigation and carousel.
-* [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in conjunction with the Bootstrap library.
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system and styling.
+* [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in conjunction with the Bootstrap library and Javascript.
 * [FontAwseome](https://fontawesome.com/) - used for all icons on the site.
-* [Google Fonts](https://fonts.google.com/) - used for the Josefin Sans and Montserrat fonts.
-* [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the naviagtion links, services icons and social media icons.
+* [Google Fonts](https://fonts.google.com/) - used for the Pacifico fonts.
+* [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the social media icons.
+* [Unsplash](https://unsplash.com/) - used for all images.
+* [Sweetalert](https://sweetalert2.github.io/) - used for "Success" and "Error" pop ups in conjuction with the GO button on the landing page and the Emailjs contact form.
+* [Zapsplat](https://www.zapsplat.com/) - used for audio files and sound effects.
+* [Favicon.io](https://favicon.io/) - used for creating a favicon.
+
+### API
+
+* [Emailjs](https://www.emailjs.com/) - used to send the contact form in an email format to my gmail account.
+
 
 ### Tools
 
@@ -323,6 +332,10 @@ If you are unable to access the mockup links above please see the mockup images 
 * [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
 * [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
 * [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
+* [CSS Gradient](https://cssgradient.io/) - used to build the colour gradient in the header and footer.
+* [Canva](https://www.canva.com/) - used to create the SerenAppy logo.
+* [GIMP](https://www.gimp.org/) - used this software to give my logo and favicon a transparent background.
+
 
 
 ## Testing
@@ -331,7 +344,7 @@ Testing information can be found [here](documentation/testing/testing.md).
 
 ## Deployment
 
-This web page was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages. 
+This web app was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages. 
 
 **Used commands during deployment:**
 * `git add .` - to add the files to the staging area.
@@ -342,7 +355,7 @@ This web page was developed in Gitpod and pushed to the remote repository, GitHu
 ### Hosting on GitHub Pages
 
 * Log into GitHub.
-* From the list of repositories choose [Mr Digbee](https://github.com/Gmanprodev/Mr-Digbee).
+* From the list of repositories choose [SerenAppy](https://github.com/Gmanprodev/SerenAppy-Web-App).
 * Go to settings.
 * Scroll down to GitHub Pages section.
 * Select as a source **master branch**.
@@ -355,12 +368,12 @@ For more detailed information regarding deployment to GitHub Pages click [here](
 
 **Clone this project from GitHub:**
 
-* Go to [Mr Digbee](https://github.com/Gmanprodev/Mr-Digbee) GitHub repository.
+* Go to [SerenAppy](https://github.com/Gmanprodev/SerenAppy-Web-App) GitHub repository.
 * Click on "Clone or download" green button.
 * Copy the URL to the repository.
 * Open the terminal in your IDE.
 * Choose the working directory where you would like to have the cloned repository.
-* Type git clone, and add the URL you copied from Github: `git clone https://github.com/Gmanprodev/Mr-Digbee.git`
+* Type git clone, and add the URL you copied from Github: `git clone https://github.com/Gmanprodev/SerenAppy-Web-App.git`
 * Press Enter and your local clone will be created.
 
 For more information regarding cloning of a repository click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
@@ -369,14 +382,13 @@ For more information regarding cloning of a repository click [here](https://help
 
 ### Content
 
-All content on the web page was written by me with the exception of the text on the About Us page which I adapted from [dellerandsons](http://www.dellerandsons.co.uk) and [charleshoare](http://www.charleshoare.co.uk).
+All content in this web app was written by me.
 
 ### Media
 
-**All Images**
-   * All of the images shown on the site were found on Google Images. 
-   * No authorisation has been granted to use these images as this site is for educational purposes only.
-   * If this site were to be used by the company, Mr Digbee, then the images would be replaced along with the correct authorisation before the release.
+**All Images & Audio**
+   * All of the images used in the web app are free and do not require permission to use.
+   * All of the audio and sounds used in the web app are free and do not require permission to use.
 
 
 
@@ -405,10 +417,7 @@ All content on the web page was written by me with the exception of the text on 
 
 #### I received advice and encouragement from
    * Seun Owonikoko (my mentor)
-   * Eventyret_mentor (via slack channels)
    * Tutor Support (CI online webchat)
-   * Anukje-byllsa (fellow student)
-   * Carlos (fellow student)
    * SuzanneNL (fellow student)
    * Anthony (fellow student)
    * Malia (fellow student)
