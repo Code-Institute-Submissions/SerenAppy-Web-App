@@ -221,18 +221,19 @@ If you are unable to access the mockup links above please see the mockup images 
     * Web app address (linked to web app landing page).
     * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
     * @ icon linked to an emailjs contact form modal.
+    * All footer text and icons are displayed in the colour Tawny and change to Cadet Blue when on `hover` and clicked.
 
 * **How To Use SerenAppy Button**
     * This button displays in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. This button opens a pop up modal which has written instructions on how to use the web app.
 
 * **Select Time Buttons**
-    * The buttons are presented in two columns beneath the heading "Select Time", the two columns reduce to one column on screen sizes less than 768px. The "Select Time" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. There are six "Select Time" buttons, each represents a set number of minutes (2, 5, 10, 20, 30, 60). The selected time is passed through to the meditation page using Javascript and displays as a countdown timer. The user can only select one button at a time.
+    * The buttons are presented in two columns beneath the heading "Select Time", the two columns reduce to one column on screen sizes less than 768px. The "Select Time" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru, border colour Tawny, text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. There are six "Select Time" buttons, each represents a set number of minutes (2, 5, 10, 20, 30, 60). The selected time is passed through to the meditation page using Javascript and displays as a countdown timer. The user can only select one button at a time.
 
 * **Select Season Buttons**
-    * The buttons are presented in two columns beneath the heading "Select Season", the two columns reduce to one column on screen sizes less than 768px. The "Select Season" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. There are four "Select Season" buttons, each represents a season (spring, summer, autumn, winter). The selected season is passed through to the meditation page using Javascript and displays the associated image and audio. The user can only select one button at a time.
+    * The buttons are presented in two columns beneath the heading "Select Season", the two columns reduce to one column on screen sizes less than 768px. The "Select Season" header is displayed in the colour Clear Day. Each button is displayed in the colour Peru, border colour Tawny, the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. There are four "Select Season" buttons, each represents a season (spring, summer, autumn, winter). The selected season is passed through to the meditation page using Javascript and displays the associated image and audio. The user can only select one button at a time.
 
 * **GO Button**
-    * This button is round and centred at the bottom of the page. The button is displayed in the colour Peru with the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. The Go button combines the time and the season selected and uses Javascript to create and display the meditation page for the user. If only one selection is made or no selections are made the user will see a Sweet Alert pop up modal which displays "Error" and explains what steps need to be taken.
+    * This button is round and centred at the bottom of the page. The button is displayed in the colour Peru, border colour Tawny, the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. The Go button combines the time and the season selected and uses Javascript to create and display the meditation page for the user. If only one selection is made or no selections are made the user will see a Sweet Alert pop up modal which displays "Error" and explains what steps need to be taken.
 
 * **Hidden Pages**
     * To increase the loading speed and reduce the users data usage the web app operates from a single html file (landing page). In the index.html file there is a `div` which holds all of the meditation page information and is hidden when the landing page loads. The information in this hidden `div` is replaced with the asscoiated image, audio and time based on the users selections, using Javascript. When the GO button is clicked the entire landing page is hidden and replaced with the meditation page using Javascript. 
@@ -251,25 +252,28 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Layout and Style**
     * Used the same colour scheme as the modals. Background colour of Peru, all the text is the colour Clear Day and the button which returns the user to the landing page is Cadet Blue which changes to light grey when on `hover` and clicked.
 
+* **Favicon**
+    * I installed Favicon scripts so that when the web app loads the user sees the S logo next to the SerenAppy name at the top of the browser tab.
+
 #### Elements seen on all meditation pages.
 
 * **Background Image**
-    * A full screen background image is displayed and the image shown is linked to which season the user has selected. The image has an opacity of 0.6 so that the elements on top of the image are clearly defined.
+    * A full screen background image is displayed, the image shown is linked to which season the user has selected. The image has an opacity of 0.6 so that the elements on top of the image are clearly defined.
 
 * **Countdown Timer**
-    * Has text and an image showing work that has been completed.
+    * The timer displays in the format of 00:00 in the colour of Saddle Brown. Dependent on which time button the user has clicked, this time will be passed into the meditation page using Javascript and displayed in the top half of the screen. The time display can be moved up or down within the top half of the screen by the user on mobile devices, using touch scroll, depending on the users preference as to the best position. When the countdown timer gets to zero the audio stops, a chime sound indicates the session has finished and the timer is reset with the play/pause button resetting to play. 
 
-* **Location page**
-    * Has company address and interactive google map to show the company location.
+* **Play/Pause Button**
+    * The button styling mirrors the landing page, so the button is displayed in the colour Peru, border colour Tawny, the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. This button is connected to the audio and the countdown timer using Javascript, when the meditation page loads the button text is displayed as "Play". When the user clicks the play button the audio starts playing and the timer starts counting down in tandem, the button text changes to "Pause" to indicate to the user that this button can now be used to pause the audio and timer.
 
-* **Completed Projects page**
-    * Has a gallery containing 15 images, by clicking on an image the image will show on a full screen. Images were re-sized to 728x485 to enhance the visual appearence and flow to the page.
+* **Reset Button**
+    * The button styling mirrors the landing page, so the button is displayed in the colour Peru, border colour Tawny, the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. This button is connected to the audio and the timer using Javascript, when the user clicks the reset button the audio stops, the timer goes back to displaying the original time selected amd the play/pause button displays the text "Play". The user can then click the play button to start the session again.
 
-* **Contact Us page**
-    * Has a form which asks for contact information and a message. The form boxes have Orange borders rather than a background colour to identify the text areas.
+* **Main Menu Button**
+    * The button styling mirrors the landing page, so the button is displayed in the colour Peru, border colour Tawny, the text displaying in the colour Clear Day, the button changes to the colour Tan and the text changes to Saddle Brown when on `hover`. This button is linked to the landing page address so that if the user wishes to return to the landing page upon finishing their meditation session or wishes to change their time or season selections they can do so with ease.
 
-* **Service pages**
-    * Has two columns of text, listing the services avaialble and a Bootstrap carousel with images of completed work relevant to that service page. At the bottom of the page is the Services menu where you can navigate to another service page.
+* **Favicon**
+    * I installed Favicon scripts so that when the web app loads the user sees the S logo next to the SerenAppy name at the top of the browser tab.
 
 ### Features left to implement
 
@@ -294,7 +298,7 @@ If you are unable to access the mockup links above please see the mockup images 
 
 * HTML - Base language for this project.
 * CSS - used for styling the HTML code.
-* JavaScript - used in conjunction with Bootstrap.
+* JavaScript - used to make the web app interactive.
 
 ### Libraries
 
