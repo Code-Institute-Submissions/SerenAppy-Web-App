@@ -277,8 +277,9 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ### Features left to implement
 
-* **Prices page** - To enable potential customers to estimate what a project or piece of work may cost.
-* **Payment Procedure page** - To enable customers to understand what the costs involved before, during and on completion of the project or work.
+* **Audio Library API** - To enable potential users to choose from a much wider variety of audio options.
+* **Different Languages** - To enable potential users to select from a list of languages and have the web app display using the selected language. This would allow the web app to be used globally.
+* **Built In Volume Controls** - To enable potential users to control the audio volume within the web app. At the moment the volume is controlled by the devices volumes settings.
 * **Tracking User Behaviour** - Use an analytics tool such as [Hotjar](https://www.hotjar.com/) to view user behaviour.
 * **Most and Least Visited Pages on the Site** - Use an analytics tool such as [Hotjar](https://www.hotjar.com/) to understand where the traffic is going on the site.
 
