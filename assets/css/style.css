@@ -412,7 +412,7 @@ label {
 .page-not-found-text {
     font-family: "Sans-serif";
     color: #E6F4F1;
-    margin: 5% 5% 5% 5%;
+    margin: 10% 5% 5% 5%;
     letter-spacing: 2px;
 }
 
@@ -422,5 +422,6 @@ label {
     letter-spacing: 2px;
     width: 50%;
     text-align: center;
+    margin-top: 10%;
 }
 
