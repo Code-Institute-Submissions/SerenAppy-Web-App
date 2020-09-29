@@ -253,10 +253,10 @@ If you are unable to access the mockup links above please see the mockup images 
 
 #### Elements seen on all meditation pages.
 
-* **Landing page**
-    * 
+* **Background Image**
+    * A full screen background image is displayed and the image shown is linked to which season the user has selected. The image has an opacity of 0.6 so that the elements on top of the image are clearly defined.
 
-* **About Us page**
+* **Countdown Timer**
     * Has text and an image showing work that has been completed.
 
 * **Location page**

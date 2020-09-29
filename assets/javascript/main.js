@@ -128,6 +128,7 @@ function onTimesUp() {
   clearInterval(timerInterval);
   myAudio.pause();
   myBleep.play();
+  reset();
 }
 
 function pauseTimer() {
@@ -165,7 +166,12 @@ function startTimer(){
 
 
 
-resetButton.addEventListener("click", reset);
+resetButton.addEventListener("click", function() {
+    reset();
+})
+
+
+
 function reset() {
     console.log("it works");
     myAudio.pause();
