@@ -246,6 +246,11 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Favicon**
     * I installed Favicon scripts so that when the web app loads the user sees the S logo next to the SerenAppy name at the top of the browser tab.
 
+#### Elements seen on the 404 page.
+
+* **Layout and Style**
+    * Used the same colour scheme as the modals. Background colour of Peru, all the text is the colour Clear Day and the button which returns the user to the landing page is Cadet Blue which changes to light grey when on `hover` and clicked.
+
 #### Elements seen on all meditation pages.
 
 * **Landing page**
