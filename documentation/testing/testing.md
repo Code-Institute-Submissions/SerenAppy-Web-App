@@ -35,11 +35,14 @@
    * Verify that when the page loads it hides the meditation page `div`.
    ![Hidden Meditation Page On Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/hidden_meditation_page.gif?raw=true) 
 
-   * Verify that by clicking the logo in the header it refreshes the landing page.
-   ![Clicking The Logo Refreshes The Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/logo_click_page_refresh.gif?raw=true) 
+   * Verify that by clicking the logo in the header it refreshes the landing page and that the nav bar is fixed when on scroll.
+   ![Clicking The Logo Refreshes The Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/logo_click_page_resfresh.gif?raw=true) 
 
 
-   * Verify that the page links in the navigation bar get larger and bounce when you `hover` over them.
+   * Verify that the nav bar moves with the rest of the page on scroll (screen heights less than 580px to ensure there is enough content on the page at any one time).
+
+
+   
    * Verify that by clicking on the page links in the navigation bar the background colour changes to Orange and remains Orange to show which page you are currently viewing.
    * Verify that once reaching a particular screen width the naviagtion links collapse into a burger menu and all the links still work in the dropdown menu.
    * Verify that once reaching a particular screen width the logo in the navigation bar collapses and leaves just the company name in view, also test that by clicking the company name on smaller screens it still directs you to the Landing page.
