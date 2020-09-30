@@ -1,0 +1,186 @@
+# Testing
+
+[back to README.md file](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/README.md)
+
+## Table of Content
+
+1. [DevTools](#devtools)
+2. [Manual Testing](#manual-testing)
+3. [Automated Testing](#automated-testing)
+    * [Code Validation](#code-validation)
+    * [Browser Validation](#browser-validation)
+    * [Lighthouse Audit](#lighthouse-audit)
+4. [User testing](#user-testing)
+    * [My Mentor](#my-mentor)
+    * [Peer-code-review](#peer-code-review)
+    * [User review](#user-review)
+
+
+
+## DevTools
+
+* Testing the responsiveness of the web app.
+    * As an outcome I added a number of media queries in order to ensure the website is still user friendly on different screen sizes.
+    * I used Bootstrap to ensure I have reactive columns on different screen sizes.
+* Testing the css is targeting the relevant html code.
+    * As an outcome the webiste is responsive on all screen sizes.
+* Console Debugging
+    * As an outcome I was able to see whether my Javascript functions were being called and were executing properly by displaying a console.log value in my console.
+    * I noted that a Favicon was missing and was able to fix this with adding a favicon script and images. 
+
+
+## Manual Testing
+
+* Landing Page
+   * Verify that when the page loads it hides the meditation page `div`.
+![Hidden Meditation Page On Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/hidden_meditation_page.gif?raw=true) 
+
+
+
+
+
+   * Verify that by clicking the page links in the naviagtion bar they direct you to the relevant page.
+   * Verify that the page links in the navigation bar get larger and bounce when you `hover` over them.
+   * Verify that by clicking on the page links in the navigation bar the background colour changes to Orange and remains Orange to show which page you are currently viewing.
+   * Verify that once reaching a particular screen width the naviagtion links collapse into a burger menu and all the links still work in the dropdown menu.
+   * Verify that once reaching a particular screen width the logo in the navigation bar collapses and leaves just the company name in view, also test that by clicking the company name on smaller screens it still directs you to the Landing page.
+   * Verify that the navigation bar sticks to the top of the screen when scrolling so that it is always in view.
+   * Verify that the call to action 'Free Quote' button links to the Contact Us page and contact form.
+   * Verify that all 'Quote' buttons change to a pink/purple colour when on `hover` and when clicked on.
+   * Verify that the footer sticks to the bottom of the page.
+   * Verify that the 'Website built by Marc Gulliver' link in the footer opens up LinkedIn profile in a separate window.
+   * Verify that the 'mrdigbee' website address in the footer links to the landing page.
+   * Verify that the 'mrdigbee' email address in the footer opens up a mailto function.
+   * Verify that the '07720428665' contact phone number in the footer opens up a click-to-call function.
+   * Verify that the social media icons change colour to Orange and `bounce` when on `hover`.
+   * Verify that all pages and content are responsive on differnt devices and screen sizes.
+   * Verify that the Services section on all pages performs the following functions as follows:
+      * Icons in the Services section change colour to Orange and `bounce` when on `hover`.
+      * Each individual icon in the Sevices section is linked to the relevant page.
+      * The icon which corresponds to the page that the user is viewing remains Orange.
+
+* Landing Page
+   * Verify that the Reviews section carousel slides automatically, slides in both directions when the control arrows and the slide indicators are clicked.
+   * Verify that the Reviews section carousel control arrows become a darker colour when on `hover`and the slide indicators change to white to show which slide the user is viewing.
+   * Verify that the carousel control arrows disappear on smaller screen sizes and leave the slide indicators to control the slides.
+
+* About Us Page
+   * Verify that the 'Free, no obligation quote' text links to the Contact Us page and contact form.
+   * Verify that the image underneath the about us text has a border that changes to a lighter yellow gold colour on `hover`and that the image opens in a separate window when clicked on.
+
+* Location Page
+   * Verify that the Google map is interactive and that the following interavtive functions work correctly:
+      * Zoom in and out function.
+      * Clicking on 'view larger map' opens in a separate Google maps page.
+      * Clicking 'directions' opens in a separate Google maps page.
+      * Clicking on the satelite imagery box chamhes the map to a satelite view whilst remaining on the Location page and by clicking the same box the map view returns.
+
+* Completed Projects Page
+   * Verify that all images have a border which changes to a lighter yellow gold colour on `hover` and that the images open in a separate window when clicked on.
+   * Verify that the images show as 3 columns.
+
+* Contact Us Page
+   * Verify that all form fields can have data entered in them.
+   * Verify that the Email Address field will only accept an appropriate email format and that a message will prompt you if the data entered is invalid.
+   * Verify that the Phone Number field will only accept numbers and has to be 11 digits and that a message will prompt you if the data entered is invalid.
+   * Verify that the 'Get Quote' button directs you to the CI data dump page which shows you what data has been recieved and opens in a separate window.
+
+* All Services Pages
+   * Property Maintenance Page
+   * Flowers & Trees Page
+   * Window Cleaning Page
+   * Painting & Decorating Page
+   * Landscaping Page
+   * Lawn Mowing Page
+      * Verify that the carousel slides automatically, slides in both directions when the control arrows and the slide indicators are clicked.
+      * Verify that the carousel control arrows become a darker colour when on `hover`and the slide indicators change to white to show which slide the user is viewing.
+      * Verify that the carousel control arrows disappear on smaller screen sizes and leave the slide indicators to control the slides.
+      * Verify that all images have a border which changes to a lighter yellow gold colour on `hover` and that the images open in a separate window when clicked on.
+
+#### Conclusion
+
+   * I found that there were a number of images which weren't linked correctly - this issue has been fixed for the first release.
+   * I found that the contact form email address field was accepting any text and not a valid email format - this issue has been fixed for the first release.
+   * I found that the contact form phone number field was accepting any text and not a valid UK phone number - this issue has been fixed for the first release.
+
+
+
+## Automated Testing
+
+### Code Validation
+
+   * I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate my html code.
+   * I used the [W3C CSS Validation Service](https://jigsaw.w3.org/) to validate my css code.
+   * I used the [Free Formatter](https://www.freeformatter.com/) website to format my html code.
+
+### Browser Validation
+
+   * Chrome - works correctly. Click [here](test-images/chrome_test.jpg) for the test image.
+   * Explorer - works correctly. Click [here](test-images/explorer_test.jpg) for the test image.
+   * Safari - works correctly. Click [here](test-images/safari_test.jpg) for the test image.
+   * Firefox - works correctly. Click [here](test-images/firefox_test.jpg) for the test image.
+   * Opera - works correctly. Click [here](test-images/opera_test.jpg) for the test image.
+
+### Lighthouse Audit
+
+   * Click [here](lighthouse_report.pdf) for the full report.
+   * No reccommendations in this report have been implemented in the first release but will be looked at in future releases.
+
+#### Conclusion
+
+   * The code validators highlighted 2 errors:
+      * Using an a tag to wrap a button - this issue has been fixed for the first release.
+      * Missing a h1 tag inside a new section - this issue has been fixed for the first release. 
+   * The carousel issue in the Opera browser will be looked at in future releases.
+   * The suggestions given in the Lighthouse report will be implemented in the second release.
+
+
+
+## User testing
+
+### My Mentor
+
+Generally very positive feedback and was very complimentary about the colours and how it put a smile on her face evrytime she used the website.
+
+#### Suggested Improvements
+
+* Change the burger menu icon to the colour Orange - implemented.
+* Add left padding to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
+* In addition to the Social media icons in the footer linking to separate pages, also link the other footer info - implemented.
+* Create more distance between the content and where the section border radius begins (seat), so that the border and content isn't making contact - implemented.
+* Reduce the size of the image on the About Us page - implemented.
+* Increase the google map size on the Location page and create @media query for smaller screen sizes - implemented.
+
+### Peer-Code-Review
+
+The feedback was that people enjoyed using the site and it was fun and easy to navigate. Everyone loved the colours and how if made them feel.
+
+#### Suggested Improvements:
+
+   * Add left paddign to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
+   * Footer Social Media links all go to the generic login pages and not the company pages - I've left this for a later release as at this moment in time the Mr Digbee business doesn't have any Social Media footprint.
+   * The contact form should have more padding to allow more space between the content and the section border radius - implemented.
+   * The contact form sends without a valid email address and phone number - implemented.
+   * Remove the call to action (header) at the top of the servivce pages so you can immedialtely see the information you've clicked for rather than scrolling again - this is a single user prefrence and I will look to implement this on a later release once I have a larger quantity of user feedback.
+   * One image on the Flowers & Trees page had a broken link and needed fixing - implemented.
+   * The section border radius on all pages were blending into one another and needed space between them, the navigation bar and the footer - implemented.
+   * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
+   * On a Iphone the carousel slides the same content in twice - I am aware of this and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
+   * The Orange and Green colours in the footer have very low contrast which could be an issue for accessability - Will look to make changes in the future releases.
+
+
+### User Review
+
+The general feedback was positive. Most people commenting on how much fun it was visually and easy to navigate.
+
+
+#### Suggested Improvements:
+
+   * Maybe better to have the Services section in the Navigation bar with the rest of the links - Will look to implement in a future release if there is enough user feedback.
+   * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
+   * On an Iphone the carousel slides the same content in twice - 
+
+#### Conclusion
+
+   * I am aware of the Iphone bug and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
+   * I will use an analytics platform on the first release, such as [Hotjar](https://www.hotjar.com/), to collect feedback form a larger range of users and use that data to implement changes related to the way users navigate the site.
