@@ -33,13 +33,12 @@
 
 * Landing Page
    * Verify that when the page loads it hides the meditation page `div`.
-![Hidden Meditation Page On Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/hidden_meditation_page.gif?raw=true) 
+   ![Hidden Meditation Page On Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/hidden_meditation_page.gif?raw=true) 
+
+   * Verify that by clicking the logo in the header it refreshes the landing page.
+   ![Clicking The Logo Refreshes The Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/logo_click_page_refresh.gif?raw=true) 
 
 
-
-
-
-   * Verify that by clicking the page links in the naviagtion bar they direct you to the relevant page.
    * Verify that the page links in the navigation bar get larger and bounce when you `hover` over them.
    * Verify that by clicking on the page links in the navigation bar the background colour changes to Orange and remains Orange to show which page you are currently viewing.
    * Verify that once reaching a particular screen width the naviagtion links collapse into a burger menu and all the links still work in the dropdown menu.
