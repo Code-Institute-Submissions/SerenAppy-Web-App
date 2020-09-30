@@ -43,10 +43,17 @@
    ![Navbar Absolute Position](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/navbar_absolute_position.gif?raw=true)
 
    * Verify that by `hover` and clicking on the all the landing page buttons the background and text colours change to show which selection the user has made.
-   ![Button Colours](?raw=true)
+   ![Interactive Button Colours](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/interactive_button_colours.gif?raw=true)
+
+   * Verify that in the footer the social media icons change colour and `bounce` when on hover, also that the icons are linked to the relevant log in pages and these open in a new browser tab. 
+   
+   
+   * Verify that the SerenAppy website address in the footer changes colour when on `hover` and clicked and loads the landing page. 
+   
+   
+   * Verify that the web app built by Marc Gulliver changes colour when on `hover` and clicked and opens my LinkedIn profile in a new browser tab.
 
 
-   * Verify that once reaching a particular screen width the naviagtion links collapse into a burger menu and all the links still work in the dropdown menu.
    * Verify that once reaching a particular screen width the logo in the navigation bar collapses and leaves just the company name in view, also test that by clicking the company name on smaller screens it still directs you to the Landing page.
    * Verify that the navigation bar sticks to the top of the screen when scrolling so that it is always in view.
    * Verify that the call to action 'Free Quote' button links to the Contact Us page and contact form.
