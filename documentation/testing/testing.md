@@ -98,7 +98,16 @@
    * Verify that all of the landing page elements are hidden when the meditation page loads. 
    * Verify that all the time button selections are being passed through and displayed correctly.
    * Verify that all the season button selections are being passed through and diplaying the right background image.
-   ![Meditation Load](?raw=true)
+   ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load1.gif?raw=true)
+   ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load2.gif?raw=true)
+   ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load2.gif?raw=true)
+   ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load4.gif?raw=true)
+   ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load5.gif?raw=true)
+   ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load6.gif?raw=true)
+
+   * Verify that all the function buttons change background colour and text colour on `hover` and when clicked.
+   ![Function Buttons](?raw=true)
+
    
 
 
