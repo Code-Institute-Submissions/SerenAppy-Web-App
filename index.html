@@ -1,50 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SerenAppy</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
-
-</head>
-<body onload="hideFunction()">
-    <div id="hideMe">
-    <header>
-        <nav class="navbar navalert-container">
-            <div>
-                <a class="navbar-brand text-nowrap d-md-block brand-padding ml-2"
-                href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
-            </div>
-        </nav>
-    </header>
-
-    
-    
-        <div class="container-wrapper background-container">
-            <div class="container container-fluid content-container middle-info">
-                <section class="services">
-                    <button type="button" class="btn modal-button" data-toggle="modal" data-target="#howToUse">How To Use SerenAppy</button>
-
-                        
-                        <div class="modal fade" id="howToUse" tabindex="-1" role="dialog" aria-labelledby="instructionModal" aria-hidden="true">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SerenAppy</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    </head>
+    <body onload="hideFunction()">
+        <div id="hideMe">
+            <header>
+                <nav class="navbar navalert-container">
+                    <div>
+                        <a class="navbar-brand text-nowrap d-md-block brand-padding ml-2"
+                            href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
+                    </div>
+                </nav>
+            </header>
+            <div class="container-wrapper background-container">
+                <div class="container container-fluid content-container middle-info">
+                    <section class="services">
+                        <button type="button" class="btn modal-button" data-toggle="modal" data-target="#howToUse">How To Use SerenAppy</button>
+                        <div class="modal fade" id="howToUse" tabindex="-1" role="dialog" aria-label="instructionModal" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-size" role="document">
                                 <div class="modal-content modal-design">
                                     <div class="modal-header">
                                         <h5 class="modal-title modal-design">How To Use SerenAppy</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
+                                        <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body modal-text">
-                                        <p>Welcome to SerenAppy, your daily dose of calm.</p> 
+                                        <p>Welcome to SerenAppy, your daily dose of calm.</p>
                                         <p>Start your journey to a stress free life by selecting the length of time you wish to meditate and selecting a Season that suits your mood. Then simply click Go.</p>
                                         <p>Stay happy and stay calm.</p>
                                     </div>
@@ -54,16 +47,13 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-                        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactForm" aria-hidden="true">
+                        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-label="contactForm" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-size" role="document">
                                 <div class="modal-content modal-design">
                                     <div class="modal-header">
                                         <h5 class="modal-title modal-design">Contact Form</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
+                                        <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body modal-text">
@@ -86,152 +76,146 @@
                                 </div>
                             </div>
                         </div>
-
-
-                    <div>
-                        <div class="row">
-                            <div class="col page-header">
-                                <h2 class="jumbotron-header d-flex">Select Time</h2>
+                        <div>
+                            <div class="row">
+                                <div class="col page-header">
+                                    <h2 class="jumbotron-header d-flex">Select Time</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="two" class=" btn select-buttons time-select">2 minutes</button>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="five" class=" btn select-buttons time-select">5 minutes</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="ten" class=" btn select-buttons time-select">10 minutes</button>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="twenty" class=" btn select-buttons time-select">20 minutes</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="thirty" class=" btn select-buttons time-select">30 minutes</button>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="sixty" class=" btn select-buttons time-select">60 minutes</button> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col page-header">
+                                    <h2 class="jumbotron-header d-flex">Select Season</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="spring" class=" btn select-buttons season-select">Spring</button>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="summer" class=" btn select-buttons season-select">Summer</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="autumn" class=" btn select-buttons season-select">Autumn</button>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <button id="winter" class="btn select-buttons season-select">Winter</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="two" class=" btn select-buttons time-select">2 minutes</button>
-	                        </div>
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="five" class=" btn select-buttons time-select">5 minutes</button>
-	                        </div>
-                        </div>
-                        <div class="row">
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="ten" class=" btn select-buttons time-select">10 minutes</button>
-	                        </div>
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="twenty" class=" btn select-buttons time-select">20 minutes</button>
-	                        </div>
-                        </div>
-                        <div class="row">
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="thirty" class=" btn select-buttons time-select">30 minutes</button>
-	                        </div>
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="sixty" class=" btn select-buttons time-select">60 minutes</button> 
-	                        </div>
-                        </div>
-                        <div class="row">
-                            <div class="col page-header">
-                                <h2 class="jumbotron-header d-flex">Select Season</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="spring" class=" btn select-buttons season-select">Spring</button>
-	                        </div>
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="summer" class=" btn select-buttons season-select">Summer</button>
-	                        </div>
-                        </div>
-                        <div class="row">
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="autumn" class=" btn select-buttons season-select">Autumn</button>
-	                        </div>
-	                        <div class="col-sm-12 col-md-6">
-		                        <button id="winter" class="btn select-buttons season-select">Winter</button>
-	                        </div>
-                        </div>
-                    </div>
-                </section>
-                <div>
+                    </section>
                     <div>
-                        <button id="meditate" class="go-button btn btn-lg d-block mr-auto ml-auto">GO</button>
+                        <div>
+                            <button id="meditate" class="go-button btn btn-lg d-block mr-auto ml-auto">GO</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="app hide" id="meditatePage">
-        <img id="change-image" class="season-image-size" src="assets/images/season_images/spring.jpg" alt="season-image">
-        <audio id="myAudio" loop>
-        <source id="changeAudio" src="assets/audio/spring.mp3" type="audio/mp3">
-        </audio>
-        <audio id="myBleep">
-        <source src="assets/audio/bleep.mp3" type="audio/mp3">
-        </audio>
-        <div class="base-timer">
-		    <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>
-		    <span id="base-timer-label" class="base-timer__label"></span>
-	    </div>
-        <div class="row">
-            <div class="list-inline text-center fixed-bottom">
-                <button class="myBtn" id="play">Play</button>
-                <a href="index.html" class="myBtn small-screen-hide">Main Menu</a> 
-                <button class="myBtn" id="reset">Reset</button>
+        <div class="app hide" id="meditatePage">
+            <img id="change-image" class="season-image-size" src="assets/images/season_images/spring.jpg" alt="season-image">
+            <audio id="myAudio" loop>
+                <source id="changeAudio" src="assets/audio/spring.mp3" type="audio/mp3">
+            </audio>
+            <audio id="myBleep">
+                <source src="assets/audio/bleep.mp3" type="audio/mp3">
+            </audio>
+            <div class="base-timer">
+                <svg class="base-timer__svg" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"></svg>
+                <span id="base-timer-label" class="base-timer__label"></span>
             </div>
-        <div class="row">
-            <div class="list-inline text-center fixed-bottom">
-                <a href="index.html" class="myBtn small-screen-show">Main Menu</a> 
-            </div>
-        </div>
-        </div>       
-    </div>
-
-
-    <div id="hideFooter">
-    <footer>
-        <div class="footer">
-            <div class="container">
-                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="website-address"><a href="index.html" class="site-decoration"> www.Serenappy.com</a></h2>
-                        <ul class="column list-inline social-links">
-                            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"
-                                class="hvr-wobble-vertical"><i class="fab fa-facebook-square" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"
-                                class="hvr-wobble-vertical"><i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"
-                                class="hvr-wobble-vertical"><i class="fab fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank"
-                                class="hvr-wobble-vertical"><i class="fab fa-youtube-square" aria-hidden="true"></i>
-                                <span class="sr-only">Youtube</span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item"><a class="hvr-wobble-vertical"><i class="fas fa-at" aria-hidden="true" data-toggle="modal" data-target="#contactModal"></i>
-                                <span class="sr-only">Email</span>
-                                </a>
-                            </li>
-                        </ul>
-                        <h2><i class="far fa-copyright"></i>SerenAppy 2020</h2>
-                        <h2>All rights reserved</h2>
-                        <p class="footer-sub-text"><a href="https://www.linkedin.com/in/marcgulliver/" target="_blank" class="decoration"> Web App built by Marc Gulliver</a></p>
+            <div class="row">
+                <div class="list-inline text-center fixed-bottom">
+                    <button class="myBtn" id="play">Play</button>
+                    <a href="index.html" class="myBtn small-screen-hide">Main Menu</a> 
+                    <button class="myBtn" id="reset">Reset</button>
+                </div>
+                <div class="row">
+                    <div class="list-inline text-center fixed-bottom">
+                        <a href="index.html" class="myBtn small-screen-show">Main Menu</a> 
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    </div>
-       
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("user_O4YLRRligVe2xWuztVfBA");
-        })();
-    </script>
-    <script src="assets/javascript/sendEmail.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"><script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script src="assets/javascript/main.js"></script>
-    <script src="documentation/testing/jasmine_testing/test.js"></script>
-</body>
+        <div id="hideFooter">
+            <footer>
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h2 class="website-address"><a href="index.html" class="site-decoration"> www.Serenappy.com</a></h2>
+                                <ul class="column list-inline social-links">
+                                    <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"
+                                        class="hvr-wobble-vertical"><i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                        <span class="sr-only">Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"
+                                        class="hvr-wobble-vertical"><i class="fab fa-twitter-square" aria-hidden="true"></i>
+                                        <span class="sr-only">Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"
+                                        class="hvr-wobble-vertical"><i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <span class="sr-only">Instagram</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank"
+                                        class="hvr-wobble-vertical"><i class="fab fa-youtube-square" aria-hidden="true"></i>
+                                        <span class="sr-only">Youtube</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item"><a class="hvr-wobble-vertical"><i class="fas fa-at" aria-hidden="true" data-toggle="modal" data-target="#contactModal"></i>
+                                        <span class="sr-only">Email</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h2><i class="far fa-copyright"></i>SerenAppy 2020</h2>
+                                <h2>All rights reserved</h2>
+                                <p class="footer-sub-text"><a href="https://www.linkedin.com/in/marcgulliver/" target="_blank" class="decoration"> Web App built by Marc Gulliver</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script>
+            (function(){
+                emailjs.init("user_O4YLRRligVe2xWuztVfBA");
+            })();
+        </script>
+        <script src="assets/javascript/sendEmail.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="assets/javascript/main.js"></script>
+        <script src="documentation/testing/jasmine_testing/test.js"></script>
+    </body>
 </html>
