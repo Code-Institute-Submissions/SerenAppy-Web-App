@@ -62,11 +62,12 @@
    ![Instructions Modal](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/instructions_modal.gif?raw=true)
 
    * Verify that the @ icon in the footer changes colour on `hover` and when clicked and opens the contact form modal and that the close button shuts down the modal.
-   ![Contact Modal](?raw=true)
+   ![Contact Modal](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/contact_modal.gif?raw=true)
+
+   * Verify that the contact form modal validates the users input before the user can submit the form.
+   ![Form Validation](documentation/testing/test-images/form_validation1.jpg?raw=true)
 
 
-
-   * Verify that the call to action 'Free Quote' button links to the Contact Us page and contact form.
    * Verify that all 'Quote' buttons change to a pink/purple colour when on `hover` and when clicked on.
    * Verify that the footer sticks to the bottom of the page.
    * Verify that the 'Website built by Marc Gulliver' link in the footer opens up LinkedIn profile in a separate window.
