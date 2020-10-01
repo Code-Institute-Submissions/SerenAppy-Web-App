@@ -106,7 +106,11 @@
    ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load6.gif?raw=true)
 
    * Verify that all the function buttons change background colour and text colour on `hover` and when clicked.
-   ![Function Buttons](?raw=true)
+   ![Function Buttons](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/function_buttons.gif?raw=true)
+
+   * Verify that by clicking the Play button the timer starts counting down and the audio starts playing, also the text on the button changes to Pause.
+   * Verify that by clicking the Pause button the timer and the audio pauses, also the text on the button changes to Play.
+   ![Play/Pause Button](?raw=true)
 
    
 
