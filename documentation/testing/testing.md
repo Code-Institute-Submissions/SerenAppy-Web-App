@@ -85,56 +85,16 @@
    ![Email Error](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/email_error.gif?raw=true)
 
    * Verify that in each section of buttons (Time & Season) only one button can be selected at a time.
-   ![Selection Buttons](?raw=true)
+   ![Selection Buttons](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/selection_buttons.gif?raw=true)
+
+   * Verify that the selection buttons move into one column on small screen sizes.
+   ![Responsive Columns](?raw=true)
 
 
+* Meditation Pages
+   * 
 
 
-   * Verify that the '07720428665' contact phone number in the footer opens up a click-to-call function.
-   * Verify that the social media icons change colour to Orange and `bounce` when on `hover`.
-   * Verify that all pages and content are responsive on differnt devices and screen sizes.
-   * Verify that the Services section on all pages performs the following functions as follows:
-      * Icons in the Services section change colour to Orange and `bounce` when on `hover`.
-      * Each individual icon in the Sevices section is linked to the relevant page.
-      * The icon which corresponds to the page that the user is viewing remains Orange.
-
-* Landing Page
-   * Verify that the Reviews section carousel slides automatically, slides in both directions when the control arrows and the slide indicators are clicked.
-   * Verify that the Reviews section carousel control arrows become a darker colour when on `hover`and the slide indicators change to white to show which slide the user is viewing.
-   * Verify that the carousel control arrows disappear on smaller screen sizes and leave the slide indicators to control the slides.
-
-* About Us Page
-   * Verify that the 'Free, no obligation quote' text links to the Contact Us page and contact form.
-   * Verify that the image underneath the about us text has a border that changes to a lighter yellow gold colour on `hover`and that the image opens in a separate window when clicked on.
-
-* Location Page
-   * Verify that the Google map is interactive and that the following interavtive functions work correctly:
-      * Zoom in and out function.
-      * Clicking on 'view larger map' opens in a separate Google maps page.
-      * Clicking 'directions' opens in a separate Google maps page.
-      * Clicking on the satelite imagery box chamhes the map to a satelite view whilst remaining on the Location page and by clicking the same box the map view returns.
-
-* Completed Projects Page
-   * Verify that all images have a border which changes to a lighter yellow gold colour on `hover` and that the images open in a separate window when clicked on.
-   * Verify that the images show as 3 columns.
-
-* Contact Us Page
-   * Verify that all form fields can have data entered in them.
-   * Verify that the Email Address field will only accept an appropriate email format and that a message will prompt you if the data entered is invalid.
-   * Verify that the Phone Number field will only accept numbers and has to be 11 digits and that a message will prompt you if the data entered is invalid.
-   * Verify that the 'Get Quote' button directs you to the CI data dump page which shows you what data has been recieved and opens in a separate window.
-
-* All Services Pages
-   * Property Maintenance Page
-   * Flowers & Trees Page
-   * Window Cleaning Page
-   * Painting & Decorating Page
-   * Landscaping Page
-   * Lawn Mowing Page
-      * Verify that the carousel slides automatically, slides in both directions when the control arrows and the slide indicators are clicked.
-      * Verify that the carousel control arrows become a darker colour when on `hover`and the slide indicators change to white to show which slide the user is viewing.
-      * Verify that the carousel control arrows disappear on smaller screen sizes and leave the slide indicators to control the slides.
-      * Verify that all images have a border which changes to a lighter yellow gold colour on `hover` and that the images open in a separate window when clicked on.
 
 #### Conclusion
 
@@ -150,7 +110,9 @@
 
    * I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate my html code.
    * I used the [W3C CSS Validation Service](https://jigsaw.w3.org/) to validate my css code.
-   * I used the [Free Formatter](https://www.freeformatter.com/) website to format my html code.
+   * I used the [Free Formatter](https://www.freeformatter.com/) to format my html and css code.
+   * I used the [jshint](https://jshint.com/) website to validate my Javascript code.
+   * I used TDD and built my own Jasmine test to test my formatTime() Javascript function, which you can access [here](https://github.com/Gmanprodev/SerenAppy-Web-App/tree/master/documentation/testing/jasmine_testing)
 
 ### Browser Validation
 
