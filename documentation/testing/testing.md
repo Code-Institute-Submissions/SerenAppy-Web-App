@@ -53,10 +53,10 @@
    ![Footer Links Hover](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/youtube_link.gif?raw=true)
    
    * Verify that the SerenAppy website address in the footer changes colour when on `hover` and clicked and loads the landing page. 
-   ![Website Link](?raw=true)
-   
+   ![Website Link](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/website_link.gif?raw=true)
    
    * Verify that the web app built by Marc Gulliver changes colour when on `hover` and clicked and opens my LinkedIn profile in a new browser tab.
+   ![LinkedIn Link](?raw=true)
 
 
    * Verify that once reaching a particular screen width the logo in the navigation bar collapses and leaves just the company name in view, also test that by clicking the company name on smaller screens it still directs you to the Landing page.
