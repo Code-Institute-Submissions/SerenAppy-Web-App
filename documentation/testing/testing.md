@@ -206,7 +206,7 @@
 
    * I used the [jshint](https://jshint.com/) website to validate my Javascript code.
 
-    ![Javascript Validation](?raw=true)
+    ![Javascript Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/javascript_validation.jpg?raw=true)
 
    * I used the [Free Formatter](https://www.freeformatter.com/) to format my html, css and javascript code.
    
@@ -222,7 +222,7 @@
 
 ### Lighthouse Audit
 
-   * Click [here](lighthouse_report.pdf) for the full report.
+   * Click [here](test-images/lighthouse_report.pdf) for the full report.
    * No reccommendations in this report have been implemented in the first release but will be looked at in future releases.
 
 #### Conclusion
