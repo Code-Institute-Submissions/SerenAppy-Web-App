@@ -79,10 +79,13 @@
    ![Clear Input Fields](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/clear_fields.gif?raw=true)
 
    * Verify that the contact form information has been sent to my Gmail account by emailjs.
-   ![Emailjs Received](?raw=true)
+   ![Emailjs Received](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/emailjs_received.jpg?raw=true)
+
+   * Verify that the contact form submit button activates a error alert when emailjs is unsuccessful.
+   ![Email Error](?raw=true)
 
 
-   * Verify that the 'mrdigbee' website address in the footer links to the landing page.
+
    * Verify that the 'mrdigbee' email address in the footer opens up a mailto function.
    * Verify that the '07720428665' contact phone number in the footer opens up a click-to-call function.
    * Verify that the social media icons change colour to Orange and `bounce` when on `hover`.
