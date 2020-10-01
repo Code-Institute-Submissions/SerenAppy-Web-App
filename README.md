@@ -335,6 +335,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * [CSS Gradient](https://cssgradient.io/) - used to build the colour gradient in the header and footer.
 * [Canva](https://www.canva.com/) - used to create the SerenAppy logo.
 * [GIMP](https://www.gimp.org/) - used this software to give my logo and favicon a transparent background.
+* [jshint](https://jshint.com/) - used to validate my Javascript code.
 
 
 
