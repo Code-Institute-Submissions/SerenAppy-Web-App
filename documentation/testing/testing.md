@@ -88,7 +88,11 @@
    ![Selection Buttons](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/selection_buttons.gif?raw=true)
 
    * Verify that the selection buttons move into one column on small screen sizes.
-   ![Responsive Columns](?raw=true)
+   ![Responsive Columns](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_columns.gif?raw=true)
+
+   * Verify that the page is responsive.
+   ![Responsive Page](?raw=true)
+
 
 
 * Meditation Pages
