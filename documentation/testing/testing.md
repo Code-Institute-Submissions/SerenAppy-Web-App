@@ -76,10 +76,12 @@
    ![Email Success](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/submit_success.gif?raw=true)
 
    * Verify that the when the contact form is successfully sent all the form fields are automatically cleared.
-   ![Clear Input Fields](?raw=true)
+   ![Clear Input Fields](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/clear_fields.gif?raw=true)
+
+   * Verify that the contact form information has been sent to my Gmail account by emailjs.
+   ![Emailjs Received](?raw=true)
 
 
-   * Verify that the 'Website built by Marc Gulliver' link in the footer opens up LinkedIn profile in a separate window.
    * Verify that the 'mrdigbee' website address in the footer links to the landing page.
    * Verify that the 'mrdigbee' email address in the footer opens up a mailto function.
    * Verify that the '07720428665' contact phone number in the footer opens up a click-to-call function.
