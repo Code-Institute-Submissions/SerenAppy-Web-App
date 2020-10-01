@@ -33,38 +33,56 @@
 
 * Landing Page
    * Verify that when the page loads it hides the meditation page `div`.
+
    ![Hidden Meditation Page On Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/hidden_meditation_page.gif?raw=true) 
 
+
    * Verify that by clicking the logo in the header it refreshes the landing page and that the nav bar is fixed when on scroll.
+
    ![Clicking The Logo Refreshes The Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/logo_click_page_resfresh.gif?raw=true) 
 
 
    * Verify that the nav bar moves with the rest of the page on scroll (screen heights less than 580px to ensure there is enough content on the page at any one time).
+
    ![Navbar Absolute Position](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/navbar_absolute_position.gif?raw=true)
 
+
    * Verify that by `hover` and clicking on the all the landing page buttons the background and text colours change to show which selection the user has made.
+
    ![Interactive Button Colours](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/interactive_button_colours.gif?raw=true)
 
+
    * Verify that in the footer the social media icons change colour and `bounce` when on hover, also that the icons are linked to the relevant log in pages and these open in a new browser tab. 
+
    ![Footer Links Hover](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/footer_links_hover.gif?raw=true)
    ![Footer Links Hover](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/facebook_link.gif?raw=true)
    ![Footer Links Hover](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/twitter_link.gif?raw=true)
    ![Footer Links Hover](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/instagram_link.gif?raw=true)
    ![Footer Links Hover](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/youtube_link.gif?raw=true)
    
+
    * Verify that the SerenAppy website address in the footer changes colour when on `hover` and clicked and loads the landing page. 
+
    ![Website Link](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/website_link.gif?raw=true)
    
+
    * Verify that the web app built by Marc Gulliver changes colour when on `hover` and clicked and opens my LinkedIn profile in a new browser tab.
+
    ![LinkedIn Link](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/linkedin_link.gif?raw=true)
 
+
    * Verify that the "How To Use SerenAppy" button at the top of the page launches the modal and displays the instructions, also that both close buttons shut down the modal.
+
    ![Instructions Modal](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/instructions_modal.gif?raw=true)
 
+
    * Verify that the @ icon in the footer changes colour on `hover` and when clicked and opens the contact form modal and that the close button shuts down the modal.
+
    ![Contact Modal](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/contact_modal.gif?raw=true)
 
+
    * Verify that the contact form modal validates the users input before the user can submit the form.
+
    ![Form Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/form_validation1.jpg?raw=true)
    ![Form Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/form_validation2.jpg?raw=true)
    ![Form Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/form_validation3.jpg?raw=true)
@@ -72,25 +90,39 @@
    ![Form Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/form_validation5.jpg?raw=true)
    ![Form Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/form_validation6.jpg?raw=true)
 
+
    * Verify that the contact form submit button activates a success alert when emailjs successfully sends the form information to my Gmail account.
+
    ![Email Success](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/submit_success.gif?raw=true)
 
+
    * Verify that the when the contact form is successfully sent all the form fields are automatically cleared.
+
    ![Clear Input Fields](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/clear_fields.gif?raw=true)
 
+
    * Verify that the contact form information has been sent to my Gmail account by emailjs.
+
    ![Emailjs Received](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/emailjs_received.jpg?raw=true)
 
+
    * Verify that the contact form submit button activates a error alert when emailjs is unsuccessful.
+
    ![Email Error](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/email_error.gif?raw=true)
 
+
    * Verify that in each section of buttons (Time & Season) only one button can be selected at a time.
+
    ![Selection Buttons](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/selection_buttons.gif?raw=true)
 
+
    * Verify that the selection buttons move into one column on small screen sizes.
+
    ![Responsive Columns](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_columns.gif?raw=true)
 
+
    * Verify that the page is responsive.
+
    ![Responsive Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_page1.gif?raw=true)
 
 
@@ -98,6 +130,7 @@
    * Verify that all of the landing page elements are hidden when the meditation page loads. 
    * Verify that all the time button selections are being passed through and displayed correctly.
    * Verify that all the season button selections are being passed through and diplaying the right background image.
+
    ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load1.gif?raw=true)
    ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load2.gif?raw=true)
    ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load2.gif?raw=true)
@@ -105,30 +138,41 @@
    ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load5.gif?raw=true)
    ![Meditation Load](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/meditation_load6.gif?raw=true)
 
+
    * Verify that all the function buttons change background colour and text colour on `hover` and when clicked.
+
    ![Function Buttons](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/function_buttons.gif?raw=true)
+
 
    * Verify that by clicking the Play button the timer starts counting down and the audio starts playing, also the text on the button changes to Pause.
    * Verify that by clicking the Pause button the timer and the audio pauses, also the text on the button changes to Play.
+
    ![Play/Pause Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/play-pause_button.gif?raw=true)
 
+
    * Verify that the Reset button resets the audio and the timer to the original time, also that the Play/Pause button displays the text Play.
+
    ![Reset Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/reset_button.gif?raw=true)
 
+
    * Verify that the Main Menu button takes the user back to the landing page.
+
    ![Main Menu Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/main-menu_button.gif?raw=true)
 
+
    * Verify that when the timer gets to zero the timer resets to the original starting time, the Play/Pause button text displays Play, the audio is reset and a bleep sound plays to signify the end of the meditation session.
+
    ![Timer Ends](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/timer_ends.gif?raw=true)
 
+
    * Verify that the Main Menu button moves below the other two buttons on smaller screen sizes.
+
    ![Button Positions](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/button_positions.gif?raw=true)
 
+
    * Verify that the page is responsive.
-   ![Responsive Page](?raw=true)
-
    
-
+   ![Responsive Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_page2.gif?raw=true)
 
 
 #### Conclusion
