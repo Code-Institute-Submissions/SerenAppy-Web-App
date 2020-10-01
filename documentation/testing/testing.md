@@ -201,11 +201,15 @@
 
    * I used the [W3C CSS Validation Service](https://jigsaw.w3.org/) to validate my css code.
 
-   ![CSS Validation](?raw=true)
+   ![CSS Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/css_validation.jpg?raw=true)
 
 
-   * I used the [Free Formatter](https://www.freeformatter.com/) to format my html and css code.
    * I used the [jshint](https://jshint.com/) website to validate my Javascript code.
+
+
+
+   * I used the [Free Formatter](https://www.freeformatter.com/) to format my html, css and javascript code.
+   
    * I used TDD and built my own Jasmine test to test my formatTime() Javascript function, which you can access [here](https://github.com/Gmanprodev/SerenAppy-Web-App/tree/master/documentation/testing/jasmine_testing)
 
 ### Browser Validation
