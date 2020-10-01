@@ -119,7 +119,10 @@
    ![Main Menu Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/main-menu_button.gif?raw=true)
 
    * Verify that when the timer gets to zero the timer resets to the original starting time, the Play/Pause button text displays Play, the audio is reset and a bleep sound plays to signify the end of the meditation session.
-   ![Timer Ends](?raw=true)
+   ![Timer Ends](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/timer_ends.gif?raw=true)
+
+   * Verify that the Main Menu button moves below the other two buttons on smaller screen sizes.
+   ![Button Positions](?raw=true)
 
    
 
