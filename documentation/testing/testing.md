@@ -113,7 +113,10 @@
    ![Play/Pause Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/play-pause_button.gif?raw=true)
 
    * Verify that the Reset button resets the audio and the timer to the original time, also that the Play/Pause button displays the text Play.
-   ![Reset Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/play-pause_button.gif?raw=true)?raw=true)
+   ![Reset Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/reset_button.gif?raw=true)
+
+   * Verify that the Main Menu button takes the user back to the landing page.
+   ![Main Menu Button](?raw=true)
 
    
 
