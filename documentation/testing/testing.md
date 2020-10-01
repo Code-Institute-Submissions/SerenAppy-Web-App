@@ -22,11 +22,11 @@
 * Testing the responsiveness of the web app.
     * As an outcome I added a number of media queries in order to ensure the website is still user friendly on different screen sizes.
     * I used Bootstrap to ensure I have reactive columns on different screen sizes.
-* Testing the css is targeting the relevant html code.
+* Testing that the css is targeting the relevant html code.
     * As an outcome the webiste is responsive on all screen sizes.
 * Console Debugging
     * As an outcome I was able to see whether my Javascript functions were being called and were executing properly by displaying a console.log value in my console.
-    * I noted that a Favicon was missing and was able to fix this with adding a favicon script and images. 
+    * I noted that a Favicon was missing and was able to fix this by adding a favicon script and images. 
 
 
 ## Manual Testing
@@ -91,12 +91,15 @@
    ![Responsive Columns](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_columns.gif?raw=true)
 
    * Verify that the page is responsive.
-   ![Responsive Page](?raw=true)
-
+   ![Responsive Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_page.gif?raw=true)
 
 
 * Meditation Pages
-   * 
+   * Verify that all of the landing page elements are hidden when the meditation page loads. 
+   * Verify that all the time button selections are being passed through and displayed correctly.
+   * Verify that all the season button selections are being passed through and diplaying the right background image.
+   ![Meditation Load](?raw=true)
+   
 
 
 
