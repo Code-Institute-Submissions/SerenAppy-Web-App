@@ -59,12 +59,13 @@
    ![LinkedIn Link](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/linkedin_link.gif?raw=true)
 
    * Verify that the "How To Use SerenAppy" button at the top of the page launches the modal and displays the instructions, also that both close buttons shut down the modal.
-   ![Instructions Modal](?raw=true)
+   ![Instructions Modal](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/instructions_modal.gif?raw=true)
+
+   * Verify that the @ icon in the footer changes colour on `hover` and when clicked and opens the contact form modal and that the close button shuts down the modal.
+   ![Contact Modal](?raw=true)
 
 
 
-
-   * Verify that the navigation bar sticks to the top of the screen when scrolling so that it is always in view.
    * Verify that the call to action 'Free Quote' button links to the Contact Us page and contact form.
    * Verify that all 'Quote' buttons change to a pink/purple colour when on `hover` and when clicked on.
    * Verify that the footer sticks to the bottom of the page.
