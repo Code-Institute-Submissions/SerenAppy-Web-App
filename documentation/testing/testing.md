@@ -110,7 +110,10 @@
 
    * Verify that by clicking the Play button the timer starts counting down and the audio starts playing, also the text on the button changes to Pause.
    * Verify that by clicking the Pause button the timer and the audio pauses, also the text on the button changes to Play.
-   ![Play/Pause Button](?raw=true)
+   ![Play/Pause Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/play-pause_button.gif?raw=true)
+
+   * Verify that the Reset button resets the audio and the timer to the original time, also that the Play/Pause button displays the text Play.
+   ![Reset Button](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/play-pause_button.gif?raw=true)?raw=true)
 
    
 
