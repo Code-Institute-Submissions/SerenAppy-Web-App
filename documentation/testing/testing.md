@@ -206,7 +206,7 @@
 
    * I used the [jshint](https://jshint.com/) website to validate my Javascript code.
 
-
+    ![Javascript Validation](?raw=true)
 
    * I used the [Free Formatter](https://www.freeformatter.com/) to format my html, css and javascript code.
    
@@ -215,7 +215,7 @@
 ### Browser Validation
 
    * Chrome - works correctly. Click [here](test-images/chrome_test.jpg) for the test image.
-   * Edge - works correctly. Click [here](test-images/explorer_test.jpg) for the test image.
+   * Edge - works correctly. Click [here](test-images/edge_test.jpg) for the test image.
    * Safari - works correctly. Click [here](test-images/safari_test.jpg) for the test image.
    * Firefox - works correctly. Click [here](test-images/firefox_test.jpg) for the test image.
    * Opera - works correctly. Click [here](test-images/opera_test.jpg) for the test image.
