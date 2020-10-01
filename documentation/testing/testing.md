@@ -56,10 +56,14 @@
    ![Website Link](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/website_link.gif?raw=true)
    
    * Verify that the web app built by Marc Gulliver changes colour when on `hover` and clicked and opens my LinkedIn profile in a new browser tab.
-   ![LinkedIn Link](?raw=true)
+   ![LinkedIn Link](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/linkedin_link.gif?raw=true)
+
+   * Verify that the "How To Use SerenAppy" button at the top of the page launches the modal and displays the instructions, also that both close buttons shut down the modal.
+   ![Instructions Modal](?raw=true)
 
 
-   * Verify that once reaching a particular screen width the logo in the navigation bar collapses and leaves just the company name in view, also test that by clicking the company name on smaller screens it still directs you to the Landing page.
+
+
    * Verify that the navigation bar sticks to the top of the screen when scrolling so that it is always in view.
    * Verify that the call to action 'Free Quote' button links to the Contact Us page and contact form.
    * Verify that all 'Quote' buttons change to a pink/purple colour when on `hover` and when clicked on.
