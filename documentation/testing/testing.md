@@ -82,11 +82,14 @@
    ![Emailjs Received](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/emailjs_received.jpg?raw=true)
 
    * Verify that the contact form submit button activates a error alert when emailjs is unsuccessful.
-   ![Email Error](?raw=true)
+   ![Email Error](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/email_error.gif?raw=true)
+
+   * Verify that in each section of buttons (Time & Season) only one button can be selected at a time.
+   ![Selection Buttons](?raw=true)
 
 
 
-   * Verify that the 'mrdigbee' email address in the footer opens up a mailto function.
+
    * Verify that the '07720428665' contact phone number in the footer opens up a click-to-call function.
    * Verify that the social media icons change colour to Orange and `bounce` when on `hover`.
    * Verify that all pages and content are responsive on differnt devices and screen sizes.
