@@ -73,12 +73,12 @@
    ![Form Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/form_validation6.jpg?raw=true)
 
    * Verify that the contact form submit button activates a success alert when emailjs successfully sends the form information to my Gmail account.
-   ![Email Success](?raw=true)
+   ![Email Success](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/submit_success.gif?raw=true)
+
+   * Verify that the when the contact form is successfully sent all the form fields are automatically cleared.
+   ![Clear Input Fields](?raw=true)
 
 
-
-
-   * Verify that the footer sticks to the bottom of the page.
    * Verify that the 'Website built by Marc Gulliver' link in the footer opens up LinkedIn profile in a separate window.
    * Verify that the 'mrdigbee' website address in the footer links to the landing page.
    * Verify that the 'mrdigbee' email address in the footer opens up a mailto function.
