@@ -91,7 +91,7 @@
    ![Responsive Columns](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_columns.gif?raw=true)
 
    * Verify that the page is responsive.
-   ![Responsive Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_page.gif?raw=true)
+   ![Responsive Page](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/responsive_page1.gif?raw=true)
 
 
 * Meditation Pages
@@ -122,7 +122,10 @@
    ![Timer Ends](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/timer_ends.gif?raw=true)
 
    * Verify that the Main Menu button moves below the other two buttons on smaller screen sizes.
-   ![Button Positions](?raw=true)
+   ![Button Positions](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/button_positions.gif?raw=true)
+
+   * Verify that the page is responsive.
+   ![Responsive Page](?raw=true)
 
    
 
