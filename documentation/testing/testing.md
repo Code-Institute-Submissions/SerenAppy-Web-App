@@ -193,8 +193,17 @@
 ### Code Validation
 
    * I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate my html code.
-   ![Html Validation](?raw=true)
+
+   ![Html Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/index.html_validation.jpg?raw=true)
+   ![Html Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/test.html_validation.jpg?raw=true)
+   ![Html Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/404.html_validation.jpg?raw=true)
+
+
    * I used the [W3C CSS Validation Service](https://jigsaw.w3.org/) to validate my css code.
+
+   ![CSS Validation](?raw=true)
+
+
    * I used the [Free Formatter](https://www.freeformatter.com/) to format my html and css code.
    * I used the [jshint](https://jshint.com/) website to validate my Javascript code.
    * I used TDD and built my own Jasmine test to test my formatTime() Javascript function, which you can access [here](https://github.com/Gmanprodev/SerenAppy-Web-App/tree/master/documentation/testing/jasmine_testing)
