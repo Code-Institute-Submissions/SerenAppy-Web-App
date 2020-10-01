@@ -115,6 +115,10 @@
 
    ![Selection Buttons](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/selection_buttons.gif?raw=true)
 
+   * Verify that if the user doesn't select any options or only selects one option a error message will prompt the user take the right actions.
+
+   ![Selection Error](?raw=true)
+
 
    * Verify that the selection buttons move into one column on small screen sizes.
 

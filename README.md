@@ -6,9 +6,9 @@ A live demo can be found [here](https://gmanprodev.github.io/SerenAppy-Web-App/)
 
 ## Introduction
 
-SerenAppy is a meditation web app which has been built for a local community Health & Wellbeing centre. It will be used during meditation sessions in conjuction with yoga classes.
+SerenAppy is a meditation web app which has been built for a local community Health & Wellbeing centre. It will be used during meditation sessions in conjunction with yoga classes.
 
-It presents a landing page with options for how long the user wishes to mediatate for (time) and what visual and audio experience the user prefers (season). The user can select from the following options:
+It presents a landing page with options for how long the user wishes to meditate for (time) and what visual and audio experience the user prefers (season). The user can select from the following options:
 ### Time
 * 2 minutes
 * 5 minutes
@@ -25,9 +25,9 @@ It presents a landing page with options for how long the user wishes to mediatat
 
 The time selection sets how long the video and audio will last before it stops and the season selection will set the video and audio that the user would associate with the season chosen.
 
-If only one selection is made the user will see a alert box prompting them to choose a time and season option.
+If only one selection is made the user will see an alert box prompting them to choose a time and season option.
 
-The main purpose of the web app is to allow public funded health & well being initiatives and bodies to access an easy to use mediataion tool for people from all walks of life.
+The main purpose of the web app is to allow public funded health & well being initiatives and bodies to access an easy to use meditation tool for people from all walks of life.
 
 The web app can be viewed on Desktop, Tablet and Mobile devices.
 
