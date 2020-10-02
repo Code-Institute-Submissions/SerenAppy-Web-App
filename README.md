@@ -50,8 +50,9 @@ The web app can be viewed on Desktop, Tablet and Mobile devices.
     * [Wireframes](#wireframes)
 2. [Features](#features)
     * [Existing Features](#existing-features)
-        * [Elements seen on every page](#elements-seen-on-every-page)
-        * [Other elements](#other-elements)
+        * [Elements seen on the landing page](#elements-seen-on-the_landing-page)
+        * [Elements seen on the 404 page](#elements-seen-on-the-404-page)
+        * [Elements seen on all meditation pages](#elements-seen-on-all-meditation-pages)
     * [Features left to implement](#features-left-to-implement)
     * [Bugs and Fixes for Future Releases After Testing](#bugs-and-fixes-for-future-releases-after-testing)
 3. [Technologies Used](#technologies-used)
@@ -71,7 +72,7 @@ The web app can be viewed on Desktop, Tablet and Mobile devices.
 
 ### Goals
 
-#### SerenAppy goal
+#### SerenAppy goals
 
 The goal of this web app is to allow public funded health & well being initiatives and bodies to access an easy to use mediataion tool for people from all walks of life.
 
