@@ -70,25 +70,20 @@ winterButton.addEventListener("click", function () {
 function setTime(t, elem) {
 	let arrayLength = timeButtons.length;
 	for (let i = 0; i < arrayLength; i++) {
-		console.log(timeButtons[i]);
 		timeButtons[i].style.backgroundColor = "#CD853F";
 	}
 	time = t;
-	console.log(`Time: ${time}`);
 	elem.style.backgroundColor = "#D2B48C";
-	console.log(time);
 }
 
 
 function setSeason(s, elem) {
 	let arrayLength = seasonButtons.length;
 	for (let i = 0; i < arrayLength; i++) {
-		console.log(seasonButtons[i]);
 		seasonButtons[i].style.backgroundColor = "#CD853F";
 	}
 	season = s;
 	elem.style.backgroundColor = "#D2B48C";
-	console.log(season);
 }
 
 
@@ -100,7 +95,6 @@ function startMeditation() {
 
 	document.getElementById('base-timer-label').innerHTML = formatTime(60 * time);
 
-	console.log(time + season);
 	if (time == 0 || season == "none") {
 		Swal.fire({
 			icon: 'error',
@@ -155,7 +149,6 @@ function startTimer() {
 	timerInterval = setInterval(() => {
 		timePassed = timePassed += 1;
 		timeLeft = time * 60 - timePassed;
-		console.log(timeLeft);
 		document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
 
 		if (timeLeft === 0) {
@@ -171,7 +164,6 @@ resetButton.addEventListener("click", function () {
 
 
 function reset() {
-	console.log("it works");
 	myAudio.pause();
 	pauseTimer();
 	playButton.innerHTML = "Play";
@@ -181,6 +173,6 @@ function reset() {
 }
 
 
- (function(){
-                emailjs.init("user_O4YLRRligVe2xWuztVfBA");
-            })();
+(function () {
+	emailjs.init("user_O4YLRRligVe2xWuztVfBA");
+})();
