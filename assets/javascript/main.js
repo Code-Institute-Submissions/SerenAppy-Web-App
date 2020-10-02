@@ -179,3 +179,8 @@ function reset() {
 	timePassed = 0;
 	document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
 }
+
+
+ (function(){
+                emailjs.init("user_O4YLRRligVe2xWuztVfBA");
+            })();

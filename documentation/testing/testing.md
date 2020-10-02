@@ -27,6 +27,7 @@
 * Console Debugging
     * As an outcome I was able to see whether my Javascript functions were being called and were executing properly by displaying a console.log value in my console.
     * I noted that a Favicon was missing and was able to fix this by adding a favicon script and images. 
+    * I noted that there were two errors in the conslole relating to "Unable to load sourcemap", my mentor explained to me that these can be ignored.
 
 
 ## Manual Testing
@@ -257,12 +258,16 @@
 
 ### My Mentor
 
-
+Seun was very impressed with the web app and all of the documentation to go along with it. She said that she had been using the web app before bed to get into a calm state of mind and her favourite season option was Winter. She liked the fact that this had a real world application.
 
 #### Suggested Improvements
 
 * Have the selection buttons move into one column on smaller screen sizes - implemented.
 * Reduce the amount of empty space on larger screen sizes - haven't implemented as I was not in agreement.
+* Reduce the size of the header (navbar) on smaller screen heights (laptops) so that more content can fit on the page - this will be implemented in future releases as the majority of users will be viewing the web app on a mobile device.
+* On big screen sizes the background image on the meditation pages becomes larger than the screen and some of the image is cut off. However this isn't very noticable and the images remain defined and clear - this will be implemented in future releases as the majority of users will be viewing the web app on a mobile device.
+* Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in future releases as the user alreday gets a pop up informing them that the email has successfully been sent - this will be implemented in future releases.
+* When the success pop up appears after submitting the contact form, the contact form should automatically close down - 
 
 ### Peer-Code-Review
 
@@ -278,7 +283,7 @@ The feedback was that this is an application that could be used in the real worl
 
 ### User Review
 
-The feedback was really positive. Most people commenting on how they would continue to use the web app for everday use.
+The web app was tested by Code Institute students and mentors, friends and family. The majority of testing carried on real devices were on Iphone and Samsung mobiles. The feedback was really positive, most people commenting on how they would continue to use the web app for everday use.
 
 
 #### Suggested Improvements:

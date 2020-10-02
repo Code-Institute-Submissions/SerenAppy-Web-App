@@ -291,6 +291,10 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Website Address in Footer** - The website address for SerenAppy does not currently exist and does not link to another page. This will be addressed in the next release.
 * **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
 * **Audio Quality** - Although the sound quality is pretty good the length of the audio files mean that there are too many stop and start points whilst the audio is playing. This leads to a disturbance for the user during their meditation sessions. These audio files will be updated in future releases.
+* **Heade Size** - Reduce the size of the header (navbar) on smaller screen heights (laptops) so that more content can fit on the page - this will be implemented in future releases as the majority of users will be viewing the web app on a mobile device.
+* **Background Images** - On big screen sizes the background image on the meditation pages becomes larger than the screen and some of the image is cut off. However this isn't very noticable and the images remain defined and clear - this will be implemented in future releases as the majority of users will be viewing the web app on a mobile device.
+* **Confirmation Email** - Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in future releases as the user alreday gets a pop up informing them that the email has successfully been sent - this will be implemented in future releases.
+* **Auto Close Contact Form Modal** - When the success pop up appears after submitting the contact form, the contact form should automatically close down - 
 
 ## Technologies Used
 
