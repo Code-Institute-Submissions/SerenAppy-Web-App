@@ -29,7 +29,7 @@ If only one selection is made the user will see an alert box prompting them to c
 
 The main purpose of the web app is to allow public funded health & well being initiatives and bodies to access an easy to use meditation tool for people from all walks of life.
 
-The web app can be viewed on Desktop, Tablet and Mobile devices.
+The web app can be viewed on Desktop, Tablet and Mobile devices. Click [here](https://gmanprodev.github.io/SerenAppy-Web-App/) to view.
 
 
 ## Table of Content
