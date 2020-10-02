@@ -28,6 +28,7 @@
     * As an outcome I was able to see whether my Javascript functions were being called and were executing properly by displaying a console.log value in my console.
     * I noted that a Favicon was missing and was able to fix this by adding a favicon script and images. 
     * I noted that there were two errors in the conslole relating to "Unable to load sourcemap", my mentor explained to me that these can be ignored.
+    * I noted that on some of the DevTools responsive device options there is a visible break line between the header and the body. I can confirm that this doesn't appear on any real devices and I believe it's just a problem with the DevTools responsive device displays.
 
 
 ## Manual Testing
