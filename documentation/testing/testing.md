@@ -227,14 +227,15 @@
    * I used the [Free Formatter](https://www.freeformatter.com/) to format my html, css and javascript code.
    
    * I used TDD and built my own Jasmine test to test my formatTime() Javascript function, which you can access [here](https://github.com/Gmanprodev/SerenAppy-Web-App/tree/master/documentation/testing/jasmine_testing)
+   
 
 ### Browser Validation
 
    * Chrome - works correctly. Click [here](test-images/chrome_test.jpg) for the test image.
    * Edge - works correctly. Click [here](test-images/edge_test.jpg) for the test image.
-   * Safari - works correctly. Click [here](test-images/safari_test.jpg) for the test image.
-   * Firefox - works correctly. Click [here](test-images/firefox_test.jpg) for the test image.
-   * Opera - works correctly. Click [here](test-images/opera_test.jpg) for the test image.
+   * Safari - works correctly. Click [here](test-images/safari_test.png) for the test image.
+   * Firefox - works correctly. Click [here](test-images/firefox_test.png) for the test image.
+   * Opera - works correctly. Click [here](test-images/opera_test.png) for the test image.
 
 ### Lighthouse Audit
 

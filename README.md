@@ -285,13 +285,10 @@ If you are unable to access the mockup links above please see the mockup images 
 
 
 ### Bugs and Fixes for Future Releases After Testing
-
-* **Bootstrap Carousel** - After some research I found there to be a bug on ios13 (apple products) that makes each carousel slide move in twice. I believe this can be fixed with writing additional JavaScript for future releases.
-* **Favicon** - The DevTool Console showed an error as I didn't have time to install a Favicon for the first release. This will be part of the next release. 
-* **Colour Contrasts** - The Lighthouse Audit Chrome extension highlighted that the colours used on the site are too similar and could cause an issue for accessability. These issues will be addressed in the next release.
-* **Website Address in Footer** - The website address for mrdigbee does not currently exist and does not link to another page. This will be addressed in the next release.
+ 
+* **Colour Contrasts** - The Lighthouse Audit Chrome extension highlighted that there are improvements needed on colour contrast, performance on the time it takes for the site to load and become interactive. These issues will be addressed in the next release.
+* **Website Address in Footer** - The website address for SerenAppy does not currently exist and does not link to another page. This will be addressed in the next release.
 * **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
-* **Mobile Lanscape View** - On some pages, when viewing on a mobile in landscape orientation, the call to action section at the top of the page can be cut off by the Navigation bar and the footer content is pushed on top of each other. This will be fixed on the next release.
 
 ## Technologies Used
 
@@ -303,7 +300,7 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ### Libraries
 
-* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system and styling.
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system, styling and modals.
 * [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in conjunction with the Bootstrap library and Javascript.
 * [FontAwseome](https://fontawesome.com/) - used for all icons on the site.
 * [Google Fonts](https://fonts.google.com/) - used for the Pacifico fonts.
@@ -330,6 +327,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse) - used to test whether the site meets the standards expected.
 * [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
+* [Free Formatter](https://www.freeformatter.com/) - used to format my html, css and javascript code.
 * [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
 * [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
 * [CSS Gradient](https://cssgradient.io/) - used to build the colour gradient in the header and footer.
@@ -342,6 +340,7 @@ If you are unable to access the mockup links above please see the mockup images 
 ## Testing
 
 Testing information can be found [here](documentation/testing/testing.md).
+
 
 ## Deployment
 
@@ -397,14 +396,8 @@ All content in this web app was written by me.
 
 #### Examples and Tutorials and Samples
 
-* [Code Institute](https://github.com/Gmanprodev/Bootstrap) - used the 'Whiskey Drop' page as the initial code structure for my project. The only element of this code that still remains in it's original state is the hero image section.
-* [alexnexton](https://alexnexton.github.io/MS1-OneArena/) - used to view and understand the code for the location interactive map.
-* [inesnago](https://inesnago.github.io/my-cv-final/) - used to view and understand the code for a contact form.
-* [zahra Sadiq](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/index.html) - used to compare my navigation bar and fix navigation link margins.
-* [Figma Tutorial](https://www.youtube.com/watch?v=3q3FV65ZrUs) - used this tutorial to learn how to use Figma.
-* Inspiration resources for writing this README file:
-    * [Itamichan](https://github.com/Itamichan/CG_photography)
-    * [SuzanneNL](https://github.com/SuzanneNL/SKtraining)
+* [Code Institute](https://codeinstitute.net/) - I used the tutorials on Jasmine and Emailjs to build the relevant code.
+* [Meditation App Tutorial](https://www.youtube.com/watch?v=oMBXdZzYqEk) - used to undertsand how the javascript countdown timer functions work.
    
 
 #### Pages used for information
@@ -422,6 +415,7 @@ All content in this web app was written by me.
    * SuzanneNL (fellow student)
    * Anthony (fellow student)
    * Malia (fellow student)
+   * Neringa (fellow student)
 
 ## Disclaimer
 
