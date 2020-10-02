@@ -290,6 +290,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Colour Contrasts** - The Lighthouse Audit Chrome extension highlighted that there are improvements needed on colour contrast, performance on the time it takes for the site to load and become interactive. These issues will be addressed in the next release.
 * **Website Address in Footer** - The website address for SerenAppy does not currently exist and does not link to another page. This will be addressed in the next release.
 * **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
+* **Audio Quality** - Although the sound quality is pretty good the length of the audio files mean that there are too many stop and start points whilst the audio is playing. This leads to a disturbance for the user during their meditation sessions. These audio files will be updated in future releases.
 
 ## Technologies Used
 

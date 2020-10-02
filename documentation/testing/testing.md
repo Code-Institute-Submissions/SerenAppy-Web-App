@@ -196,9 +196,9 @@
 
 #### Conclusion
 
-   * I found that there were a number of images which weren't linked correctly - this issue has been fixed for the first release.
-   * I found that the contact form email address field was accepting any text and not a valid email format - this issue has been fixed for the first release.
-   * I found that the contact form phone number field was accepting any text and not a valid UK phone number - this issue has been fixed for the first release.
+   * In my original mock ups and in my first attemp at building the countdown timer (before any conducted any testing) I included a moving circle track which moved in tandem with the timer. I decided to remove this from my design for two reasons, one being that it clogged up the page and the other being that it became too complicated for someone of my experience - this issue has been fixed for the first release.
+   * I found that when the timer got to zero if the user clicked the play button again the timer started counting into minus numbers, I added a function which reset the timer and buttons upon reaching zero - this issue has been fixed for the first release.
+   * I found that the time format wasn't displaying correctly so I built a Jasmine test to solve the problem - this issue has been fixed for the first release.
 
 
 
@@ -227,7 +227,7 @@
    * I used the [Free Formatter](https://www.freeformatter.com/) to format my html, css and javascript code.
    
    * I used TDD and built my own Jasmine test to test my formatTime() Javascript function, which you can access [here](https://github.com/Gmanprodev/SerenAppy-Web-App/tree/master/documentation/testing/jasmine_testing)
-   
+
 
 ### Browser Validation
 
@@ -244,10 +244,11 @@
 
 #### Conclusion
 
-   * The code validators highlighted 2 errors:
-      * Using an a tag to wrap a button - this issue has been fixed for the first release.
-      * Missing a h1 tag inside a new section - this issue has been fixed for the first release. 
-   * The carousel issue in the Opera browser will be looked at in future releases.
+   * The code validators highlighted these errors which have been fixed for the first release:
+      * Using "labelledby" rather than "aria-label".
+      * Missing / in a </script> tag.
+      * Missing 4 semicolons in my javascript code.
+   * The web app works correctly in all five major browsers.
    * The suggestions given in the Lighthouse report will be implemented in the second release.
 
 
@@ -256,47 +257,35 @@
 
 ### My Mentor
 
-Generally very positive feedback and was very complimentary about the colours and how it put a smile on her face evrytime she used the website.
+
 
 #### Suggested Improvements
 
-* Change the burger menu icon to the colour Orange - implemented.
-* Add left padding to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
-* In addition to the Social media icons in the footer linking to separate pages, also link the other footer info - implemented.
-* Create more distance between the content and where the section border radius begins (seat), so that the border and content isn't making contact - implemented.
-* Reduce the size of the image on the About Us page - implemented.
-* Increase the google map size on the Location page and create @media query for smaller screen sizes - implemented.
+* Have the selection buttons move into one column on smaller screen sizes - implemented.
+* Reduce the amount of empty space on larger screen sizes - haven't implemented as I was not in agreement.
 
 ### Peer-Code-Review
 
-The feedback was that people enjoyed using the site and it was fun and easy to navigate. Everyone loved the colours and how if made them feel.
+The feedback was that this is an application that could be used in the real world right now. Everyone enjoyed using the web app due to the way it interacted with the user and the way it was always giving feedback on users actions. 
 
 #### Suggested Improvements:
 
-   * Add left paddign to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
-   * Footer Social Media links all go to the generic login pages and not the company pages - I've left this for a later release as at this moment in time the Mr Digbee business doesn't have any Social Media footprint.
-   * The contact form should have more padding to allow more space between the content and the section border radius - implemented.
-   * The contact form sends without a valid email address and phone number - implemented.
-   * Remove the call to action (header) at the top of the servivce pages so you can immedialtely see the information you've clicked for rather than scrolling again - this is a single user prefrence and I will look to implement this on a later release once I have a larger quantity of user feedback.
-   * One image on the Flowers & Trees page had a broken link and needed fixing - implemented.
-   * The section border radius on all pages were blending into one another and needed space between them, the navigation bar and the footer - implemented.
-   * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
-   * On a Iphone the carousel slides the same content in twice - I am aware of this and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
-   * The Orange and Green colours in the footer have very low contrast which could be an issue for accessability - Will look to make changes in the future releases.
+   * Although the sound quality is pretty good the length of the audio files mean that there are too many stop and start points whilst the audio is playing. This leads to a disturbance for the user during their meditation sessions. These audio files will be updated in future releases.
+   * Footer Social Media links all go to the generic login pages and not the company pages - I've left this for a later release as SerenAppy doesn't have a Social Media footprint.
+   * Increase colour contrast due to possible accessability issues - Will look to make changes in the future releases.
+   * Have the selection buttons move into one column on smaller screen sizes - implemented.
 
 
 ### User Review
 
-The general feedback was positive. Most people commenting on how much fun it was visually and easy to navigate.
+The feedback was really positive. Most people commenting on how they would continue to use the web app for everday use.
 
 
 #### Suggested Improvements:
 
-   * Maybe better to have the Services section in the Navigation bar with the rest of the links - Will look to implement in a future release if there is enough user feedback.
-   * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
-   * On an Iphone the carousel slides the same content in twice - 
+   * Although the sound quality is pretty good the length of the audio files mean that there are too many stop and start points whilst the audio is playing. This leads to a disturbance for the user during their meditation sessions. These audio files will be updated in future releases.
 
 #### Conclusion
 
-   * I am aware of the Iphone bug and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
-   * I will use an analytics platform on the first release, such as [Hotjar](https://www.hotjar.com/), to collect feedback form a larger range of users and use that data to implement changes related to the way users navigate the site.
+   * I am aware that I need to replace the audio files with audio that constantly flows rather than stoping and starting, so users can experience a distraction free meditation session when using the web app.
+   * I will use an analytics platform on the next release, such as [Hotjar](https://www.hotjar.com/), to collect feedback form a larger range of users and use that data to implement changes related to the way users navigate the site.
