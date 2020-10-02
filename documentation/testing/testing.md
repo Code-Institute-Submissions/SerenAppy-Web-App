@@ -223,7 +223,7 @@
 
    * I used the [jshint](https://jshint.com/) website to validate my Javascript code.
 
-    ![Javascript Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/javascript_validation.jpg?raw=true)
+   ![Javascript Validation](https://github.com/Gmanprodev/SerenAppy-Web-App/blob/master/documentation/testing/test-images/javascript_validation.jpg?raw=true)
 
    * I used the [Free Formatter](https://www.freeformatter.com/) to format my html, css and javascript code.
    
@@ -249,6 +249,7 @@
       * Using "labelledby" rather than "aria-label".
       * Missing / in a </script> tag.
       * Missing 4 semicolons in my javascript code.
+      * Showing that I have one unused variable (hideFunction), however I am actually using.
    * The web app works correctly in all five major browsers.
    * The suggestions given in the Lighthouse report will be implemented in the second release.
 

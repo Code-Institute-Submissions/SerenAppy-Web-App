@@ -8,7 +8,7 @@ function sendMail(contactForm) {
 			"serenappy_user_message": contactForm.message.value
 		})
 		.then(function (response) {
-			console.log("SUCCESS", response);
+            console.log("SUCCESS", response);
 			Swal.fire({
 				icon: 'success',
 				title: 'Success...',
@@ -22,7 +22,7 @@ function sendMail(contactForm) {
 				title: 'Error...',
 				text: 'Your email has not been sent.',
 			});
-		});
-	form.reset();
-	return false; // To block from loading a new page
+        });
+    form.reset();  
+    return false; // To block from loading a new page
 }
