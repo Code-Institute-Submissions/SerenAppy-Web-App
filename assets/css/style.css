@@ -443,14 +443,14 @@ label {
 .page-not-found-header {
 	font-family: "Pacifico", sans-serif;
 	color: #E6F4F1;
-	margin-top: 10%;
+	margin-top: 5%;
 	letter-spacing: 2px;
 }
 
 .page-not-found-text {
 	font-family: "Sans-serif";
 	color: #E6F4F1;
-	margin: 10% 5% 5% 5%;
+	margin: 5% 5% 5% 5%;
 	letter-spacing: 2px;
 }
 
@@ -460,5 +460,5 @@ label {
 	letter-spacing: 2px;
 	width: 50%;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 }
