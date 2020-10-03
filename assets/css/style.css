@@ -75,6 +75,7 @@ body {
 	letter-spacing: 2px;
 }
 
+
 /*--ALL MODAL STYLING--*/
 /*--Modal button styling--*/
 .modal-button {
@@ -141,6 +142,7 @@ body {
 		margin-top: 10%;
 	}
 }
+
 
 /*--LANDING PAGE BUTTONS--*/
 /*--Time and season button styling--*/
@@ -291,6 +293,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 
 /*--COUNTDOWN TIMER--*/
 /*--Div position that holds the countdown timer--*/
