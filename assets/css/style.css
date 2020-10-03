@@ -1,19 +1,24 @@
+/*--Fonts for my text content--*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+/*--Resizes all my text on all screen sizes--*/
 html {
 	font-size: calc(1em + 1vw);
 }
 
+/*--Helps with creating a responsive layout--*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+/*--Height of the body element--*/
 body {
 	height: 100vh;
 }
 
+/*--Position of the container for the navbar--*/
 .navalert-container {
 	position: fixed;
 	top: 0;
@@ -24,12 +29,14 @@ body {
 	display: flex;
 }
 
+/*--Allows the navbar to scroll with the page on low height screens--*/
 @media (max-height: 580px) {
 	.navalert-container {
 		position: absolute;
 	}
 }
 
+/*--Navbar styling--*/
 .navbar {
 	margin-bottom: 0;
 	border: 0;
@@ -38,11 +45,13 @@ body {
 	background: linear-gradient(0deg, rgba(95, 158, 160, 1) 0%, rgba(230, 244, 241, 1) 35%);
 }
 
+/*--Position of the logo in the navbar--*/
 .logo {
 	width: 50%;
 	height: 50%;
 }
 
+/*--Increasing the size of the logo on smaller width screens--*/
 @media (max-width: 767px) {
 	.logo {
 		width: 70%;
@@ -50,6 +59,24 @@ body {
 	}
 }
 
+/*--Main container styling--*/
+.container-wrapper {
+	background-color: #5f9ea0;
+	padding-top: 15%;
+	padding-bottom: 10%;
+}
+
+/*--Select time and select season headers--*/
+.jumbotron-header {
+	font-family: "Pacifico", sans-serif;
+	color: #E6F4F1;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	letter-spacing: 2px;
+}
+
+/*--ALL MODAL STYLING--*/
+/*--Modal button styling--*/
 .modal-button {
 	background-color: #CD853F;
 	color: #E6F4F1;
@@ -62,16 +89,19 @@ body {
 	border: 7px solid #C76302;
 }
 
+/*--Modal button styling for hover--*/
 .modal-button:hover {
 	background-color: #D2B48C;
 	letter-spacing: 2px;
 	color: #8B4513;
 }
 
+/*--Removing the button shadow--*/
 .btn:focus {
 	box-shadow: none;
 }
 
+/*--Modal styling--*/
 .modal-design {
 	background-color: #CD853F;
 	color: #E6F4F1;
@@ -79,10 +109,12 @@ body {
 	letter-spacing: 2px;
 }
 
+/*--Modal close button styling--*/
 .close-style {
 	background-color: #5f9ea0;
 }
 
+/*--Modal submit button styling--*/
 .submit-style {
 	background-color: #5f9ea0;
 	font-family: "Pacifico", sans-serif;
@@ -90,10 +122,12 @@ body {
 	width: 100%;
 }
 
+/*--Modal text font--*/
 .modal-text {
 	font-family: sans-serif;
 }
 
+/*--Modal size for larger width screens--*/
 @media (min-width: 576px) {
 	.modal-size {
 		max-width: 80%;
@@ -101,26 +135,15 @@ body {
 	}
 }
 
+/*--Modal button top margin change on larger width screens--*/
 @media (min-width: 1000px) {
 	.modal-button {
 		margin-top: 10%;
 	}
 }
 
-.container-wrapper {
-	background-color: #5f9ea0;
-	padding-top: 15%;
-	padding-bottom: 10%;
-}
-
-.jumbotron-header {
-	font-family: "Pacifico", sans-serif;
-	color: #E6F4F1;
-	margin-top: 10%;
-	margin-bottom: 5%;
-	letter-spacing: 2px;
-}
-
+/*--LANDING PAGE BUTTONS--*/
+/*--Time and season button styling--*/
 .select-buttons {
 	background-color: #CD853F;
 	color: #E6F4F1;
@@ -134,10 +157,12 @@ body {
 	border: 7px solid #C76302;
 }
 
+/*--Removed the shadow from the time and season buttons--*/
 .select-buttons:focus {
 	box-shadow: none;
 }
 
+/*--Go button styling--*/
 .go-button {
 	background-color: #CD853F;
 	color: #E6F4F1;
@@ -151,18 +176,23 @@ body {
 	border: 7px solid #C76302;
 }
 
+/*--Time and season buttons styling for hover--*/
 .select-buttons:hover {
 	background-color: #D2B48C;
 	letter-spacing: 2px;
 	color: #8B4513;
 }
 
+/*--Go button styling for hover--*/
 .go-button:hover {
 	background-color: #D2B48C;
 	letter-spacing: 2px;
 	color: #8B4513;
 }
 
+
+/*--FOOTER--*/
+/*--Footer styling--*/
 .footer {
 	background: rgb(230, 244, 241);
 	background: linear-gradient(0deg, rgba(230, 244, 241, 1) 80%, rgba(95, 158, 160, 1) 100%);
@@ -227,16 +257,18 @@ body {
 }
 
 
-/*Mediataion Page*/
-
+/*MEDITATION PAGE*/
+/*--This hides all of the landing page content when the meditation page loads--*/
 .hideMe {
 	display: none;
 }
 
+/*--This hides the meditation page content when the landing page loads--*/
 .hide {
 	visibility: hidden;
 }
 
+/*--Meditation page position--*/
 .app {
 	display: flex;
 	justify-content: center;
@@ -244,36 +276,7 @@ body {
 	height: 100%;
 }
 
-.base-timer {
-	position: relative;
-	height: 300px;
-	width: 300px;
-	margin: auto;
-}
-
-.base-timer__label {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 5rem;
-	margin-top: 30%;
-	color: #8B4513;
-}
-
-@media (orientation: landscape) {
-	.base-timer__label {
-		margin-top: 0;
-	}
-}
-
-.base-timer__svg {
-	transform: scaleX(-1);
-}
-
+/*--Meditation page background image styling--*/
 .season-image-size {
 	object-fit: cover;
 	position: fixed;
@@ -289,6 +292,39 @@ body {
 	background-size: cover;
 }
 
+/*--COUNTDOWN TIMER--*/
+/*--Div position that holds the countdown timer--*/
+.base-timer {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+
+/*--Countdown timer styling--*/
+.base-timer__label {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 5rem;
+	margin-top: 30%;
+	color: #8B4513;
+}
+
+/*--Countdown timer top margin change in landscape view--*/
+@media (orientation: landscape) {
+	.base-timer__label {
+		margin-top: 0;
+	}
+}
+
+
+/*--MEDITATION PAGE BUTTONS--*/
+/*--Function control buttons styling--*/
 .myBtn {
 	width: auto;
 	font-size: 100%;
@@ -304,52 +340,63 @@ body {
 	border: 7px solid #C76302;
 }
 
+/*--Function control buttons styling for hover--*/
 .myBtn:hover {
 	color: #8B4513;
 	background-color: #D2B48C;
 	text-decoration: none;
 }
 
+/*--Function control buttons bottom margin change on larger width screens--*/
 @media (min-width: 976px) {
 	.myBtn {
 		margin-bottom: 5%;
 	}
 }
 
+/*--Function control buttons bottom margin change on landscape view--*/
 @media (orientation: landscape) {
 	.myBtn {
 		margin-bottom: 2%;
 	}
 }
 
+/*--Changes the position of the main menu button on smaller width screens--*/
 @media (max-width: 580px) {
 	.small-screen-hide {
 		display: none;
 	}
 }
 
+/*--Changes the position of the main menu button on larger width screens--*/
 @media (min-width: 580px) {
 	.small-screen-show {
 		display: none;
 	}
 }
 
+/*--Function control buttons bottom margin change on smaller width screens--*/
 @media (max-width: 580px) {
 	.myBtn {
 		margin-bottom: 15%;
 	}
 }
 
+/*--Function control buttons bottom margin change on smaller width screens--*/
 @media (max-width: 400px) {
 	.myBtn {
 		margin-bottom: 20%;
 	}
 }
 
+/*--Function control buttons positioning--*/
 .fixed-bottom {
 	bottom: 3rem;
 }
 
+
+/*--CONTACT FORM MODAL--*/
+/*--Contact form text fields styling--*/
 .text-input {
 	font-family: "sans-serif";
 	background-color: #E6F4F1;
@@ -360,15 +407,18 @@ body {
 	border: 5px solid #5f9ea0;
 }
 
+/*--Contact form top margin--*/
 .form-margin {
 	margin-top: 2%;
 }
 
+/*--Contact form message header--*/
 label {
 	display: inline-block;
 	margin-bottom: 0;
 }
 
+/*--Contact form message input styling--*/
 .message-input {
 	font-family: "sans-serif";
 	background-color: #E6F4F1;
@@ -379,10 +429,14 @@ label {
 	width: 100%;
 }
 
+/*--Contact form colour--*/
 .body-color {
 	background-color: #CD853F;
 }
 
+
+/*--404 PAGE--*/
+/*--404 page styling--*/
 .page-not-found-header {
 	font-family: "Pacifico", sans-serif;
 	color: #E6F4F1;
