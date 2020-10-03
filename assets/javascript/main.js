@@ -1,8 +1,9 @@
+// This function hides the meditation page content on loading the landing page.
 function hideFunction() {
 	document.getElementById("meditatePage").style.display = "none";
 }
 
-
+// Global variables.
 let time = 0;
 let season = "none";
 let timeButtons = document.getElementsByClassName("time-select");
@@ -11,21 +12,21 @@ let time_limit = 20;
 let timePassed = 0;
 let timeLeft = time_limit;
 let timerInterval = null;
-let playButton = document.getElementById("play");
-let resetButton = document.getElementById("reset");
-let twoMins = document.getElementById("two");
-let fiveMins = document.getElementById("five");
-let tenMins = document.getElementById("ten");
-let twentyMins = document.getElementById("twenty");
-let thirtyMins = document.getElementById("thirty");
-let sixtyMins = document.getElementById("sixty");
-let springButton = document.getElementById("spring");
-let summerButton = document.getElementById("summer");
-let autumnButton = document.getElementById("autumn");
-let winterButton = document.getElementById("winter");
-let meditateButton = document.getElementById("meditate");
+const playButton = document.getElementById("play");
+const resetButton = document.getElementById("reset");
+const twoMins = document.getElementById("two");
+const fiveMins = document.getElementById("five");
+const tenMins = document.getElementById("ten");
+const twentyMins = document.getElementById("twenty");
+const thirtyMins = document.getElementById("thirty");
+const sixtyMins = document.getElementById("sixty");
+const springButton = document.getElementById("spring");
+const summerButton = document.getElementById("summer");
+const autumnButton = document.getElementById("autumn");
+const winterButton = document.getElementById("winter");
+const meditateButton = document.getElementById("meditate");
 
-
+// Global event listeners.
 twoMins.addEventListener("click", function () {
 	setTime(2, this);
 });
@@ -66,7 +67,15 @@ winterButton.addEventListener("click", function () {
 	setSeason('winter', this);
 });
 
+meditateButton.addEventListener("click", function () {
+	startMeditation();
+});
 
+resetButton.addEventListener("click", function () {
+	reset();
+});
+
+// This function allows the user to see which time button has been selected and allows only one button to be selected at any time.
 function setTime(t, elem) {
 	let arrayLength = timeButtons.length;
 	for (let i = 0; i < arrayLength; i++) {
@@ -76,7 +85,7 @@ function setTime(t, elem) {
 	elem.style.backgroundColor = "#D2B48C";
 }
 
-
+// This function allows the user to see which season button has been selected and allows only one button to be selected at any time.
 function setSeason(s, elem) {
 	let arrayLength = seasonButtons.length;
 	for (let i = 0; i < arrayLength; i++) {
@@ -86,10 +95,14 @@ function setSeason(s, elem) {
 	elem.style.backgroundColor = "#D2B48C";
 }
 
-
-meditateButton.addEventListener("click", function () {
-	startMeditation();
-});
+/**
+ * This function is called when the user clicks the GO button, 
+ * it formats the time selected, displays an error modal if the selections are incorrect,
+ * hides all of the content on the landing page,
+ * loads the background image and audio associated with the users season selection,
+ * pauses the audio when the page loads
+ * and also loads the bleep audio which is played when the timer gets to zero.
+ */
 
 function startMeditation() {
 
@@ -116,6 +129,11 @@ function startMeditation() {
 	document.getElementById("hideMe");
 }
 
+/**
+ * This function is called when the timer reaches zero, it stops the interval from executing every second,
+ * pauses the season audio, resets the timer back to the start
+ * and plays the bleep audio so the user knows the session has finished.
+ */
 
 function onTimesUp() {
 	clearInterval(timerInterval);
@@ -124,11 +142,18 @@ function onTimesUp() {
 	reset();
 }
 
+// This function stops the interval from executing every second and pauses the timer.
 function pauseTimer() {
 	clearInterval(timerInterval);
 }
 
-
+/**
+ * This button controls the play and pause of the season audio,
+ * if the audio is paused the button text displays play and by clicking 
+ * the button it plays the audio and if the audio is playing the
+ * button text displays pause and will pause the audio when clicked.
+ * It also starts and pauses the countdown timer in tandem with the audio. 
+ */
 playButton.addEventListener("click", play);
 
 function play() {
@@ -144,7 +169,12 @@ function play() {
 	}
 }
 
-
+/**
+ * This function sets the interval to execute every second so that 
+ * the timer operates like a digital watch, adds one second on to the time passed,
+ * calculates the time left, formats the time left and displays it and calls the onTimesUp
+ * function when the timer reaches zero.
+ */
 function startTimer() {
 	timerInterval = setInterval(() => {
 		timePassed = timePassed += 1;
@@ -157,12 +187,11 @@ function startTimer() {
 	}, 1000);
 }
 
-
-resetButton.addEventListener("click", function () {
-	reset();
-});
-
-
+/**
+ * This function pauses the audio, stops the interval from executing every second,
+ * sets the play/pause button to pause and displays the button text as play and
+ * calculates the original time selected by the user and displays it on the timer.
+ */
 function reset() {
 	myAudio.pause();
 	pauseTimer();
@@ -172,7 +201,7 @@ function reset() {
 	document.getElementById("base-timer-label").innerHTML = formatTime(timeLeft);
 }
 
-
+// This function calls the emailjs authentication key to send the contact form email.
 (function () {
 	emailjs.init("user_O4YLRRligVe2xWuztVfBA");
 })();
