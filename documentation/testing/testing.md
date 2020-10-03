@@ -201,6 +201,7 @@
    * In my original mock ups and in my first attemp at building the countdown timer (before any conducted any testing) I included a moving circle track which moved in tandem with the timer. I decided to remove this from my design for two reasons, one being that it clogged up the page and the other being that it became too complicated for someone of my experience - this issue has been fixed for the first release.
    * I found that when the timer got to zero if the user clicked the play button again the timer started counting into minus numbers, I added a function which reset the timer and buttons upon reaching zero - this issue has been fixed for the first release.
    * I found that the time format wasn't displaying correctly so I built a Jasmine test to solve the problem - this issue has been fixed for the first release.
+   * During testing I found unused code in my index.html and style.css files, relating to the SVG countdown track - I removed this for the first release. 
 
 
 
@@ -270,6 +271,7 @@ Seun was very impressed with the web app and all of the documentation to go alon
 * On big screen sizes the background image on the meditation pages becomes larger than the screen and some of the image is cut off. However this isn't very noticable and the images remain defined and clear - this will be implemented in future releases as the majority of users will be viewing the web app on a mobile device.
 * Using emailjs to also send an email to the user to confirm their email has been received - this will be implemented in future releases as the user alreday gets a pop up informing them that the email has successfully been sent - this will be implemented in future releases.
 * When the SWAL alert appears after submitting the contact form, the contact form should automatically close down - I implemented this after all of the documented testing above and the contact form modal now closes automatically after the fields have been validated and the submit button is clicked.
+* The contact form modal is currently accessed via the @ icon in the footer, to complement this have a "contact us" button in the navbar which links to the same modal - this will be implemented in future releases.
 
 ### Peer-Code-Review
 
