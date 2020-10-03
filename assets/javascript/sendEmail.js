@@ -1,4 +1,11 @@
-/* Setup Emailjs for the contact form  */
+/**
+ * Setup Emailjs for the contact form modal.
+ * Setup SWAL alert modals to confirm whether the email 
+ * has been successfully sent or not, clear the form
+ * text fields and auto close the modal when the submit
+ * button is clicked.
+ * Block from loading a new page
+ */
 let form = document.getElementById("contact");
 
 function sendMail(contactForm) {
@@ -24,5 +31,5 @@ function sendMail(contactForm) {
         }); 
     form.reset();
     $('#contactModal').modal('hide');
-    return false; // To block from loading a new page
+    return false;
 }

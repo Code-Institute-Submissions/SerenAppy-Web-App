@@ -1,3 +1,7 @@
+/**
+ * This is a test which has been built to fail to
+ * test the formatTime() function.
+ */
 // describe("formatTime function", function() {
 //     it("should return 2", function() {
 //         let time = 2;
@@ -5,6 +9,10 @@
 //     });
 // });
 
+/**
+ * The below tests the formatTime() function and passes through
+ * all of the time options available to the user.
+ */
 describe("formatTime function", function () {
 	it("should return 2", function () {
 		let time = 2;
